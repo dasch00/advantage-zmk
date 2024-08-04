@@ -52,12 +52,318 @@
     };
 
     macros {
-        mo_ctrl_e: mo_ctrl_e {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(E) &to 2>;
-            label = "MO_CTRL_E";
-        };
+       macro_dollar: macro_dollar{
+       compatible = "zmk,behavior-macro";
+       label = "macro_dollar";
+       #binding-cells = <0>;
+       bindings = <&to 1>, <&kp DOLLAR>;
+       };
+       macro_p13: macro_p13{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p13";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(G)))>, <&to 0>;
+       };
+       macro_array_open: macro_array_open{
+       compatible = "zmk,behavior-macro";
+       label = "macro_array_open";
+       #binding-cells = <0>;
+       bindings = <&kp LEFT_BRACKET>, <&kp SINGLE_QUOTE>;
+       };
+       macro_shift_enter: macro_shift_enter{
+       compatible = "zmk,behavior-macro";
+       label = "macro_shift_enter";
+       #binding-cells = <0>;
+       bindings = <&kp LS(ENTER)>, <&to 1>;
+       };
+       macro_jump_to_char: macro_jump_to_char{
+       compatible = "zmk,behavior-macro";
+       label = "macro_jump_to_char";
+       #binding-cells = <0>;
+       bindings = <&kp LC(SEMICOLON)>;
+       };
+       macro_shift_to_1: macro_shift_to_1{
+       compatible = "zmk,behavior-macro";
+       label = "macro_shift_to_1";
+       #binding-cells = <0>;
+       bindings = <&to 1>, <&sl 12>;
+       };
+       macro_p12: macro_p12{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p12";
+       #binding-cells = <0>;
+       bindings = <&kp LA(LC(LS(E)))>, <&to 0>;
+       };
+       macro_win_tab: macro_win_tab{
+       compatible = "zmk,behavior-macro";
+       label = "macro_win_tab";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LA(TAB))>, <&to 0>;
+       };
+       macro_alt_enter: macro_alt_enter{
+       compatible = "zmk,behavior-macro";
+       label = "macro_alt_enter";
+       #binding-cells = <0>;
+       bindings = <&kp LA(ENTER)>, <&kp ESC>;
+       };
+       macro_win_l: macro_win_l{
+       compatible = "zmk,behavior-macro";
+       label = "macro_win_l";
+       #binding-cells = <0>;
+       bindings = <&kp LG(L)>, <&to 0>;
+       };
+       macro_p11: macro_p11{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p11";
+       #binding-cells = <0>;
+       bindings = <&kp LA(LC(LS(Z)))>, <&to 3>;
+       };
+       macro_p10: macro_p10{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p10";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(A)))>, <&to 3>;
+       };
+       macro_enter_to_0: macro_enter_to_0{
+       compatible = "zmk,behavior-macro";
+       label = "macro_enter_to_0";
+       #binding-cells = <0>;
+       bindings = <&kp ENTER>, <&tog 12>;
+       };
+       macro_to_0_to_1: macro_to_0_to_1{
+       compatible = "zmk,behavior-macro";
+       label = "macro_to_0_to_1";
+       #binding-cells = <0>;
+       bindings = <&to 1>, <&sl 11>;
+       };
+       macro_2colon: macro_2colon{
+       compatible = "zmk,behavior-macro";
+       label = "macro_2colon";
+       #binding-cells = <0>;
+       bindings = <&kp COLON>, <&kp COLON>;
+       };
+       macro_or: macro_or{
+       compatible = "zmk,behavior-macro";
+       label = "macro_or";
+       #binding-cells = <0>;
+       bindings = <&kp PIPE>, <&kp PIPE>;
+       };
+       macro_not_equal: macro_not_equal{
+       compatible = "zmk,behavior-macro";
+       label = "macro_not_equal";
+       #binding-cells = <0>;
+       bindings = <&kp EXCLAMATION>, <&kp EQUAL>, <&kp EQUAL>;
+       };
+       macro_equal: macro_equal{
+       compatible = "zmk,behavior-macro";
+       label = "macro_equal";
+       #binding-cells = <0>;
+       bindings = <&kp SPACE>, <&kp EQUAL>, <&kp SPACE>;
+       };
+       macro_toedit: macro_toedit{
+       compatible = "zmk,behavior-macro";
+       label = "macro_toedit";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(INSERT)))>;
+       };
+       macro_tonav: macro_tonav{
+       compatible = "zmk,behavior-macro";
+       label = "macro_tonav";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LA(LS(INS)))>, <&to 3>;
+       };
+       macro_double_amprsand: macro_double_amprsand{
+       compatible = "zmk,behavior-macro";
+       label = "macro_double_amprsand";
+       #binding-cells = <0>;
+       bindings = <&kp SPACE>, <&kp AMPERSAND>, <&kp AMPERSAND>, <&kp SPACE>;
+       };
+       macro_alt_to_0: macro_alt_to_0{
+       compatible = "zmk,behavior-macro";
+       label = "macro_alt_to_0";
+       #binding-cells = <0>;
+       bindings = <&sk LALT>, <&sl 0>;
+       };
+       macro_ctrl_to_0: macro_ctrl_to_0{
+       compatible = "zmk,behavior-macro";
+       label = "macro_ctrl_to_0";
+       #binding-cells = <0>;
+       bindings = <&sk LCTRL>, <&sl 0>;
+       };
+       macro_triple_equal: macro_triple_equal{
+       compatible = "zmk,behavior-macro";
+       label = "macro_triple_equal";
+       #binding-cells = <0>;
+       bindings = <&kp EQUAL>, <&kp EQUAL>, <&kp EQUAL>, <&kp SPACE>;
+       };
+       macro_ctrl_e: macro_ctrl_e{
+       compatible = "zmk,behavior-macro";
+       label = "macro_ctrl_e";
+       #binding-cells = <0>;
+       bindings = <&kp LC(E)>, <&to 2>;
+       };
+       macro_dialog_escape: macro_dialog_escape{
+       compatible = "zmk,behavior-macro";
+       label = "macro_dialog_escape";
+       #binding-cells = <0>;
+       bindings = <&kp ESCAPE>, <&to 3>;
+       };
+       macro_dialog_enter: macro_dialog_enter{
+       compatible = "zmk,behavior-macro";
+       label = "macro_dialog_enter";
+       #binding-cells = <0>;
+       bindings = <&kp ENTER>, <&to 3>;
+       };
+       macro_esc_nav: macro_esc_nav{
+       compatible = "zmk,behavior-macro";
+       label = "macro_esc_nav";
+       #binding-cells = <0>;
+       bindings = <&kp ESCAPE>, <&to 3>;
+       };
+       macro_ctrl_k: macro_ctrl_k{
+       compatible = "zmk,behavior-macro";
+       label = "macro_ctrl_k";
+       #binding-cells = <0>;
+       bindings = <&kp LC(K)>, <&to 1>;
+       };
+       macro_ctrl_f: macro_ctrl_f{
+       compatible = "zmk,behavior-macro";
+       label = "macro_ctrl_f";
+       #binding-cells = <0>;
+       bindings = <&kp LC(F)>, <&to 1>;
+       };
+       macro_p0: macro_p0{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p0";
+       #binding-cells = <0>;
+       bindings = <&kp LA(LC(LS(B)))>, <&to 3>;
+       };
+       macro_p9: macro_p9{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p9";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(N4)))>, <&to 0>;
+       };
+       macro_p8: macro_p8{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p8";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(W)))>, <&to 3>;
+       };
+       macro_p7: macro_p7{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p7";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(R)))>, <&to 0>;
+       };
+       macro_p6: macro_p6{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p6";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(F)))>, <&to 0>;
+       };
+       macro_p5: macro_p5{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p5";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(D)))>, <&to 3>;
+       };
+       macro_p4: macro_p4{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p4";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(S)))>, <&to 3>;
+       };
+       macro_p3: macro_p3{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p3";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(N5)))>, <&to 0>;
+       };
+       macro_p2: macro_p2{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p2";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(N2)))>, <&to 0>;
+       };
+       macro_p1: macro_p1{
+       compatible = "zmk,behavior-macro";
+       label = "macro_p1";
+       #binding-cells = <0>;
+       bindings = <&kp LC(LS(LA(N1)))>, <&to 0>;
+       };
+       macro_fat_arrow: macro_fat_arrow{
+       compatible = "zmk,behavior-macro";
+       label = "macro_fat_arrow";
+       #binding-cells = <0>;
+       bindings = <&kp SPACE>, <&kp EQUAL>, <&kp GREATER_THAN>, <&kp SPACE>;
+       };
+       macro_select_line: macro_select_line{
+       compatible = "zmk,behavior-macro";
+       label = "macro_select_line";
+       #binding-cells = <0>;
+       bindings = <&kp HOME>, <&kp HOME>, <&kp LS(END)>;
+       };
+       macro_extend_select: macro_extend_select{
+       compatible = "zmk,behavior-macro";
+       label = "macro_extend_select";
+       #binding-cells = <0>;
+       bindings = <&kp LC(W)>;
+       };
+       macro_scroll_down: macro_scroll_down{
+       compatible = "zmk,behavior-macro";
+       label = "macro_scroll_down";
+       #binding-cells = <0>;
+       bindings = <&kp LC(DOWN_ARROW)>, <&kp LC(DOWN_ARROW)>, <&kp LC(DOWN_ARROW)>;
+       };
+       macro_scroll_up: macro_scroll_up{
+       compatible = "zmk,behavior-macro";
+       label = "macro_scroll_up";
+       #binding-cells = <0>;
+       bindings = <&kp LC(UP)>, <&kp LC(UP)>, <&kp LC(UP)>;
+       };
+       macro_arrow: macro_arrow{
+       compatible = "zmk,behavior-macro";
+       label = "macro_arrow";
+       #binding-cells = <0>;
+       bindings = <&kp MINUS>, <&kp GREATER_THAN>;
+       };
+       macro_quotes: macro_quotes{
+       compatible = "zmk,behavior-macro";
+       label = "macro_quotes";
+       #binding-cells = <0>;
+       bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+       };
+       macro_dquotes: macro_dquotes{
+       compatible = "zmk,behavior-macro";
+       label = "macro_dquotes";
+       #binding-cells = <0>;
+       bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+       };
+       macro_braces: macro_braces{
+       compatible = "zmk,behavior-macro";
+       label = "macro_braces";
+       #binding-cells = <0>;
+       bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+       };
+       macro_parens: macro_parens{
+       compatible = "zmk,behavior-macro";
+       label = "macro_parens";
+       #binding-cells = <0>;
+       bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
+       };
+       macro_brackets: macro_brackets{
+       compatible = "zmk,behavior-macro";
+       label = "macro_brackets";
+       #binding-cells = <0>;
+       bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+       };
+       macro_kinesis: macro_kinesis{
+       compatible = "zmk,behavior-macro";
+       label = "macro_kinesis";
+       #binding-cells = <0>;
+       bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+       };
     };
 
     keymap {
