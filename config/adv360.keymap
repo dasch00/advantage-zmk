@@ -65,7 +65,7 @@
             compatible = "zmk,behavior-macro";
             label = "macro_dollar";
             #binding-cells = <0>;
-            bindings = <&to 1 &kp DOLLAR>;
+            bindings = <&kp DOLLAR &tog 11>;
         };
 
         macro_p13: macro_p13 {
