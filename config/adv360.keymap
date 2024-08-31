@@ -472,8 +472,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans                &trans              &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp LC(HOME)          &kp LC(LS(COMMA))   &kp LC(END)            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LC(LEFT_BRACKET)  &kp LC(LS(PERIOD))  &kp LC(RIGHT_BRACKET)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans                &trans              &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LC(LEFT)          &kp LC(LS(PERIOD))  &kp LC(RIGHT)          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp LC(LEFT_BRACKET)  &trans              &kp LC(RIGHT_BRACKET)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans              &trans                 &trans  &trans
             >;
         };
