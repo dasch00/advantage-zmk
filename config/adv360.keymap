@@ -540,11 +540,11 @@
 
         layer_symbols {
             bindings = <
-&trans  &trans           &kp UNDER          &kp MINUS             &trans             &trans    &trans                                                &trans     &none   &macro_double_amprsand  &macro_not_equal  &macro_triple_equal  &macro_or          &none
-&trans  &kp CARET        &macro_fat_arrow   &macro_dollar         &kp LEFT_BRACE     &trans    &trans                                                &trans     &none   &kp RIGHT_BRACE         &kp TAB           &macro_fat_arrow     &kp GRAVE          &none
-&trans  &kp EXCLAMATION  &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE   &trans    &trans     &trans    &trans      &trans  &trans       &trans     &none   &kp RIGHT_PARENTHESIS   &kp EQUAL         &macro_arrow         &kp LC(LS(ENTER))  &none
-&trans  &kp HASH         &kp RIGHT_BRACKET  &kp PIPE              &kp DOUBLE_QUOTES  &kp PLUS                       &trans      &trans                          &kp AT  &kp RIGHT_BRACKET       &kp STAR          &macro_array_open    &kp BACKSLASH      &none
-&trans  &trans           &trans             &trans                &trans                       &kp UNDER  &kp STAR  &trans      &trans  &kp PERCENT  &kp MINUS          &trans                  &trans            &trans               &trans             &trans
+&trans  &trans           &kp UNDER             &kp MINUS          &trans             &trans    &trans                                                &trans     &none   &macro_double_amprsand  &macro_not_equal   &macro_triple_equal  &macro_or      &none
+&trans  &kp CARET        &macro_fat_arrow      &macro_dollar      &kp LEFT_BRACE     &trans    &trans                                                &trans     &none   &kp RIGHT_BRACE         &kp LC(LS(ENTER))  &macro_fat_arrow     &kp GRAVE      &none
+&trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET   &kp SINGLE_QUOTE   &trans    &trans     &trans    &trans      &trans  &trans       &trans     &none   &kp RIGHT_PARENTHESIS   &kp EQUAL          &macro_arrow         &kp PIPE       &none
+&trans  &kp HASH         &kp LEFT_BRACE        &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES  &kp PLUS                       &trans      &trans                          &kp AT  &kp RIGHT_BRACE         &kp STAR           &macro_array_open    &kp BACKSLASH  &none
+&trans  &trans           &trans                &trans             &trans                       &kp UNDER  &kp STAR  &trans      &trans  &kp PERCENT  &kp MINUS          &trans                  &trans             &trans               &trans         &trans
             >;
         };
 
