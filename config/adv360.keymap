@@ -430,11 +430,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE       &kp LC(LS(NUMBER_1))  &sl 12       &sl 11              &kp TAB             &kp DELETE  &kp F12                                                                                         &mo 5        &kp BACKSPACE  &kp TAB             &sl 11              &sl 12             &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
-&kp BACKSLASH   &kp Q                 &kp W        &kp E               &kp R               &kp T       &to 0                                                                                           &to 1        &kp Y          &kp U               &kp I               &kp O              &kp P                 &kp LEFT_BRACKET
-&kp MINUS       &kp A                 &kp S        &kp D               &kp F               &kp G       &none        &kp LC(TAB)      &lt 13 LA(TAB)             &macro_win_tab          &kp TAB        &none        &kp H          &kp J               &kp K               &kp L              &kp SEMI              &mt LSHFT SINGLE_QUOTE
-&to 3           &kp Z                 &kp X        &kp C               &kp V               &kp B                                     &kp LA(TAB)                &kp LG(D)                                           &kp N          &kp M               &kp COMMA           &kp DOT            &kp FSLH              &to 2
-&lt 5 NUMBER_7  &lt 7 NUMBER_9        &mt LALT N5  &mt LSHFT NUMBER_1  &mt LCTRL NUMBER_3              &lt 8 SPACE  &mt LCTRL ENTER  &mt LEFT_GUI NUMBER_5      &mt RIGHT_GUI NUMBER_6  &mt LCTRL ESC  &lt 8 SPACE                 &mt RCTRL NUMBER_2  &mt RSHFT NUMBER_0  &mt RALT NUMBER_4  &lt 7 NUMBER_8        &lt 5 NUMBER_6
+&kp GRAVE       &kp LC(LS(NUMBER_1))  &sl 12       &sl 11              &kp TAB             &kp DELETE  &kp F12                                                                                      &mo 5        &kp TAB  &kp TAB             &sl 11              &sl 12             &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
+&kp BACKSLASH   &kp Q                 &kp W        &kp E               &kp R               &kp T       &to 0                                                                                        &to 1        &kp Y    &kp U               &kp I               &kp O              &kp P                 &kp LEFT_BRACKET
+&kp MINUS       &kp A                 &kp S        &kp D               &kp F               &kp G       &none        &lt 10 LC(TAB)   &lt 13 LA(TAB)             &macro_win_tab       &kp BACKSPACE  &none        &kp H    &kp J               &kp K               &kp L              &kp SEMI              &mt LSHFT SINGLE_QUOTE
+&to 3           &kp Z                 &kp X        &kp C               &kp V               &kp B                                     &kp LS(LG(S))              &kp LG(D)                                        &kp N    &kp M               &kp COMMA           &kp DOT            &kp FSLH              &to 2
+&lt 5 NUMBER_7  &lt 7 NUMBER_9        &mt LALT N5  &mt LSHFT NUMBER_1  &mt LCTRL NUMBER_3              &lt 8 SPACE  &mt LCTRL ENTER  &mt LEFT_GUI NUMBER_5      &mt RIGHT_GUI LG(L)  &mt LCTRL ESC  &lt 8 SPACE           &mt RCTRL NUMBER_2  &mt RSHFT NUMBER_0  &mt RALT NUMBER_4  &lt 7 NUMBER_8        &lt 5 NUMBER_6
             >;
         };
 
@@ -460,7 +460,7 @@
 
         layer_nav {
             bindings = <
-&kp LC(TILDE)  &trans            &macro_shift_to_1  &macro_to_0_to_1  &kp LA(ENTER)   &kp LC(LS(F))        &trans                                                           &trans      &trans            &kp LS(F6)    &macro_to_0_to_1  &macro_shift_to_1  &trans        &trans
+&kp LC(TILDE)  &trans            &macro_shift_to_1  &macro_to_0_to_1  &kp LA(ENTER)   &kp LC(LS(F))        &trans                                                           &trans      &kp LS(LC(P))     &kp LS(F6)    &macro_to_0_to_1  &macro_shift_to_1  &trans        &trans
 &trans         &kp LC(LA(L))     &kp LC(W)          &macro_dollar     &kp RIGHT       &macro_jump_to_char  &trans                                                           &trans      &kp LC(D)         &kp LEFT      &kp UP            &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
 &trans         &kp HOME          &kp LC(TAB)        &lt 4 LC(B)       &kp LS(ENTER)   &kp LC(LA(RIGHT))    &trans           &trans       &trans      &trans  &trans         &trans      &kp LA(LC(LEFT))  &kp LC(LEFT)  &kp DOWN          &kp LC(RIGHT)      &kp END       &trans
 &trans         &kp LA(NUMBER_7)  &kp LS(DELETE)     &kp LC(INSERT)    &kp LS(INSERT)  &kp LC(LS(U))                                      &trans      &trans                             &kp LC(LS(Z))     &kp LC(Z)     &kp BACKSPACE     &kp LC(SLASH)      &kp LC(END)   &trans
