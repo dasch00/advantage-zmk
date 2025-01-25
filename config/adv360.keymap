@@ -430,7 +430,7 @@
 
         default_layer {
             bindings = <
-&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp ENTER    &sl 11              &sk LEFT_SHIFT      &kp LS(NUMBER_7)  &kp F12                                                                       &mo 5        &kp MINUS  &sk LEFT_SHIFT      &sl 11              &kp TAB            &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
+&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp TAB      &sl 11              &sk LEFT_SHIFT      &kp LS(NUMBER_7)  &kp F12                                                                       &mo 5        &kp MINUS  &sk LEFT_SHIFT      &sl 11              &sl 8              &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
 &kp BACKSLASH      &kp Q                 &kp W        &kp E               &kp R               &kp T             &to 0                                                                         &to 1        &kp Y      &kp U               &kp I               &kp O              &kp P                 &kp LEFT_BRACKET
 &kp DOUBLE_QUOTES  &kp A                 &kp S        &kp D               &kp F               &kp G             &none         &kp LC(TAB)   &lt 13 LA(TAB)      &macro_win_tab  &mt LGUI TAB  &none        &kp H      &kp J               &kp K               &kp L              &kp SEMI              &mt LSHFT SINGLE_QUOTE
 &to 3              &kp Z                 &kp X        &kp C               &kp V               &kp B                                         &kp LS(LG(S))       &kp ENTER                                  &kp N      &kp M               &kp COMMA           &kp DOT            &kp FSLH              &to 2
