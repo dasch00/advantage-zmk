@@ -530,11 +530,11 @@
 
         layer_selection {
             bindings = <
-&kp LA(GRAVE)  &trans      &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                &trans              &trans              &trans          &trans        &kp LA(LC(LS(J)))  &trans       &trans
-&trans         &kp LC(T)   &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                &trans              &kp LA(J)           &kp LC(W)       &kp LS(UP)    &kp LC(LA(LS(O)))  &trans       &trans
-&trans         &macro_p10  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans  &trans              &kp LS(HOME)        &kp LS(LEFT)    &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)  &trans
-&trans         &macro_p11  &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                              &kp LA(LS(INSERT))  &kp LC(LC(UP))  &kp F3        &kp LC(LC(DOWN))   &trans       &trans
-&none          &none       &macro_p1       &macro_p2      &macro_p3                     &kp ENTER  &kp LC(ENTER)  &trans      &trans  &trans  &macro_shift_enter                      &trans          &trans        &trans             &trans       &trans
+&kp LA(GRAVE)  &trans      &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                &trans              &trans              &trans          &trans        &kp LA(LC(LS(J)))  &trans             &trans
+&trans         &kp LC(T)   &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                &trans              &kp LA(J)           &kp LC(W)       &kp LS(UP)    &kp BACKSPACE      &kp LS(LA(LC(O)))  &trans
+&trans         &macro_p10  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans  &trans              &kp LS(HOME)        &kp LS(LEFT)    &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)        &trans
+&trans         &macro_p11  &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                              &kp LA(LS(INSERT))  &kp LC(LC(UP))  &kp F3        &kp LC(LC(DOWN))   &trans             &trans
+&none          &none       &macro_p1       &macro_p2      &macro_p3                     &kp ENTER  &kp LC(ENTER)  &trans      &trans  &trans  &macro_shift_enter                      &trans          &trans        &trans             &trans             &trans
             >;
         };
 
