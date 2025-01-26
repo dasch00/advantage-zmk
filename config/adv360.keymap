@@ -460,11 +460,11 @@
 
         layer_nav {
             bindings = <
-&kp LC(TILDE)        &trans            &macro_to_0_to_1  &trans          &macro_shift_to_1  &kp LC(LS(F))      &trans                                                     &trans      &kp LS(LC(P))     &macro_shift_to_1  &trans         &macro_to_0_to_1   &trans        &trans
-&macro_jump_to_char  &kp LC(LA(L))     &kp LC(W)         &macro_dollar   &kp RIGHT          &kp LC(F)          &trans                                                     &trans      &kp LC(D)         &kp LEFT           &kp UP         &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
-&trans               &kp HOME          &kp LC(TAB)       &lt 4 LC(B)     &kp LS(ENTER)      &kp LC(LA(RIGHT))  &trans           &trans       &trans      &trans  &trans   &trans      &kp LA(LC(LEFT))  &kp LC(LEFT)       &kp DOWN       &kp LC(RIGHT)      &kp END       &trans
-&trans               &kp LA(NUMBER_7)  &kp LS(DELETE)    &kp LC(INSERT)  &kp LS(INSERT)     &kp LC(LS(U))                                    &trans      &trans                       &kp LC(LS(Z))     &kp LC(Z)          &kp BACKSPACE  &kp LC(SLASH)      &kp LC(END)   &trans
-&trans               &trans            &trans            &trans          &trans                                &mo_ctrl_e 14 0  &lt 8 ENTER  &trans      &trans  &kp ESC  &mo_to 8 1                    &trans             &trans         &trans             &trans        &trans
+&kp LC(TILDE)        &trans            &kp LS(LC(F))   &macro_to_0_to_1  &trans          &macro_shift_to_1  &trans                                                     &trans      &macro_shift_to_1  &kp LS(LC(P))  &trans         &macro_to_0_to_1   &trans        &trans
+&macro_jump_to_char  &kp LC(LA(L))     &kp LC(W)       &macro_dollar     &kp RIGHT       &kp LC(F)          &trans                                                     &trans      &kp LC(D)          &kp LEFT       &kp UP         &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
+&trans               &kp HOME          &kp LC(TAB)     &lt 4 LC(B)       &kp LS(ENTER)   &kp LC(LA(RIGHT))  &trans           &trans       &trans      &trans  &trans   &trans      &kp LA(LC(LEFT))   &kp LC(LEFT)   &kp DOWN       &kp LC(RIGHT)      &kp END       &trans
+&trans               &kp LA(NUMBER_7)  &kp LS(DELETE)  &kp LC(INSERT)    &kp LS(INSERT)  &kp LC(LS(U))                                    &trans      &trans                       &kp LC(LS(Z))      &kp LC(Z)      &kp BACKSPACE  &kp LC(SLASH)      &kp LC(END)   &trans
+&trans               &trans            &trans          &trans            &trans                             &mo_ctrl_e 14 0  &lt 8 ENTER  &trans      &trans  &kp ESC  &mo_to 8 1                     &trans         &trans         &trans             &trans        &trans
             >;
         };
 
