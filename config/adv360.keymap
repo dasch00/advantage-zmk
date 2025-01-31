@@ -430,7 +430,7 @@
 
         apps {
             bindings = <&sl 8>;
-            key-positions = <42 41>;
+            key-positions = <42 43>;
         };
     };
 
