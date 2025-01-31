@@ -425,6 +425,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        apps {
+            bindings = <&sl 8>;
+            key-positions = <42 41>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
