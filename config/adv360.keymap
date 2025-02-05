@@ -439,11 +439,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE          &kp LC(LS(NUMBER_1))  &kp TAB      &sl 11              &kp MINUS           &sk LSHIFT  &kp F12                                                                                        &mo 5            &sk RIGHT_SHIFT  &kp LS(SLASH)       &sl 11              &sl 8              &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
+&kp GRAVE          &kp LC(LS(NUMBER_1))  &sl 11       &kp TAB             &kp LS(SLASH)       &sk LSHIFT  &kp F12                                                                                        &mo 5            &sk RIGHT_SHIFT  &kp MINUS           &sl 8               &sl 11             &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
 &kp BACKSLASH      &kp Q                 &kp W        &kp E               &kp R               &kp T       &to 0                                                                                          &to 1            &kp Y            &kp U               &kp I               &kp O              &kp P                 &kp LEFT_BRACKET
-&kp DOUBLE_QUOTES  &kp A                 &kp S        &kp D               &kp F               &kp G       &none        &kp LC(TAB)   &lt 13 LA(TAB)              &macro_win_tab  &mt LGUI LC(BACKSPACE)  &none            &kp H            &kp J               &kp K               &kp L              &kp SEMI              &mt LSHFT SINGLE_QUOTE
+&kp DOUBLE_QUOTES  &kp A                 &kp S        &kp D               &kp F               &kp G       &none        &kp LC(TAB)   &lt 13 LA(TAB)              &mt LGUI LC(BACKSPACE)  &macro_win_tab  &none            &kp H            &kp J               &kp K               &kp L              &kp SEMI              &mt LSHFT SINGLE_QUOTE
 &to 3              &kp Z                 &kp X        &kp C               &kp V               &kp B                                  &sl 11                      &kp TAB                                                  &kp N            &kp M               &kp COMMA           &kp DOT            &kp FSLH              &to 2
-&lt 5 NUMBER_7     &lt 7 NUMBER_9        &hm LALT N5  &hm LSHFT NUMBER_1  &hm LCTRL NUMBER_3              &lt 8 SPACE  &lt 10 ENTER  &mt LEFT_GUI LG(LS(S))      &mt LGUI LG(L)  &lt 13 ESCAPE           &mt LCTRL SPACE                   &hm RCTRL NUMBER_2  &hm RSHFT NUMBER_0  &hm RALT NUMBER_4  &lt 7 NUMBER_8        &lt 5 NUMBER_6
+&lt 5 NUMBER_7     &lt 7 NUMBER_9        &hm LALT N5  &hm LSHFT NUMBER_1  &hm LCTRL NUMBER_3              &lt 8 SPACE  &lt 10 ENTER  &mt LEFT_GUI LG(LS(S))      &mt LGUI LG(L)          &lt 13 ESCAPE   &mt LCTRL SPACE                   &hm RCTRL NUMBER_2  &hm RSHFT NUMBER_0  &hm RALT NUMBER_4  &lt 7 NUMBER_8        &lt 5 NUMBER_6
             >;
         };
 
@@ -469,11 +469,11 @@
 
         layer_nav {
             bindings = <
-&kp LC(TILDE)        &trans            &kp LS(LC(F))   &macro_to_0_to_1  &trans          &macro_shift_to_1  &trans                                                     &trans       &macro_shift_to_1  &kp LS(LC(P))  &macro_to_0_to_1  &trans             &trans        &trans
-&macro_jump_to_char  &kp LC(LA(L))     &kp LC(W)       &macro_dollar     &kp RIGHT       &kp LC(F)          &trans                                                     &trans       &kp LC(D)          &kp LEFT       &kp UP            &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
-&trans               &kp HOME          &kp LC(TAB)     &lt 4 LC(B)       &kp LS(ENTER)   &kp LC(LA(RIGHT))  &trans          &trans        &trans      &trans  &trans   &trans       &kp LA(LC(LEFT))   &kp LC(LEFT)   &kp DOWN          &kp LC(RIGHT)      &kp END       &trans
-&trans               &kp LA(NUMBER_7)  &kp LS(DELETE)  &kp LC(INSERT)    &kp LS(INSERT)  &kp LC(LS(U))                                    &trans      &trans                        &kp LC(LS(Z))      &kp LC(Z)      &kp BACKSPACE     &kp LC(SLASH)      &kp LC(END)   &trans
-&trans               &trans            &trans          &trans            &trans                             &mo_ctrl_e 8 0  &lt 10 ENTER  &trans      &trans  &kp ESC  &mo_to 14 1                     &trans         &trans            &trans             &trans        &trans
+&kp LC(TILDE)        &trans            &kp LS(LC(F))   &macro_to_0_to_1  &trans          &macro_shift_to_1  &kp LC(LA(N7))                                             &trans       &macro_shift_to_1  &kp LS(LC(P))  &trans         &macro_to_0_to_1   &trans        &trans
+&macro_jump_to_char  &kp LC(LA(L))     &kp LC(W)       &macro_dollar     &kp RIGHT       &kp LC(F)          &trans                                                     &trans       &kp LC(D)          &kp LEFT       &kp UP         &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
+&trans               &kp HOME          &kp LC(TAB)     &lt 4 LC(B)       &kp LS(ENTER)   &kp LC(LA(RIGHT))  &trans          &trans        &trans      &trans  &trans   &trans       &kp LA(LC(LEFT))   &kp LC(LEFT)   &kp DOWN       &kp LC(RIGHT)      &kp END       &trans
+&trans               &kp LA(NUMBER_7)  &kp LS(DELETE)  &kp LC(INSERT)    &kp LS(INSERT)  &kp LC(LS(U))                                    &trans      &trans                        &kp LC(LS(Z))      &kp LC(Z)      &kp BACKSPACE  &kp LC(SLASH)      &kp LC(END)   &trans
+&trans               &trans            &trans          &trans            &trans                             &mo_ctrl_e 8 0  &lt 10 ENTER  &trans      &trans  &kp ESC  &mo_to 14 1                     &trans         &trans         &trans             &trans        &trans
             >;
         };
 
