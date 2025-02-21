@@ -560,8 +560,8 @@
         layer_symbols {
             bindings = <
 &trans  &trans           &kp UNDER         &kp MINUS             &trans             &trans     &trans                                                &trans        &none                   &macro_double_amprsand  &macro_not_equal   &macro_triple_equal  &macro_or      &none
-&trans  &kp CARET        &macro_fat_arrow  &macro_dollar         &kp UNDERSCORE     &trans     &trans                                                &trans        &none                   &kp MINUS               &kp LEFT_BRACKET   &macro_fat_arrow     &kp GRAVE      &none
-&trans  &kp EXCLAMATION  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE   &macro_or  &trans     &trans    &trans      &trans  &trans       &trans        &macro_double_amprsand  &kp RIGHT_PARENTHESIS   &kp EQUAL          &macro_arrow         &kp PIPE       &none
+&trans  &kp CARET        &macro_fat_arrow  &kp LEFT_BRACE        &kp UNDERSCORE     &trans     &trans                                                &trans        &none                   &kp MINUS               &kp LEFT_BRACKET   &macro_fat_arrow     &kp GRAVE      &none
+&trans  &kp EXCLAMATION  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp DOLLAR         &macro_or  &trans     &trans    &trans      &trans  &trans       &trans        &macro_double_amprsand  &kp RIGHT_PARENTHESIS   &kp EQUAL          &macro_arrow         &kp PIPE       &none
 &trans  &kp HASH         &kp PERCENT       &kp ASTERISK          &kp DOUBLE_QUOTES  &kp PLUS                        &trans      &trans                             &kp AT                  &kp RIGHT_BRACE         &kp RIGHT_BRACKET  &macro_array_open    &kp BACKSLASH  &none
 &trans  &trans           &trans            &trans                &trans                        &kp UNDER  &kp STAR  &trans      &trans  &kp PERCENT  &kp ASTERISK                          &trans                  &trans             &trans               &trans         &trans
             >;
