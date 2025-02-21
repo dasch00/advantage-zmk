@@ -480,9 +480,9 @@
         layer_nav {
             bindings = <
 &kp LC(TILDE)        &trans            &trans          &macro_to_0_to_1  &macro_shift_to_1  &trans             &kp LC(LA(N7))                                             &kp LS(LC(P))  &trans         &macro_shift_to_1  &macro_to_0_to_1  &trans             &trans        &trans
-&macro_jump_to_char  &kp LC(LA(L))     &kp LC(W)       &macro_dollar     &kp RIGHT          &kp LS(ENTER)      &trans                                                     &trans         &kp LC(D)      &kp LEFT           &kp UP            &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
-&kp LC(LS(F))        &kp HOME          &kp LC(TAB)     &lt 4 LC(B)       &kp LA(LC(LEFT))   &kp LC(LA(RIGHT))  &trans          &trans        &trans      &trans  &trans   &trans         &kp HOME       &kp LC(LEFT)       &kp DOWN          &kp LC(RIGHT)      &kp END       &trans
-&trans               &kp LA(NUMBER_7)  &kp LS(DELETE)  &kp LC(INSERT)    &kp LS(INSERT)     &kp LC(LS(U))                                    &trans      &trans                          &kp LC(LS(Z))  &kp LC(Z)          &kp BACKSPACE     &kp LC(SLASH)      &kp LC(END)   &trans
+&macro_jump_to_char  &kp LC(LA(L))     &kp LC(W)       &kp LS(ENTER)     &kp RIGHT          &kp LC(LS(U))      &trans                                                     &trans         &kp LC(D)      &kp LEFT           &kp UP            &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
+&kp LC(LS(F))        &none             &kp LC(TAB)     &lt 4 LC(B)       &macro_dollar      &kp LC(LA(LEFT))   &trans          &trans        &trans      &trans  &trans   &trans         &kp HOME       &kp LC(LEFT)       &kp DOWN          &kp LC(RIGHT)      &kp END       &trans
+&trans               &kp LA(NUMBER_7)  &kp LS(DELETE)  &kp LC(INSERT)    &kp LS(INSERT)     &kp LC(LA(RIGHT))                                &trans      &trans                          &kp LC(LS(Z))  &kp LC(Z)          &kp BACKSPACE     &kp LC(SLASH)      &kp LC(END)   &trans
 &trans               &trans            &trans          &trans            &trans                                &mo_ctrl_e 8 0  &lt 10 ENTER  &trans      &trans  &kp ESC  &mo_to 14 1                   &trans             &trans            &trans             &trans        &trans
             >;
         };
@@ -593,7 +593,7 @@
 &kp LC(MINUS)  &kp LC(Q)        &kp LC(F4)  &kp LC(LS(E))  &kp LC(R)          &kp LC(T)         &none                                                                     &none   &kp LC(Y)          &kp LC(U)       &kp LC(I)      &kp LC(O)    &kp LC(P)             &kp LC(BACKSLASH)
 &kp LSHFT      &kp LC(A)        &kp LC(S)   &kp LC(D)      &macro_ctrl_f      &kp LC(G)         &none          &kp LS(LC(ESCAPE))  &kp LC(LA(LS(T)))      &trans  &trans  &none   &kp LC(H)          &kp LC(J)       &macro_ctrl_k  &kp LC(L)    &kp LC(SEMICOLON)     &mt LSHFT SINGLE_QUOTE
 &kp LSHFT      &kp LC(Z)        &kp LC(X)   &kp LC(C)      &kp LC(V)          &kp LC(B)                                            &trans                 &trans                  &kp LC(N)          &kp LC(M)       &kp LC(COMMA)  &kp LC(DOT)  &kp LC(SLASH)         &kp RSHFT
-&mo 2          &sk LALT         &kp LCTRL   &kp LSHIFT     &sk LGUI                             &kp LC(ENTER)  &to 1               &trans                 &trans  &trans  &trans                     &sl 2           &sk LSHFT      &sk LCTRL    &sk LALT              &mo 2
+&mo 2          &sk LALT         &kp LCTRL   &kp LSHIFT     &sk LGUI                             &kp LC(ENTER)  &kp LC(ENTER)       &trans                 &trans  &trans  &trans                     &sl 2           &sk LSHFT      &sk LCTRL    &sk LALT              &mo 2
             >;
         };
     };
