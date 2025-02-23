@@ -559,11 +559,11 @@
 
         layer_symbols {
             bindings = <
-&trans  &trans        &kp UNDER             &kp MINUS          &trans             &trans     &trans                                                &trans        &none                   &macro_double_amprsand  &macro_not_equal   &macro_triple_equal  &macro_or      &none
-&trans  &kp CARET     &macro_fat_arrow      &kp LEFT_BRACE     &kp PIPE           &trans     &trans                                                &trans        &none                   &kp UNDERSCORE          &kp LEFT_BRACKET   &macro_fat_arrow     &kp GRAVE      &none
-&trans  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &macro_or  &trans     &trans    &trans      &trans  &trans       &trans        &macro_double_amprsand  &kp RIGHT_PARENTHESIS   &kp EQUAL          &macro_arrow         &kp MINUS      &none
-&trans  &kp HASH      &kp PERCENT           &kp EXCLAMATION    &kp DOUBLE_QUOTES  &kp PLUS                        &trans      &trans                             &kp AT                  &kp RIGHT_BRACE         &kp RIGHT_BRACKET  &macro_array_open    &kp BACKSLASH  &none
-&trans  &trans        &trans                &trans             &trans                        &kp UNDER  &kp STAR  &trans      &trans  &kp PERCENT  &kp ASTERISK                          &trans                  &trans             &trans               &trans         &trans
+&trans  &trans        &none            &none              &trans             &trans     &trans                                                &trans        &none                   &none                  &none              &none                 &none                &none
+&trans  &kp CARET     &kp LEFT_BRACE   &macro_array_open  &kp PIPE           &macro_or  &trans                                                &trans        &macro_double_amprsand  &kp AMPERSAND          &macro_arrow       &macro_fat_arrow      &macro_triple_equal  &none
+&trans  &kp ASTERISK  &kp APOSTROPHE   &kp LEFT_BRACKET   &kp DOUBLE_QUOTES  &none      &trans     &trans    &trans      &trans  &trans       &trans        &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL          &kp LEFT_PARENTHESIS  &kp MINUS            &none
+&trans  &kp HASH      &kp EXCLAMATION  &kp PERCENT        &kp GRAVE          &kp PLUS                        &trans      &trans                             &kp AT                  &kp UNDERSCORE         &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp BACKSLASH        &none
+&trans  &trans        &trans           &trans             &trans                        &kp UNDER  &kp STAR  &trans      &trans  &kp PERCENT  &kp ASTERISK                          &trans                 &trans             &trans                &trans               &trans
             >;
         };
 
