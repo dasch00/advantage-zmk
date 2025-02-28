@@ -479,11 +479,11 @@
 
         layer_nav {
             bindings = <
-&kp LC(TILDE)        &trans            &macro_shift_to_1  &macro_to_0_to_1  &macro_dollar   &trans             &kp LC(LA(N7))                                             &kp LS(LC(P))  &trans         &trans        &macro_to_0_to_1  &macro_shift_to_1  &trans        &trans
-&macro_jump_to_char  &kp LC(LA(L))     &kp LC(W)          &kp LS(ENTER)     &kp RIGHT       &kp LC(LS(U))      &trans                                                     &trans         &kp LC(D)      &kp LEFT      &kp UP            &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
-&kp LC(LS(F))        &none             &kp LC(TAB)        &lt 4 LC(B)       &kp HOME        &kp LC(LA(LEFT))   &trans          &trans        &trans      &trans  &trans   &trans         &kp HOME       &kp LC(LEFT)  &kp DOWN          &kp LC(RIGHT)      &kp END       &trans
-&trans               &kp LA(NUMBER_7)  &kp LS(DELETE)     &kp LC(INSERT)    &kp LS(INSERT)  &kp LC(LA(RIGHT))                                &trans      &trans                          &kp LC(LS(Z))  &kp LC(Z)     &kp BACKSPACE     &kp LC(SLASH)      &kp LC(END)   &trans
-&trans               &trans            &trans             &trans            &trans                             &mo_ctrl_e 8 0  &lt 10 ENTER  &trans      &trans  &kp ESC  &mo_to 14 1                   &trans        &trans            &trans             &trans        &trans
+&kp LC(TILDE)        &trans         &macro_shift_to_1  &macro_to_0_to_1  &macro_dollar   &trans             &kp LC(LA(N7))                                             &kp LS(LC(P))  &trans         &trans        &macro_to_0_to_1  &macro_shift_to_1  &trans        &trans
+&macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)          &kp LA(ENTER)     &kp RIGHT       &kp LC(LS(U))      &trans                                                     &trans         &kp LC(D)      &kp LEFT      &kp UP            &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
+&kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)        &lt 4 LC(B)       &kp LS(ENTER)   &kp LC(LA(LEFT))   &trans          &trans        &trans      &trans  &trans   &trans         &kp HOME       &kp LC(LEFT)  &kp DOWN          &kp LC(RIGHT)      &kp END       &trans
+&trans               &none          &kp LS(DELETE)     &kp LC(INSERT)    &kp LS(INSERT)  &kp LC(LA(RIGHT))                                &trans      &trans                          &kp LC(LS(Z))  &kp LC(Z)     &kp BACKSPACE     &kp LC(SLASH)      &kp LC(END)   &trans
+&trans               &trans         &trans             &trans            &trans                             &mo_ctrl_e 8 0  &lt 10 ENTER  &trans      &trans  &kp ESC  &mo_to 14 1                   &trans        &trans            &trans             &trans        &trans
             >;
         };
 
@@ -549,21 +549,21 @@
 
         layer_selection {
             bindings = <
-&kp LA(GRAVE)  &trans        &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                &trans              &trans              &trans          &trans        &kp LA(LC(LS(J)))  &trans             &trans
-&trans         &kp LC(T)     &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                &trans              &kp LA(J)           &kp LC(W)       &kp LS(UP)    &kp BACKSPACE      &kp LS(LA(LC(O)))  &trans
-&trans         &kp LS(HOME)  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans  &trans              &kp LS(HOME)        &kp LS(LEFT)    &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)        &trans
-&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                              &kp LA(LS(INSERT))  &kp LC(LC(UP))  &kp F3        &kp LC(LC(DOWN))   &trans             &trans
-&none          &none         &macro_p1       &macro_p2      &macro_p3                     &kp ENTER  &kp LC(ENTER)  &trans      &trans  &trans  &macro_shift_enter                      &trans          &trans        &trans             &trans             &trans
+&kp LA(GRAVE)  &trans        &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                &trans        &trans              &trans          &trans        &kp LA(LC(LS(J)))  &trans         &trans
+&trans         &kp LC(T)     &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                &trans        &kp LA(J)           &kp LC(W)       &kp LS(UP)    &kp LS(LA(LC(O)))  &kp BACKSPACE  &trans
+&trans         &kp LS(HOME)  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans  &trans        &kp LS(HOME)        &kp LS(LEFT)    &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)    &trans
+&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                        &kp LA(LS(INSERT))  &kp LC(LC(UP))  &kp F3        &kp LC(LC(DOWN))   &trans         &trans
+&none          &none         &macro_p1       &macro_p2      &macro_p3                     &kp ENTER  &kp LC(ENTER)  &trans      &trans  &trans  &kp LS(HOME)                      &trans          &trans        &trans             &trans         &trans
             >;
         };
 
         layer_symbols {
             bindings = <
-&trans  &trans        &none            &none              &trans             &trans     &trans                                                &trans        &none                   &none                  &none              &none                 &none                &none
-&trans  &kp CARET     &kp LEFT_BRACE   &macro_array_open  &kp PIPE           &macro_or  &trans                                                &trans        &macro_double_amprsand  &kp AMPERSAND          &macro_arrow       &macro_fat_arrow      &macro_triple_equal  &none
-&trans  &kp ASTERISK  &kp APOSTROPHE   &kp LEFT_BRACKET   &kp DOUBLE_QUOTES  &none      &trans     &trans    &trans      &trans  &trans       &trans        &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL          &kp LEFT_PARENTHESIS  &kp MINUS            &none
-&trans  &kp HASH      &kp EXCLAMATION  &kp PERCENT        &kp GRAVE          &kp PLUS                        &trans      &trans                             &kp AT                  &kp UNDERSCORE         &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp BACKSLASH        &none
-&trans  &trans        &trans           &trans             &trans                        &kp UNDER  &kp STAR  &trans      &trans  &kp PERCENT  &kp ASTERISK                          &trans                 &trans             &trans                &trans               &trans
+&trans  &trans        &none           &none              &trans             &trans           &trans                                                &trans        &none                   &none                  &none              &none                 &none                &none
+&trans  &kp CARET     &kp LEFT_BRACE  &macro_array_open  &kp PIPE           &macro_or        &trans                                                &trans        &macro_double_amprsand  &kp AMPERSAND          &macro_arrow       &macro_fat_arrow      &macro_triple_equal  &none
+&trans  &kp ASTERISK  &kp APOSTROPHE  &kp LEFT_BRACKET   &kp DOUBLE_QUOTES  &kp EXCLAMATION  &trans     &trans    &trans      &trans  &trans       &trans        &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL          &kp LEFT_PARENTHESIS  &kp MINUS            &none
+&trans  &kp HASH      &kp AT          &kp PLUS           &kp PERCENT        &none                                 &trans      &trans                             &none                   &kp UNDERSCORE         &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp BACKSLASH        &none
+&trans  &trans        &trans          &trans             &trans                              &kp UNDER  &kp STAR  &trans      &trans  &kp PERCENT  &kp ASTERISK                          &trans                 &trans             &trans                &trans               &trans
             >;
         };
 
