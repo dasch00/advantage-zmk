@@ -449,11 +449,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE      &kp LC(LS(NUMBER_1))  &skq LSHFT   &sl 11              &kp DOLLAR          &kp LC(LS(ENTER))  &kp F12                                                                                        &mo 5            &kp TAB  &sl 8               &sl 11              &skq LSHFT         &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
+&kp GRAVE      &kp LC(LS(NUMBER_1))  &skq LSHFT   &sl 11              &sl 8               &kp LC(LS(ENTER))  &kp F12                                                                                        &mo 5            &kp TAB  &sl 8               &sl 11              &skq LSHFT         &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
 &kp BACKSLASH  &kp Q                 &kp W        &kp E               &kp R               &kp T              &to 0                                                                                          &to 1            &kp Y    &kp U               &kp I               &kp O              &kp P                 &kp LEFT_BRACKET
 &kp ESCAPE     &kp A                 &kp S        &kp D               &kp F               &kp G              &none        &kp LC(TAB)   &lt 13 LA(TAB)              &mt LGUI LC(BACKSPACE)  &macro_win_tab  &none            &kp H    &kp J               &kp K               &kp L              &kp SEMI              &mt LSHFT SINGLE_QUOTE
 &kp LG(D)      &kp Z                 &kp X        &kp C               &kp V               &kp B                                         &sl 11                      &kp TAB                                                  &kp N    &kp M               &kp COMMA           &kp DOT            &kp FSLH              &to 2
-&lt 5 N9       &lt 7 N7              &hm LALT N5  &hm LSHFT NUMBER_1  &hm LCTRL NUMBER_3                     &lt 8 SPACE  &lt 10 ENTER  &mt LEFT_GUI LG(LS(S))      &mt LGUI LG(L)          &lt 13 ESCAPE   &mt LCTRL SPACE           &hm RCTRL NUMBER_2  &hm RSHFT NUMBER_0  &hm RALT NUMBER_4  &lt 7 NUMBER_6        &lt 5 N8
+&lt 5 N9       &lt 7 N7              &hm LALT N5  &hm LSHFT NUMBER_1  &hm LCTRL NUMBER_3                     &lt 8 SPACE  &lt 10 ENTER  &mt LEFT_GUI LG(LS(S))      &mt LGUI LG(L)          &lt 13 ESCAPE   &hm LCTRL SPACE           &hm RCTRL NUMBER_2  &hm RSHFT NUMBER_0  &hm RALT NUMBER_4  &lt 7 NUMBER_6        &lt 5 N8
             >;
         };
 
@@ -519,11 +519,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2       &kp F3        &trans         &kp F5       &kp F6  &tog 1                                            &mo 3      &kp F7  &kp F8       &trans         &kp F10       &kp F11       &kp F12
-&trans  &trans       &trans        &trans         &trans       &trans  &none                                             &none      &trans  &trans       &kp F11        &kp F12       &trans        &trans
-&trans  &hm LGUI F1  &hm LCTRL F2  &hm LSHIFT F3  &hm LALT F4  &kp F5  &none   &trans  &trans      &sk LGUI  &sk LALT    &none      &kp F6  &hm LALT F7  &hm LSHIFT F8  &hm LCTRL F9  &hm LGUI F10  &trans
-&trans  &trans       &trans        &trans         &trans       &trans                  &trans      &trans                           &trans  &trans       &trans         &trans        &trans        &trans
-&trans  &trans       &trans        &trans         &trans               &tog 7  &to 2   &trans      &trans    &sk LSHIFT  &sk LCTRL          &trans       &trans         &trans        &trans        &trans
+&kp F1  &kp F2       &kp F3        &trans         &kp F5        &kp F6  &tog 1                                             &mo 3    &kp F7  &kp F8        &trans         &kp F10       &kp F11       &kp F12
+&trans  &trans       &trans        &trans         &trans        &trans  &none                                              &none    &trans  &trans        &kp F11        &kp F12       &trans        &trans
+&trans  &hm LGUI F1  &hm LCTRL F2  &hm LSHIFT F3  &hm LALT F4   &kp F5  &none    &trans  &trans      &sk LGUI  &sk LALT    &none    &kp F6  &hm LALT F7   &hm LSHIFT F8  &hm LCTRL F9  &hm LGUI F10  &trans
+&trans  &trans       &trans        &trans         &trans        &trans                   &trans      &trans                         &trans  &trans        &trans         &trans        &trans        &trans
+&kp F9  &kp F7       &mt LALT F5   &mt LSHFT F1   &mt LCTRL F3          &kp F11  &to 2   &trans      &trans    &sk LSHIFT  &kp F12          &mt LCTRL F2  &mt LSHFT F10  &mt LALT F4   &kp F6        &kp F8
             >;
         };
 
@@ -560,9 +560,9 @@
         layer_symbols {
             bindings = <
 &trans  &trans        &none           &none              &trans             &trans           &trans                                                &trans        &none                   &none                  &none              &none                 &none                &none
-&trans  &kp CARET     &kp LEFT_BRACE  &macro_array_open  &kp PIPE           &macro_or        &trans                                                &trans        &macro_double_amprsand  &kp AMPERSAND          &macro_arrow       &macro_fat_arrow      &macro_triple_equal  &none
+&trans  &kp CARET     &kp LEFT_BRACE  &kp DOLLAR         &kp PIPE           &macro_or        &trans                                                &trans        &macro_double_amprsand  &kp AMPERSAND          &macro_arrow       &macro_fat_arrow      &macro_triple_equal  &none
 &trans  &kp ASTERISK  &kp APOSTROPHE  &kp LEFT_BRACKET   &kp DOUBLE_QUOTES  &kp EXCLAMATION  &trans     &trans    &trans      &trans  &trans       &trans        &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL          &kp LEFT_PARENTHESIS  &kp MINUS            &none
-&trans  &kp HASH      &kp AT          &kp PLUS           &kp PERCENT        &none                                 &trans      &trans                             &none                   &kp UNDERSCORE         &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp BACKSLASH        &none
+&trans  &kp HASH      &kp AT          &macro_array_open  &kp PERCENT        &kp PLUS                              &trans      &trans                             &none                   &kp UNDERSCORE         &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp BACKSLASH        &none
 &trans  &trans        &trans          &trans             &trans                              &kp UNDER  &kp STAR  &trans      &trans  &kp PERCENT  &kp ASTERISK                          &trans                 &trans             &trans                &trans               &trans
             >;
         };
