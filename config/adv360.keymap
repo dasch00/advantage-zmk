@@ -482,7 +482,7 @@
 &kp LC(TILDE)        &trans         &macro_shift_to_1  &macro_to_0_to_1  &trans          &trans             &kp LC(LA(N7))                                             &kp LS(LC(P))  &trans            &trans        &macro_to_0_to_1  &macro_shift_to_1  &trans        &trans
 &macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)          &kp LC(SLASH)     &kp LC(ENTER)   &kp LC(LS(U))      &trans                                                     &trans         &kp LC(D)         &kp DELETE    &kp UP            &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
 &kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)        &lt 4 LC(B)       &kp LS(ENTER)   &kp LC(LA(RIGHT))  &trans          &trans        &trans      &trans  &trans   &trans         &kp LC(LA(LEFT))  &kp LC(LEFT)  &kp DOWN          &kp LC(RIGHT)      &kp END       &trans
-&trans               &none          &kp LS(DELETE)     &kp LC(INSERT)    &kp LS(INSERT)  &kp LC(LA(Z))                                    &trans      &trans                          &none             &kp HOME      &kp LC(Z)         &kp LC(LS(Z))      &kp LC(END)   &trans
+&trans               &none          &kp LS(DELETE)     &kp LC(INSERT)    &kp LS(INSERT)  &kp LC(LA(Z))                                    &trans      &trans                          &none             &kp LC(Z)     &kp LC(LS(Z))     &kp HOME           &kp LC(END)   &trans
 &trans               &trans         &trans             &trans            &trans                             &mo_ctrl_e 8 0  &lt 10 ENTER  &trans      &trans  &kp ESC  &mo_to 14 1                      &trans        &trans            &trans             &trans        &trans
             >;
         };
@@ -532,7 +532,7 @@
 &kp LA(GRAVE)  &trans      &kp LS(ESCAPE)  &kp LA(ENTER)  &kp K_APP  &trans      &trans                                                        &trans      &kp LC(LA(N7))  &kp LC(TAB)     &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans   &trans
 &trans         &kp LC(T)   &macro_p8       &macro_p9      &macro_p7  &macro_p12  &trans                                                        &trans      &kp LC(S)       &kp DELETE      &kp UP_ARROW       &kp BACKSPACE      &trans   &trans
 &trans         &macro_p10  &macro_p4       &macro_p5      &macro_p6  &macro_p13  &trans     &trans         &trans      &trans  &kp LC(ESCAPE)  &trans      &none           &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END  &trans
-&trans         &macro_p11  &kp LC(X)       &kp LC(C)      &kp LC(V)  &macro_p0                             &trans      &trans                              &none           &kp HOME        &kp LC(Z)          &kp LC(LS(Z))      &none    &trans
+&trans         &macro_p11  &kp LC(X)       &kp LC(C)      &kp LC(V)  &macro_p0                             &trans      &trans                              &none           &kp LC(Z)       &kp LC(LS(Z))      &kp HOME           &none    &trans
 &none          &none       &macro_p1       &macro_p2      &macro_p3              &kp ENTER  &kp LC(ENTER)  &trans      &trans  &kp ESCAPE      &kp LSHIFT                  &none           &none              &none              &none    &none
             >;
         };
@@ -552,7 +552,7 @@
 &kp LA(GRAVE)  &trans        &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                &trans        &trans              &trans        &trans        &kp LA(LC(LS(J)))  &trans         &trans
 &trans         &kp LC(T)     &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                &trans        &kp LA(J)           &kp LC(W)     &kp LS(UP)    &kp LS(LA(LC(O)))  &kp BACKSPACE  &trans
 &trans         &kp LS(HOME)  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans  &trans        &none               &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)    &trans
-&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                        &kp LA(LS(INSERT))  &kp LS(HOME)  &kp F3        &kp LC(LC(DOWN))   &trans         &trans
+&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                        &kp LA(LS(INSERT))  &none         &kp F3        &kp HOME           &trans         &trans
 &none          &none         &macro_p1       &macro_p2      &macro_p3                     &kp ENTER  &kp LC(ENTER)  &trans      &trans  &trans  &kp LS(HOME)                      &trans        &trans        &trans             &trans         &trans
             >;
         };
