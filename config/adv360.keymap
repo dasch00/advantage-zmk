@@ -439,7 +439,7 @@
         compatible = "zmk,combos";
 
         apps {
-            bindings = <&kp TAB>;
+            bindings = <&sl 8>;
             key-positions = <42 43>;
         };
     };
