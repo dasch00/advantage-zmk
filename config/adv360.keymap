@@ -442,6 +442,11 @@
             bindings = <&kp LS(LC(ENTER))>;
             key-positions = <42 43>;
         };
+
+        io_combo {
+            bindings = <&kp TAB>;
+            key-positions = <24 25>;
+        };
     };
 
     keymap {
