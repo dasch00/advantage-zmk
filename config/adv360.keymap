@@ -447,6 +447,11 @@
             bindings = <&kp TAB>;
             key-positions = <24 25>;
         };
+
+        FJ {
+            bindings = <&kp TAB>;
+            key-positions = <41 32>;
+        };
     };
 
     keymap {
