@@ -77,7 +77,7 @@
             flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
 
-            hold-trigger-key-positions = <ALL_KEYS>;
+            hold-trigger-key-positions = <ALL_KEYS 71 72 73 74 61 62 63 64 65 70>;
         };
     };
 
