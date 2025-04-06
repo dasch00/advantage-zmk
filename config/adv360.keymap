@@ -93,7 +93,7 @@
 
     macros {
         lm0: lm0 {
-            compatible = "zmk,behavior-macro-on-param";
+            compatible = "zmk,behavior-macro-one-param";
             wait-ms = <0>;
             tap-ms = <0>;
             #binding-cells = <1>;
