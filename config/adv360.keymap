@@ -86,10 +86,8 @@
             #binding-cells = <2>; // param 0 = modifier, param 1 = tap key
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
-
             // param 0 = modifier (held), param 1 = tap key
-
-            bindings = <&mo>, <&kp>;
+            bindings = <&mo 0 &kp !0>, <&kp !1>;
         };
     };
 
