@@ -79,6 +79,17 @@
 
             hold-trigger-key-positions = <71 72 73 74 61 62 63 64 65 70 49 56>;
         };
+
+        ht0 : ht_layer0 {
+          compatible = "zmk,behavior-hold-tap";
+          label = "HT: Layer 0 + Mod / Tap Key";
+          #binding-cells = <2>; // param 0 = modifier, param 1 = tap key
+          flavor = "hold-preferred";
+          tapping-term-ms = <200>;
+          // param 0 = modifier (held), param 1 = tap key
+          bindings = < &mo 0 !0 >, < !1 >;
+        };
+
     };
 
     macros {
