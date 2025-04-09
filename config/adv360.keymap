@@ -488,7 +488,7 @@
         };
 
         FJ {
-            bindings = <&kp TAB>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <41 32>;
         };
     };
