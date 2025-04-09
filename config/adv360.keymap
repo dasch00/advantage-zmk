@@ -98,7 +98,6 @@
             tap-ms = <0>;
             #binding-cells = <1>;
             bindings =
-                <&macro_tap>,
                 <&to 0 &macro_param_1to1>,
                 <&macro_press>,
                 <&kp MACRO_PLACEHOLDER>,
