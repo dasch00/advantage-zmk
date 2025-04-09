@@ -106,7 +106,9 @@
                 <&macro_release>,
                 <&kp MACRO_PLACEHOLDER>,
                 <&macro_tap>,
-                <&to 3>;
+                <&to 3>,
+                <&macro_tap>,
+                <&to 0>;
         };
 
         macro_dollar: macro_dollar {
