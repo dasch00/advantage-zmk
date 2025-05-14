@@ -89,6 +89,16 @@
             flavor = "tap-preferred";
             bindings = <&lm0>, <&kp>;
         };
+
+        mo_toedit: mo_toedit {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MO_TOEDIT";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <175>;
+            flavor = "tap-preferred";
+            bindings = <&mo>, <&macro_toedit>;
+        };
     };
 
     macros {
@@ -239,14 +249,14 @@
             compatible = "zmk,behavior-macro";
             label = "macro_toedit";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(LA(INSERT)))>;
+            bindings = <&to 1 &kp LC(LA(N1))>;
         };
 
         macro_tonav: macro_tonav {
             compatible = "zmk,behavior-macro";
             label = "macro_tonav";
             #binding-cells = <0>;
-            bindings = <&kp LC(LA(LS(INS))) &to 3>;
+            bindings = <&to 3 &kp LC(LA(N0))>;
         };
 
         macro_double_amprsand: macro_double_amprsand {
@@ -508,11 +518,11 @@
 
         layer_editor {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &mo_to 14 3  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -528,11 +538,11 @@
 
         layer_nav {
             bindings = <
-&kp LC(TILDE)        &trans         &macro_shift_to_1  &macro_to_0_to_1   &trans            &trans             &kp LC(LA(N7))                                             &kp LS(LC(P))  &trans            &trans            &macro_to_0_to_1   &macro_shift_to_1  &trans        &trans
-&macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)          &kp LC(SLASH)      &kp LA(ENTER)     &kp LC(LS(U))      &trans                                                     &trans         &kp LC(D)         &kp DELETE        &kp UP             &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
-&kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)        &lt 4 LC(B)        &kp LS(ENTER)     &kp LC(LA(RIGHT))  &trans          &trans        &trans      &trans  &trans   &trans         &kp LC(LA(LEFT))  &kp LC(LEFT)      &kp DOWN           &kp LC(RIGHT)      &kp END       &trans
-&trans               &none          &kp LS(DELETE)     &kp LC(INSERT)     &kp LS(INSERT)    &kp LC(LA(Z))                                    &trans      &trans                          &kp LS(LC(Z))     &kp LC(Z)         &kp BACKSPACE      &kp HOME           &kp LC(END)   &trans
-&trans               &lt 7 N7       &lm0mod LALT N5    &lm0mod LSHIFT N1  &lm0mod LCTRL N3                     &mo_ctrl_e 8 0  &lt 10 ENTER  &trans      &trans  &kp ESC  &mo_to 14 1                      &lm0mod LCTRL N2  &lm0mod LSHIFT N0  &lm0mod RALT N4    &lt 7 N6      &trans
+&kp LC(TILDE)        &trans         &macro_shift_to_1  &macro_to_0_to_1   &trans            &trans             &kp LC(LA(N7))                                             &kp LS(LC(P))    &trans            &trans            &macro_to_0_to_1   &macro_shift_to_1  &trans        &trans
+&macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)          &kp LC(SLASH)      &kp LA(ENTER)     &kp LC(LS(U))      &trans                                                     &trans           &kp LC(D)         &kp DELETE        &kp UP             &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
+&kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)        &lt 4 LC(B)        &kp LS(ENTER)     &kp LC(LA(RIGHT))  &trans          &trans        &trans      &trans  &trans   &trans           &kp LC(LA(LEFT))  &kp LC(LEFT)      &kp DOWN           &kp LC(RIGHT)      &kp END       &trans
+&trans               &none          &kp LS(DELETE)     &kp LC(INSERT)     &kp LS(INSERT)    &kp LC(LA(Z))                                    &trans      &trans                            &kp LS(LC(Z))     &kp LC(Z)         &kp BACKSPACE      &kp HOME           &kp LC(END)   &trans
+&trans               &lt 7 N7       &lm0mod LALT N5    &lm0mod LSHIFT N1  &lm0mod LCTRL N3                     &mo_ctrl_e 8 0  &lt 10 ENTER  &trans      &trans  &kp ESC  &mo_toedit 14 0                    &lm0mod LCTRL N2  &lm0mod LSHIFT N0  &lm0mod RALT N4    &lt 7 N6      &trans
             >;
         };
 
