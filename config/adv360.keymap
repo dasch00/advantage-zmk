@@ -488,7 +488,7 @@
         compatible = "zmk,combos";
 
         apps {
-            bindings = <&kp LS(LC(ENTER))>;
+            bindings = <&sl 8>;
             key-positions = <42 43>;
         };
 
@@ -618,11 +618,11 @@
 
         layer_symbols {
             bindings = <
-&trans  &trans        &none           &none              &trans             &trans           &trans                                                        &trans   &none                   &none                  &none              &none                 &none                &none
-&trans  &kp CARET     &kp LEFT_BRACE  &kp DOLLAR         &kp PIPE           &macro_or        &trans                                                        &trans   &macro_double_amprsand  &kp AMPERSAND          &macro_fat_arrow   &macro_arrow          &macro_triple_equal  &none
-&trans  &kp ASTERISK  &kp APOSTROPHE  &kp LEFT_BRACKET   &kp DOUBLE_QUOTES  &kp EXCLAMATION  &trans             &trans    &trans      &trans  &trans       &trans   &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL          &kp LEFT_PARENTHESIS  &kp MINUS            &none
-&trans  &kp HASH      &kp AT          &macro_array_open  &kp PERCENT        &kp PLUS                                      &trans      &trans                        &none                   &kp UNDERSCORE         &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp BACKSLASH        &none
-&trans  &trans        &trans          &trans             &trans                              &kp LS(LC(ENTER))  &kp STAR  &trans      &trans  &kp PERCENT  &kp TAB                          &trans                 &trans             &trans                &trans               &trans
+&trans  &trans        &none           &none              &trans             &trans           &trans                                                        &trans   &none                   &none                  &none             &none                 &none                &none
+&trans  &kp CARET     &kp LEFT_BRACE  &kp DOLLAR         &kp PIPE           &macro_or        &trans                                                        &trans   &macro_double_amprsand  &kp AMPERSAND          &macro_fat_arrow  &macro_arrow          &macro_triple_equal  &none
+&trans  &kp ASTERISK  &kp APOSTROPHE  &kp LEFT_BRACKET   &kp DOUBLE_QUOTES  &kp EXCLAMATION  &trans             &trans    &trans      &trans  &trans       &trans   &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp LEFT_PARENTHESIS  &kp MINUS            &none
+&trans  &kp HASH      &kp AT          &kp RIGHT_BRACKET  &kp PERCENT        &kp PLUS                                      &trans      &trans                        &kp RIGHT_BRACE         &kp UNDERSCORE         &kp COMMA         &kp DOT               &kp BACKSLASH        &none
+&trans  &trans        &trans          &trans             &trans                              &kp LS(LC(ENTER))  &kp STAR  &trans      &trans  &kp PERCENT  &kp TAB                          &trans                 &trans            &trans                &trans               &trans
             >;
         };
 
