@@ -158,7 +158,7 @@
             compatible = "zmk,behavior-macro";
             label = "macro_shift_to_1";
             #binding-cells = <0>;
-            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &sl 11>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &sl 16>;
         };
 
         macro_p12: macro_p12 {
@@ -207,14 +207,14 @@
             compatible = "zmk,behavior-macro";
             label = "macro_enter_to_0";
             #binding-cells = <0>;
-            bindings = <&kp ENTER &tog 11>;
+            bindings = <&kp ENTER &tog 16>;
         };
 
         macro_to_0_to_1: macro_to_0_to_1 {
             compatible = "zmk,behavior-macro";
             label = "macro_to_0_to_1";
             #binding-cells = <0>;
-            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &sl 10>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &sl 11>;
         };
 
         macro_2colon: macro_2colon {
@@ -291,7 +291,7 @@
             compatible = "zmk,behavior-macro";
             label = "macro_ctrl_e";
             #binding-cells = <0>;
-            bindings = <&kp LC(E) &to 4>;
+            bindings = <&kp LC(E) &to 3>;
         };
 
         macro_dialog_escape: macro_dialog_escape {
@@ -508,17 +508,17 @@
 
         default_layer {
             bindings = <
-&kp GRAVE      &kp LC(LS(NUMBER_1))  &skq LSHFT   &sl 10              &kp TAB             &kp LC(LS(ENTER))  &kp F12                                                                                       &mo 15           &kp TAB  &sl 8               &sl 10              &skq LSHFT         &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
+&kp GRAVE      &kp LC(LS(NUMBER_1))  &skq LSHFT   &sl 11              &sl 8               &kp LC(LS(ENTER))  &kp F12                                                                                       &mo 17           &kp TAB  &sl 8               &sl 11              &skq LSHFT         &kp LC(LS(NUMBER_2))  &kp RIGHT_BRACKET
 &kp BACKSLASH  &kp Q                 &kp W        &kp E               &kp R               &kp T              &to 0                                                                                         &to 2            &kp Y    &kp U               &kp I               &kp O              &kp P                 &kp LEFT_BRACKET
-&kp ESCAPE     &kp A                 &kp S        &kp D               &kp F               &kp G              &bootloader  &kp LC(TAB)  &lt 0 LA(TAB)               &mt LGUI LC(BACKSPACE)  &macro_win_tab  &none            &kp H    &kp J               &kp K               &kp L              &kp SEMI              &mt LSHFT SINGLE_QUOTE
-&kp LG(D)      &kp Z                 &kp X        &kp C               &kp V               &kp B                                        &sl 10                      &kp TAB                                                  &kp N    &kp M               &kp COMMA           &kp DOT            &kp FSLH              &to 4
-&lt 14 N9      &lt 7 N7              &hm LALT N5  &hm LSHFT NUMBER_1  &hm LCTRL NUMBER_3                     &lt 8 SPACE  &lt 9 ENTER  &mt LEFT_GUI LG(LS(S))      &mt LGUI LG(L)          &lt 0 ESCAPE    &hm LCTRL SPACE           &hm RCTRL NUMBER_2  &hm RSHFT NUMBER_0  &hm RALT NUMBER_4  &lt 7 NUMBER_6        &lt 14 N8
+&kp ESCAPE     &kp A                 &kp S        &kp D               &kp F               &kp G              &bootloader  &kp LC(TAB)  &lt 17 LA(TAB)              &mt LGUI LC(BACKSPACE)  &macro_win_tab  &none            &kp H    &kp J               &kp K               &kp L              &kp SEMI              &mt LSHFT SINGLE_QUOTE
+&kp LG(D)      &kp Z                 &kp X        &kp C               &kp V               &kp B                                        &sl 11                      &kp TAB                                                  &kp N    &kp M               &kp COMMA           &kp DOT            &kp FSLH              &to 3
+&lt 14 N9      &lt 10 N7             &hm LALT N5  &hm LSHFT NUMBER_1  &hm LCTRL NUMBER_3                     &lt 9 SPACE  &lt 7 ENTER  &mt LEFT_GUI LG(LS(S))      &mt LGUI LG(L)          &lt 0 ESCAPE    &hm LCTRL SPACE           &hm RCTRL NUMBER_2  &hm RSHFT NUMBER_0  &hm RALT NUMBER_4  &lt 10 NUMBER_6       &lt 14 N8
             >;
         };
 
         default_ru {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &sl 12  &trans  &trans  &trans                                      &trans  &trans  &trans  &sl 12  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -528,21 +528,11 @@
 
         layer_editor {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &sl 11  &trans  &trans  &trans                                            &trans  &trans  &trans  &sl 11  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        editor_ru {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -556,13 +546,23 @@
             >;
         };
 
+        editor_ru {
+            bindings = <
+&trans  &trans  &trans  &sl 13  &trans  &trans  &trans                                      &trans  &trans  &trans  &sl 13  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
         layer_nav {
             bindings = <
 &kp LC(TILDE)        &trans         &macro_shift_to_1  &macro_to_0_to_1   &trans            &trans             &kp LC(LA(N7))                                            &kp LS(LC(P))   &trans            &trans            &macro_to_0_to_1   &macro_shift_to_1  &trans        &trans
 &macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)          &kp LC(SLASH)      &kp LA(ENTER)     &kp LC(LS(U))      &trans                                                    &trans          &kp LC(D)         &kp DELETE        &kp UP             &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
 &kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)        &lt 6 LC(B)        &kp LS(ENTER)     &kp LC(LA(RIGHT))  &trans          &trans       &trans      &trans  &trans   &trans          &kp LC(LA(LEFT))  &kp LC(LEFT)      &kp DOWN           &kp LC(RIGHT)      &kp END       &trans
 &trans               &none          &kp LS(DELETE)     &kp LC(INSERT)     &kp LS(INSERT)    &kp LC(LA(Z))                                   &trans      &trans                           &kp LS(LC(Z))     &kp LC(Z)         &kp BACKSPACE      &kp HOME           &kp LC(END)   &trans
-&trans               &lt 7 N7       &lm0mod LALT N5    &lm0mod LSHIFT N1  &lm0mod LCTRL N3                     &mo_ctrl_e 8 0  &lt 9 ENTER  &trans      &trans  &kp ESC  &mo_toedit 0 0                    &lm0mod LCTRL N2  &lm0mod LSHIFT N0  &lm0mod RALT N4    &lt 7 N6      &trans
+&trans               &lt 10 N7      &lm0mod LALT N5    &lm0mod LSHIFT N1  &lm0mod LCTRL N3                     &mo_ctrl_e 8 0  &lt 7 ENTER  &trans      &trans  &kp ESC  &mo_toedit 0 0                    &lm0mod LCTRL N2  &lm0mod LSHIFT N0  &lm0mod RALT N4    &lt 10 N6     &trans
             >;
         };
 
@@ -576,13 +576,13 @@
             >;
         };
 
-        layer_fn {
+        layer_selection {
             bindings = <
-&kp F1  &kp F2       &kp F3        &trans         &kp F5        &kp F6  &tog 2                                             &mo 5    &kp F7  &kp F8        &trans         &kp F10       &kp F11       &kp F12
-&trans  &trans       &trans        &trans         &trans        &trans  &none                                              &none    &trans  &trans        &kp F11        &kp F12       &trans        &trans
-&trans  &hm LGUI F1  &hm LCTRL F2  &hm LSHIFT F3  &hm LALT F4   &kp F5  &none    &trans  &trans      &sk LGUI  &sk LALT    &none    &kp F6  &hm LALT F7   &hm LSHIFT F8  &hm LCTRL F9  &hm LGUI F10  &trans
-&trans  &trans       &trans        &trans         &trans        &trans                   &trans      &trans                         &trans  &trans        &trans         &trans        &trans        &trans
-&kp F9  &kp F7       &mt LALT F5   &mt LSHFT F1   &mt LCTRL F3          &kp F11  &to 4   &trans      &trans    &sk LSHIFT  &kp F12          &mt LCTRL F2  &mt LSHFT F10  &mt LALT F4   &kp F6        &kp F8
+&kp LA(GRAVE)  &trans        &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                &trans        &trans              &trans        &trans        &kp LA(LC(LS(J)))  &trans         &trans
+&trans         &kp LC(T)     &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                &trans        &kp LA(J)           &kp LC(W)     &kp LS(UP)    &kp LS(LA(LC(O)))  &kp BACKSPACE  &trans
+&trans         &kp LS(HOME)  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans  &trans        &none               &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)    &trans
+&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                        &kp LA(LS(INSERT))  &none         &kp F3        &kp HOME           &trans         &trans
+&none          &none         &macro_p1       &macro_p2      &macro_p3                     &kp ENTER  &kp LC(ENTER)  &trans      &trans  &trans  &kp LS(HOME)                      &trans        &trans        &trans             &trans         &trans
             >;
         };
 
@@ -596,13 +596,23 @@
             >;
         };
 
-        layer_selection {
+        layer_motions {
             bindings = <
-&kp LA(GRAVE)  &trans        &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                &trans        &trans              &trans        &trans        &kp LA(LC(LS(J)))  &trans         &trans
-&trans         &kp LC(T)     &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                &trans        &kp LA(J)           &kp LC(W)     &kp LS(UP)    &kp LS(LA(LC(O)))  &kp BACKSPACE  &trans
-&trans         &kp LS(HOME)  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans  &trans        &none               &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)    &trans
-&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                        &kp LA(LS(INSERT))  &none         &kp F3        &kp HOME           &trans         &trans
-&none          &none         &macro_p1       &macro_p2      &macro_p3                     &kp ENTER  &kp LC(ENTER)  &trans      &trans  &trans  &kp LS(HOME)                      &trans        &trans        &trans             &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans      &kp LC(LA(N7))  &kp LC(TAB)     &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans      &kp LC(S)       &kp DELETE      &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(ESCAPE)  &trans      &trans          &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                              &kp LC(LS(Z))   &kp LC(Z)       &trans             &kp HOME           &kp LC(SLASH)  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp ESCAPE      &kp LSHIFT                  &none           &none              &none              &none          &none
+            >;
+        };
+
+        layer_fn {
+            bindings = <
+&kp F1  &kp F2       &kp F3        &trans         &kp F5        &kp F6  &tog 2                                             &mo 5    &kp F7  &kp F8        &trans         &kp F10       &kp F11       &kp F12
+&trans  &trans       &trans        &trans         &trans        &trans  &none                                              &none    &trans  &trans        &kp F11        &kp F12       &trans        &trans
+&trans  &hm LGUI F1  &hm LCTRL F2  &hm LSHIFT F3  &hm LALT F4   &kp F5  &none    &trans  &trans      &sk LGUI  &sk LALT    &none    &kp F6  &hm LALT F7   &hm LSHIFT F8  &hm LCTRL F9  &hm LGUI F10  &trans
+&trans  &trans       &trans        &trans         &trans        &trans                   &trans      &trans                         &trans  &trans        &trans         &trans        &trans        &trans
+&kp F9  &kp F7       &mt LALT F5   &mt LSHFT F1   &mt LCTRL F3          &kp F11  &to 3   &trans      &trans    &sk LSHIFT  &kp F12          &mt LCTRL F2  &mt LSHFT F10  &mt LALT F4   &kp F6        &kp F8
             >;
         };
 
@@ -613,16 +623,6 @@
 &trans  &kp ASTERISK  &kp APOSTROPHE  &kp LEFT_BRACKET   &kp DOUBLE_QUOTES  &kp EXCLAMATION  &trans             &trans    &trans      &trans  &trans       &trans   &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp LEFT_PARENTHESIS  &kp MINUS            &none
 &trans  &kp HASH      &kp AT          &kp RIGHT_BRACKET  &kp PERCENT        &kp PLUS                                      &trans      &trans                        &kp RIGHT_BRACE         &kp UNDERSCORE         &kp COMMA         &kp DOT               &kp BACKSLASH        &none
 &trans  &trans        &trans          &trans             &trans                              &kp LS(LC(ENTER))  &kp STAR  &trans      &trans  &kp PERCENT  &kp TAB                          &trans                 &trans            &trans                &trans               &trans
-            >;
-        };
-
-        layer_shift {
-            bindings = <
-&kp LS(GRAVE)      &kp LS(N1)  &kp LS(N2)  &kp LS(N3)        &kp LS(N4)        &kp LS(N5)  &tog 2                                                             &mo 5          &kp LS(N6)  &kp LS(N7)        &kp LS(N8)     &kp LS(N9)        &kp LS(NUMBER_0)  &kp LS(MINUS)
-&kp LS(MINUS)      &kp LS(Q)   &kp LS(W)   &kp LS(E)         &kp LS(R)         &kp LS(T)   &none                                                              &none          &kp LS(Y)   &kp LS(U)         &kp LS(I)      &kp LS(O)         &kp LS(P)         &kp LS(LEFT_BRACKET)
-&kp LS(BACKSLASH)  &kp LS(A)   &kp LS(S)   &kp LS(D)         &kp LS(F)         &kp LS(G)   &none      &kp LCTRL      &kp LALT      &kp LGUI   &kp RCTRL       &none          &kp LS(H)   &kp LS(J)         &kp LS(K)      &kp LS(L)         &kp LS(SEMI)      &kp LS(SINGLE_QUOTE)
-&kp LSHFT          &kp LS(Z)   &kp LS(X)   &kp LS(C)         &kp LS(V)         &kp LS(B)                             &kp HOME      &kp PG_UP                                 &kp LS(N)   &kp LS(M)         &kp LS(COMMA)  &kp LS(DOT)       &kp LS(SLASH)     &kp RSHFT
-&kp LS(N7)         &kp LS(N9)  &kp LS(N5)  &kp LS(NUMBER_1)  &kp LS(NUMBER_3)              &kp ENTER  &kp LS(ENTER)  &sk LALT      &sk LALT   &kp LS(ESCAPE)  &kp LA(ENTER)              &kp LS(NUMBER_2)  &kp LS(N0)     &kp LS(NUMBER_4)  &kp LS(N8)        &kp LS(NUMBER_6)
             >;
         };
 
@@ -656,6 +656,16 @@
             >;
         };
 
+        layer_shift {
+            bindings = <
+&kp LS(GRAVE)      &kp LS(N1)  &kp LS(N2)  &kp LS(N3)        &kp LS(N4)        &kp LS(N5)  &tog 2                                                             &mo 5          &kp LS(N6)  &kp LS(N7)        &kp LS(N8)     &kp LS(N9)        &kp LS(NUMBER_0)  &kp LS(MINUS)
+&kp LS(MINUS)      &kp LS(Q)   &kp LS(W)   &kp LS(E)         &kp LS(R)         &kp LS(T)   &none                                                              &none          &kp LS(Y)   &kp LS(U)         &kp LS(I)      &kp LS(O)         &kp LS(P)         &kp LS(LEFT_BRACKET)
+&kp LS(BACKSLASH)  &kp LS(A)   &kp LS(S)   &kp LS(D)         &kp LS(F)         &kp LS(G)   &none      &kp LCTRL      &kp LALT      &kp LGUI   &kp RCTRL       &none          &kp LS(H)   &kp LS(J)         &kp LS(K)      &kp LS(L)         &kp LS(SEMI)      &kp LS(SINGLE_QUOTE)
+&kp LSHFT          &kp LS(Z)   &kp LS(X)   &kp LS(C)         &kp LS(V)         &kp LS(B)                             &kp HOME      &kp PG_UP                                 &kp LS(N)   &kp LS(M)         &kp LS(COMMA)  &kp LS(DOT)       &kp LS(SLASH)     &kp RSHFT
+&kp LS(N7)         &kp LS(N9)  &kp LS(N5)  &kp LS(NUMBER_1)  &kp LS(NUMBER_3)              &kp ENTER  &kp LS(ENTER)  &sk LALT      &sk LALT   &kp LS(ESCAPE)  &kp LA(ENTER)              &kp LS(NUMBER_2)  &kp LS(N0)     &kp LS(NUMBER_4)  &kp LS(N8)        &kp LS(NUMBER_6)
+            >;
+        };
+
         layer_temp {
             bindings = <
 &trans  &trans  &trans     &trans              &trans         &trans  &trans                                      &trans              &trans              &trans            &trans             &kp LA(LC(LS(J)))  &trans       &trans
@@ -682,17 +692,7 @@
 &kp LC(MINUS)  &kp LC(Q)        &kp LC(F4)  &kp LC(LS(E))  &kp LC(R)          &kp LC(T)         &none                                                                     &none   &kp LC(Y)          &kp LC(U)       &kp LC(I)      &kp LC(O)    &kp LC(P)             &kp LC(BACKSLASH)
 &kp LSHFT      &kp LC(A)        &kp LC(S)   &kp LC(D)      &macro_ctrl_f      &kp LC(G)         &none          &kp LS(LC(ESCAPE))  &kp LC(LA(LS(T)))      &trans  &trans  &none   &kp LC(H)          &kp LC(J)       &macro_ctrl_k  &kp LC(L)    &kp LC(SEMICOLON)     &mt LSHFT SINGLE_QUOTE
 &kp LSHFT      &kp LC(Z)        &kp LC(X)   &kp LC(C)      &kp LC(V)          &kp LC(B)                                            &trans                 &trans                  &kp LC(N)          &kp LC(M)       &kp LC(COMMA)  &kp LC(DOT)  &kp LC(SLASH)         &kp RSHFT
-&mo 4          &sk LALT         &kp LCTRL   &kp LSHIFT     &sk LGUI                             &kp LC(ENTER)  &kp LC(ENTER)       &trans                 &trans  &trans  &trans                     &sl 4           &sk LSHFT      &sk LCTRL    &sk LALT              &mo 4
-            >;
-        };
-
-        layer_motions {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans      &kp LC(LA(N7))  &kp LC(TAB)     &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                              &trans      &kp LC(S)       &kp DELETE      &kp UP_ARROW       &kp BACKSPACE      &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(ESCAPE)  &trans      &trans          &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END        &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                              &kp LC(LA(Z))   &kp LC(Z)       &trans             &kp LC(LS(Z))      &kp LC(SLASH)  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp ESCAPE      &kp LSHIFT                  &none           &none              &none              &none          &none
+&mo 3          &sk LALT         &kp LCTRL   &kp LSHIFT     &sk LGUI                             &kp LC(ENTER)  &kp LC(ENTER)       &trans                 &trans  &trans  &trans                     &sl 3           &sk LSHFT      &sk LCTRL    &sk LALT              &mo 3
             >;
         };
     };
