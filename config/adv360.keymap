@@ -556,11 +556,11 @@
 
         layer_editor {
             bindings = <
-&trans  &en_to_2  &trans  &sl 11  &trans  &trans  &trans                                            &trans  &trans  &trans  &sl 11  &trans  &ru_to_4  &trans
-&trans  &trans    &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans    &trans
-&trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans    &trans
-&trans  &trans    &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans    &trans
-&trans  &trans    &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans    &trans
+&trans  &none   &trans  &sl 11  &trans  &trans  &trans                                            &trans  &trans  &trans  &sl 11  &trans  &ru_to_4  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans    &trans
             >;
         };
 
