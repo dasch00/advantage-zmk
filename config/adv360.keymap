@@ -298,14 +298,14 @@
             compatible = "zmk,behavior-macro";
             label = "macro_dialog_escape";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE &to 6>;
+            bindings = <&kp ESCAPE &to 6 &kp LC(LA(N0)) &kp LC(LS(NUMBER_1))>;
         };
 
         macro_dialog_enter: macro_dialog_enter {
             compatible = "zmk,behavior-macro";
             label = "macro_dialog_enter";
             #binding-cells = <0>;
-            bindings = <&kp ENTER &to 6>;
+            bindings = <&kp ENTER &to 6 &kp LC(LA(N0)) &kp LC(LS(NUMBER_1))>;
         };
 
         macro_esc_nav: macro_esc_nav {
