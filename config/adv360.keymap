@@ -482,6 +482,34 @@
             #binding-cells = <0>;
             bindings = <&kp LS(K) &kp I &kp N &kp E &kp S &kp I &kp S>;
         };
+
+        ru_to_1: ru_to_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(NUMBER_2)) &to 1>;
+            label = "RU_TO_1";
+        };
+
+        ru_to_4: ru_to_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(NUMBER_2)) &to 4>;
+            label = "RU_TO_4";
+        };
+
+        en_to_0: en_to_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(NUMBER_1)) &to 0>;
+            label = "EN_TO_0";
+        };
+
+        en_to_2: en_to_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(NUMBER_2)) &to 2>;
+            label = "EN_TO_2";
+        };
     };
 
     combos {
