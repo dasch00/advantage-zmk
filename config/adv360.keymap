@@ -612,30 +612,30 @@
 
         dialog {
             bindings = <
-&trans  &none   &trans  &sl 12  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &sl 12  &trans  &ru_dialog  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans               &trans      &trans  &trans                &trans  &trans  &trans  &trans  &trans  &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans                               &trans      &trans                                &trans  &trans  &trans  &trans  &trans      &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &macro_dialog_enter  &trans      &trans  &macro_dialog_escape  &trans          &trans  &trans  &trans  &trans      &trans
+&trans  &kp LC(LS(NUMBER_1))  &trans  &sl 12  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &sl 12  &trans  &ru_dialog  &trans
+&trans  &trans                &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans      &trans
+&trans  &trans                &trans  &trans  &trans  &trans  &trans  &trans               &trans      &trans  &trans                &trans  &trans  &trans  &trans  &trans  &trans      &trans
+&trans  &trans                &trans  &trans  &trans  &trans                               &trans      &trans                                &trans  &trans  &trans  &trans  &trans      &trans
+&trans  &trans                &trans  &trans  &trans          &trans  &macro_dialog_enter  &trans      &trans  &macro_dialog_escape  &trans          &trans  &trans  &trans  &trans      &trans
             >;
         };
 
         dialog_ru {
             bindings = <
-&trans  &en_dialog  &trans  &sl 13  &trans  &trans  &trans                                      &trans  &trans  &trans  &sl 13  &trans  &none   &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &en_dialog  &trans  &sl 13  &trans  &trans  &trans                                      &trans  &trans  &trans  &sl 13  &trans  &kp LC(LS(NUMBER_2))  &trans
+&trans  &trans      &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans                &trans
+&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans
+&trans  &trans      &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans                &trans
+&trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans                &trans
             >;
         };
 
         layer_nav {
             bindings = <
 &kp LC(TILDE)        &en_editor     &macro_shift_to_1  &macro_to_0_to_1   &trans            &trans             &kp LC(LA(N7))                                             &kp LS(LC(P))    &trans            &trans            &macro_to_0_to_1   &macro_shift_to_1  &ru_editor    &trans
-&macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)          &kp LC(SLASH)      &kp LA(ENTER)     &kp LC(LS(U))      &trans                                                     &trans           &kp LC(D)         &kp HOME          &kp UP             &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
+&macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)          &kp LC(SLASH)      &kp LA(ENTER)     &kp LC(LS(U))      &trans                                                     &trans           &kp LC(D)         &kp LC(DELETE)    &kp UP             &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
 &kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)        &lt 7 LC(B)        &kp LS(ENTER)     &kp LC(LA(RIGHT))  &trans           &trans       &trans      &trans  &trans   &trans           &kp LC(LA(LEFT))  &kp LC(LEFT)      &kp DOWN           &kp LC(RIGHT)      &kp END       &trans
-&trans               &kp LS(F10)    &kp LS(DELETE)     &kp LC(INSERT)     &kp LS(INSERT)    &kp LC(LA(Z))                                    &trans      &trans                            &kp LS(LC(Z))     &kp LC(Z)         &kp BACKSPACE      &kp LC(DELETE)     &kp LC(END)   &trans
+&trans               &kp LS(F10)    &kp LS(DELETE)     &kp LC(INSERT)     &kp LS(INSERT)    &kp LC(LA(Z))                                    &trans      &trans                            &kp LS(LC(Z))     &kp LC(Z)         &kp HOME           &kp LC(DELETE)     &kp LC(END)   &trans
 &trans               &lt 11 N7      &lm0mod LALT N5    &lm0mod LSHIFT N1  &lm0mod LCTRL N3                     &mo_ctrl_e 10 0  &lt 8 ENTER  &trans      &trans  &kp ESC  &mo_toedit 16 0                    &lm0mod LCTRL N2  &lm0mod LSHIFT N0  &lm0mod RALT N4    &lt 11 N6     &trans
             >;
         };
@@ -655,7 +655,7 @@
 &kp LA(GRAVE)  &trans        &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                &trans        &trans              &trans        &trans        &kp LA(LC(LS(J)))  &trans         &trans
 &trans         &kp LC(T)     &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                &trans        &kp LA(J)           &kp LC(W)     &kp LS(UP)    &kp LS(LA(LC(O)))  &kp BACKSPACE  &trans
 &trans         &kp LS(HOME)  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans  &trans        &none               &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)      &kp LS(END)    &trans
-&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                        &kp LA(LS(INSERT))  &none         &kp F3        &kp LS(HOME)       &trans         &trans
+&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                        &kp LA(LS(INSERT))  &none         &kp LS(HOME)  &kp LS(HOME)       &trans         &trans
 &none          &none         &macro_p1       &macro_p2      &macro_p3                     &kp ENTER  &kp LC(ENTER)  &trans      &trans  &trans  &kp LS(HOME)                      &trans        &trans        &trans             &trans         &trans
             >;
         };
@@ -673,9 +673,9 @@
         layer_motions {
             bindings = <
 &trans  &trans  &trans     &trans     &trans     &trans  &trans                                              &trans      &kp LC(LA(N7))  &kp LC(TAB)     &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans        &trans
-&trans  &trans  &trans     &trans     &trans     &trans  &trans                                              &trans      &kp LC(S)       &kp HOME        &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)  &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &trans                                              &trans      &kp LC(S)       &kp DELETE      &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)  &trans
 &trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans      &trans  &kp LC(ESCAPE)  &trans      &trans          &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END       &trans
-&trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                  &trans      &trans                              &kp LC(LS(Z))   &kp LC(Z)       &trans             &kp DELETE         &kp LC(END)   &trans
+&trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                  &trans      &trans                              &kp LC(LS(Z))   &kp LC(Z)       &kp HOME           &kp DELETE         &kp LC(END)   &trans
 &trans  &trans  &trans     &trans     &trans             &trans  &trans  &trans      &trans  &kp ESCAPE      &kp LSHIFT                  &none           &none              &none              &none         &none
             >;
         };
