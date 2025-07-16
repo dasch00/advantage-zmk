@@ -692,21 +692,21 @@
 
         symbols {
             bindings = <
-&trans  &trans        &none                 &kp LC(C)          &trans             &trans           &trans                                                 &trans     &none                   &none                  &none             &none         &none          &none
-&trans  &kp CARET     &kp LEFT_BRACE        &kp DOLLAR         &kp PIPE           &macro_or        &trans                                                 &trans     &macro_double_amprsand  &kp AMPERSAND          &macro_fat_arrow  &macro_arrow  &kp BACKSLASH  &none
-&trans  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp EXCLAMATION  &trans     &trans     &trans      &trans  &trans       &trans     &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp MINUS     &kp COLON      &none
-&trans  &kp HASH      &kp AT                &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp PLUS                               &trans      &trans                          &kp RIGHT_BRACE         &kp UNDERSCORE         &kp COMMA         &kp DOT       &kp QUESTION   &none
-&trans  &trans        &trans                &trans             &trans                              &sk LCTRL  &kp K_APP  &trans      &trans  &kp PERCENT  &sk LCTRL                          &trans                 &trans            &trans        &trans         &trans
+&trans  &trans        &none                 &kp LC(C)          &trans             &trans           &trans                                                 &trans     &none                   &none                  &kp LC(LS(ENTER))  &none         &none          &none
+&trans  &kp CARET     &kp LEFT_BRACE        &kp DOLLAR         &kp PIPE           &macro_or        &trans                                                 &trans     &macro_double_amprsand  &kp AMPERSAND          &macro_fat_arrow   &macro_arrow  &kp BACKSLASH  &none
+&trans  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp EXCLAMATION  &trans     &trans     &trans      &trans  &trans       &trans     &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL          &kp MINUS     &kp COLON      &none
+&trans  &kp HASH      &kp AT                &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp PLUS                               &trans      &trans                          &kp RIGHT_BRACE         &kp UNDERSCORE         &kp COMMA          &kp DOT       &kp QUESTION   &none
+&trans  &trans        &trans                &trans             &trans                              &sk LCTRL  &kp K_APP  &trans      &trans  &kp PERCENT  &sk LCTRL                          &trans                 &trans             &trans        &trans         &trans
             >;
         };
 
         ru_symbols {
             bindings = <
-&trans  &trans        &none                 &none             &trans                 &trans           &trans                                                        &trans   &none                   &none                  &none             &none         &none                &none
-&trans  &kp CARET     &kp LEFT_BRACE        &kp DOLLAR        &kp PIPE               &macro_or        &trans                                                        &trans   &macro_double_amprsand  &kp AMPERSAND          &macro_fat_arrow  &macro_arrow  &macro_triple_equal  &none
-&trans  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LS(N2)        &single_quote_from_ru  &kp EXCLAMATION  &trans             &trans    &trans      &trans  &trans       &trans   &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL         &kp MINUS     &kp LS(NUMBER_6)     &none
-&trans  &kp HASH      &kp AT                &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp PLUS                                      &trans      &trans                        &kp RIGHT_BRACE         &kp UNDERSCORE         &kp LS(SLASH)     &kp SLASH     &kp LS(N7)           &none
-&trans  &trans        &trans                &trans            &trans                                  &kp LS(LC(ENTER))  &kp STAR  &trans      &trans  &kp PERCENT  &kp TAB                          &trans                 &trans            &trans        &trans               &trans
+&trans  &trans        &none                 &none             &trans                 &trans           &trans                                                        &trans   &none                   &none                  &kp LS(LC(ENTER))  &none         &none                &none
+&trans  &kp CARET     &kp LEFT_BRACE        &kp DOLLAR        &kp PIPE               &macro_or        &trans                                                        &trans   &macro_double_amprsand  &kp AMPERSAND          &macro_fat_arrow   &macro_arrow  &macro_triple_equal  &none
+&trans  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LS(N2)        &single_quote_from_ru  &kp EXCLAMATION  &trans             &trans    &trans      &trans  &trans       &trans   &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL          &kp MINUS     &kp LS(NUMBER_6)     &none
+&trans  &kp HASH      &kp AT                &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp PLUS                                      &trans      &trans                        &kp RIGHT_BRACE         &kp UNDERSCORE         &kp LS(SLASH)      &kp SLASH     &kp LS(N7)           &none
+&trans  &trans        &trans                &trans            &trans                                  &kp LS(LC(ENTER))  &kp STAR  &trans      &trans  &kp PERCENT  &kp TAB                          &trans                 &trans             &trans        &trans               &trans
             >;
         };
 
