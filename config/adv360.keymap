@@ -634,7 +634,7 @@
             bindings = <
 &kp LC(TILDE)        &en_editor     &macro_shift_to_1  &macro_to_0_to_1   &trans            &trans             &kp LC(LA(N7))                                             &kp LS(LC(P))    &trans            &trans            &macro_to_0_to_1   &macro_shift_to_1  &ru_editor    &trans
 &macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)          &kp LS(ENTER)      &kp LA(ENTER)     &kp LC(LS(U))      &trans                                                     &trans           &kp LC(D)         &kp LC(DELETE)    &kp UP             &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
-&kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)        &macro_dollar      &lt 7 LC(B)       &kp LC(LA(RIGHT))  &trans           &trans       &trans      &trans  &trans   &trans           &kp LC(LA(LEFT))  &kp LC(LEFT)      &kp DOWN           &kp LC(RIGHT)      &kp END       &trans
+&kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)        &lt 7 LC(B)        &macro_dollar     &kp LC(LA(RIGHT))  &trans           &trans       &trans      &trans  &trans   &trans           &kp LC(LA(LEFT))  &kp LC(LEFT)      &kp DOWN           &kp LC(RIGHT)      &kp END       &trans
 &trans               &kp LS(F10)    &kp LS(DELETE)     &kp LC(INSERT)     &kp LS(INSERT)    &kp LC(LA(Z))                                    &trans      &trans                            &kp LC(D)         &kp HOME          &kp LC(Z)          &kp LC(LS(Z))      &kp LC(END)   &trans
 &trans               &lt 11 N7      &lm0mod LALT N5    &lm0mod LSHIFT N1  &lm0mod LCTRL N3                     &mo_ctrl_e 10 0  &lt 8 ENTER  &trans      &trans  &kp ESC  &mo_toedit 16 0                    &lm0mod LCTRL N2  &lm0mod LSHIFT N0  &lm0mod RALT N4    &lt 11 N6     &trans
             >;
@@ -694,7 +694,7 @@
             bindings = <
 &trans    &trans             &none                 &kp LC(C)         &trans             &trans           &trans                                                 &trans     &none                   &none                  &kp LC(LS(ENTER))  &macro_triple_equal  &none          &none
 &trans    &kp CARET          &kp LEFT_BRACE        &kp LEFT_BRACKET  &kp PIPE           &macro_or        &trans                                                 &trans     &macro_double_amprsand  &kp AMPERSAND          &macro_fat_arrow   &macro_arrow         &kp BACKSLASH  &none
-&kp HASH  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp DOLLAR        &kp SINGLE_QUOTE   &kp EXCLAMATION  &trans     &trans     &trans      &trans  &trans       &trans     &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL          &kp MINUS            &kp COLON      &none
+&kp HASH  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp APOSTROPHE    &kp DOLLAR         &kp EXCLAMATION  &trans     &trans     &trans      &trans  &trans       &trans     &macro_not_equal        &kp RIGHT_PARENTHESIS  &kp EQUAL          &kp MINUS            &kp COLON      &none
 &trans    &kp RIGHT_BRACKET  &kp AT                &kp PERCENT       &kp DOUBLE_QUOTES  &kp PLUS                               &trans      &trans                          &kp RIGHT_BRACE         &kp UNDERSCORE         &kp COMMA          &kp DOT              &kp QUESTION   &none
 &trans    &trans             &trans                &trans            &trans                              &sk LCTRL  &kp K_APP  &trans      &trans  &kp PERCENT  &sk LCTRL                          &trans                 &trans             &trans               &trans         &trans
             >;
