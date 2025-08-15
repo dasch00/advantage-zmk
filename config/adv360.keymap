@@ -537,7 +537,7 @@
         compatible = "zmk,combos";
 
         CtrlShiftEnter {
-            bindings = <&kp LS(LC(ENTER))>;
+            bindings = <&kp LS(TAB)>;
             key-positions = <42 43>;
         };
 
@@ -552,18 +552,23 @@
         };
 
         left_apps {
-            bindings = <&sl 9>;
+            bindings = <&kp LC(C)>;
             key-positions = <31 30>;
         };
 
         Ctrl_C {
-            bindings = <&kp LC(C)>;
+            bindings = <&kp LC(V)>;
             key-positions = <16 17>;
         };
 
         Ctrl_V {
-            bindings = <&kp LC(V)>;
-            key-positions = <48 49>;
+            bindings = <&sl 9>;
+            key-positions = <50 49>;
+        };
+
+        m-commf {
+            bindings = <&sl 9>;
+            key-positions = <55 56>;
         };
     };
 
