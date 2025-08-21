@@ -158,7 +158,7 @@
             compatible = "zmk,behavior-macro";
             label = "macro_shift_to_1";
             #binding-cells = <0>;
-            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &sk LSHFT>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &skq LSHFT>;
         };
 
         macro_p12: macro_p12 {
