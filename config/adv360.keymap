@@ -692,11 +692,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2       &kp F3        &trans         &kp F5        &kp F6  &tog 2                                             &mo 6    &kp F7  &kp F8        &trans         &kp F10       &kp F11       &kp F12
-&trans  &trans       &trans        &trans         &trans        &trans  &none                                              &none    &trans  &trans        &kp F11        &kp F12       &trans        &trans
-&trans  &hm LGUI F1  &hm LCTRL F2  &hm LSHIFT F3  &hm LALT F4   &kp F5  &none    &trans  &trans      &sk LGUI  &sk LALT    &none    &kp F6  &hm LALT F7   &hm LSHIFT F8  &hm LCTRL F9  &hm LGUI F10  &trans
-&trans  &trans       &trans        &trans         &trans        &trans                   &trans      &trans                         &trans  &trans        &trans         &trans        &trans        &trans
-&kp F9  &kp F7       &mt LALT F5   &mt LSHFT F1   &mt LCTRL F3          &kp F11  &to 4   &trans      &trans    &sk LSHIFT  &kp F12          &mt LCTRL F2  &mt LSHFT F10  &mt LALT F4   &kp F6        &kp F8
+&trans               &trans       &trans       &trans        &trans        &trans  &trans                                            &trans   &trans  &trans        &trans         &trans       &trans       &trans
+&trans               &trans       &trans       &trans        &trans        &trans  &none                                             &none    &trans  &trans        &trans         &trans       &trans       &trans
+&trans               &trans       &trans       &trans        &trans        &trans  &none    &trans   &trans      &sk LGUI  &sk LALT  &none    &trans  &trans        &trans         &trans       &trans       &trans
+&trans               &trans       &trans       &trans        &trans        &trans                    &trans      &trans                       &trans  &trans        &trans         &trans       &trans       &trans
+&mt LC(LS(LALT)) F9  &mt F7 LGUI  &mt LALT F5  &mt LSHFT F1  &mt LCTRL F3          &kp F11  &kp F12  &trans      &trans    &kp F12   &kp F11          &mt LCTRL F2  &mt LSHFT F10  &mt LALT F4  &mt LGUI F6  &mt LC(LS(LALT)) F8
             >;
         };
 
