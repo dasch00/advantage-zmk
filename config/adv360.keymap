@@ -582,11 +582,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE      &kp LC(LS(NUMBER_1))  &skq LSHFT   &sl 12              &kp TAB             &sl 9  &kp F12                                                                                         &mo 15           &sl 9  &kp TAB             &sl 12              &skq LSHFT         &ru_default        &kp RIGHT_BRACKET
-&kp BACKSLASH  &kp Q                 &kp W        &kp E               &kp R               &kp T  &to 0                                                                                           &to 2            &kp Y  &kp U               &kp I               &kp O              &kp P              &kp LEFT_BRACKET
-&kp ESCAPE     &kp A                 &kp S        &kp D               &kp F               &kp G  &mo 15        &kp LC(TAB)  &lt 14 LA(TAB)              &mt LGUI LC(BACKSPACE)  &macro_win_tab   &mo 15           &kp H  &kp J               &kp K               &kp L              &kp SEMI           &mt LSHFT SINGLE_QUOTE
-&kp LG(D)      &kp Z                 &kp X        &kp C               &kp V               &kp B                             &sl 12                      &kp TAB                                                   &kp N  &kp M               &kp COMMA           &kp DOT            &kp FSLH           &to 4
-&lt 15 N9      &hm LGUI N7           &hm LALT N5  &hm LSHFT NUMBER_1  &hm LCTRL NUMBER_3         &lt 10 SPACE  &lt 8 ENTER  &mt LEFT_GUI LG(LS(S))      &mt LGUI LG(L)          &mt LGUI ESCAPE  &hm LCTRL SPACE         &hm RCTRL NUMBER_2  &hm RSHFT NUMBER_0  &hm RALT NUMBER_4  &hm RGUI NUMBER_6  &lt 15 N8
+&kp GRAVE      &kp LC(LS(NUMBER_1))  &skq LSHFT   &sl 12              &kp TAB             &sl 9  &kp F12                                                                                         &mo 15        &sl 9  &kp TAB                 &sl 12                  &skq LSHFT             &ru_default            &kp RIGHT_BRACKET
+&kp BACKSLASH  &kp Q                 &kp W        &kp E               &kp R               &kp T  &to 0                                                                                           &to 2         &kp Y  &kp U                   &kp I                   &kp O                  &kp P                  &kp LEFT_BRACKET
+&kp ESCAPE     &kp A                 &kp S        &kp D               &kp F               &kp G  &mo 15        &kp LC(TAB)  &lt 14 LA(TAB)              &mt LGUI LC(BACKSPACE)  &macro_win_tab   &mo 15        &kp H  &kp J                   &kp K                   &kp L                  &kp SEMI               &mt LSHFT SINGLE_QUOTE
+&kp LG(D)      &kp Z                 &kp X        &kp C               &kp V               &kp B                             &sl 12                      &kp TAB                                                &kp N  &kp M                   &kp COMMA               &kp DOT                &kp FSLH               &to 4
+&lt 15 N9      &hm LGUI N7           &hm LALT N5  &hm LSHFT NUMBER_1  &hm LCTRL NUMBER_3         &lt 10 SPACE  &lt 8 ENTER  &mt LEFT_GUI LG(LS(S))      &mt LGUI LG(L)          &mt LGUI ESCAPE  &lt 16 SPACE         &lm0mod RCTRL NUMBER_2  &lm0mod RSHFT NUMBER_0  &lm0mod RALT NUMBER_4  &lm0mod RGUI NUMBER_6  &lt 15 N8
             >;
         };
 
@@ -768,6 +768,15 @@
 &trans  &trans  &trans     &trans              &trans         &trans                  &trans      &trans                              &kp LA(LS(INSERT))  &kp LC(LC(UP))    &kp LC(LA(COMMA))  &kp LC(LC(DOWN))   &trans       &trans
 &trans  &trans  &trans     &trans              &trans                 &trans  &trans  &trans      &trans  &trans  &macro_shift_enter                      &trans            &trans             &trans             &trans       &trans
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        L0L16 {
+            if-layers = <0 16>;
+            then-layer = <11>;
         };
     };
 };
