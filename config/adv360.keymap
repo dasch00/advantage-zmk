@@ -622,11 +622,11 @@
 
         editor {
             bindings = <
-&trans  &kp LS(LC(NUMBER_1))  &trans  &sl 13  &trans  &trans  &trans                                            &trans  &trans  &trans  &sl 13  &trans  &ru_editor  &trans
-&trans  &trans                &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans      &trans
-&trans  &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans      &trans
-&trans  &trans                &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans      &trans
-&trans  &trans                &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans      &trans
+&trans  &kp ASTERISK  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp DOLLAR  &kp PIPE  &trans                                            &trans  &kp SINGLE_QUOTE  &kp MINUS  &kp TAB  &kp EQUAL  &kp AMPERSAND  &trans
+&trans  &trans        &trans            &trans                &trans      &trans    &trans                                            &trans  &trans            &trans     &trans   &trans     &trans         &trans
+&trans  &trans        &trans            &trans                &trans      &trans    &trans  &trans  &trans      &trans  &trans        &trans  &trans            &trans     &trans   &trans     &trans         &trans
+&trans  &trans        &trans            &trans                &trans      &trans                    &trans      &trans                        &trans            &trans     &trans   &trans     &trans         &trans
+&trans  &trans        &trans            &trans                &trans                &trans  &trans  &trans      &trans  &macro_tonav  &trans                    &trans     &trans   &trans     &trans         &trans
             >;
         };
 
