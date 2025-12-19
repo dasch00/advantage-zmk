@@ -602,11 +602,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE      &kp N9          &kp N3           &kp N1      &kp N5            &kp N7  &kp F12                                                                                         &mo 16        &kp NUMBER_6  &kp NUMBER_4      &kp N0      &kp NUMBER_2     &kp N8       &kp RIGHT_BRACKET
-&kp BACKSLASH  &kp Q           &kp W            &kp E       &kp R             &kp T   &to 0                                                                                           &to 2         &kp Y         &kp U             &kp I       &kp O            &kp P        &kp LEFT_BRACKET
-&kp ESCAPE     &kp A           &kp S            &kp D       &kp F             &kp G   &mo 16        &kp LC(TAB)  &lt 15 LA(TAB)              &mt LGUI LC(BACKSPACE)  &macro_win_tab   &mo 16        &kp H         &kp J             &kp K       &kp L            &kp SEMI     &mt LSHFT SINGLE_QUOTE
-&kp LG(D)      &kp Z           &kp X            &kp C       &kp V             &kp B                              &sl 13                      &kp TAB                                                &kp N         &kp M             &kp COMMA   &kp DOT          &kp FSLH     &to 5
-&lt 16 N9      &kp LA(LS(N9))  &mod_sl LALT 10  &skq LSHFT  &mod_sl LCTRL 13          &lt 11 SPACE  &lt 9 ENTER  &mt LEFT_GUI LG(LS(S))      &mt LGUI LG(L)          &mt LGUI ESCAPE  &lt 17 SPACE                &mod_sl RCTRL 13  &skq RSHFT  &mod_sl RALT 10  &ru_default  &lt 16 N8
+&kp GRAVE      &kp N9          &kp N3            &kp N1      &kp N5           &kp N7  &kp F12                                                                                   &mo 16        &kp NUMBER_6  &kp NUMBER_4     &kp N0      &kp NUMBER_2      &kp N8       &kp RIGHT_BRACKET
+&kp BACKSLASH  &kp Q           &kp W             &kp E       &kp R            &kp T   &to 0                                                                                     &to 2         &kp Y         &kp U            &kp I       &kp O             &kp P        &kp LEFT_BRACKET
+&kp ESCAPE     &kp A           &kp S             &kp D       &kp F            &kp G   &mo 16        &kp LC(TAB)  &lt 15 LA(TAB)        &mt LGUI LC(BACKSPACE)  &macro_win_tab   &mo 16        &kp H         &kp J            &kp K       &kp L             &kp SEMI     &mt LSHFT SINGLE_QUOTE
+&kp LG(D)      &kp Z           &kp X             &kp C       &kp V            &kp B                              &sl 13                &kp TAB                                                &kp N         &kp M            &kp COMMA   &kp DOT           &kp FSLH     &to 5
+&lt 16 N9      &kp LA(LS(N9))  &mod_sl LCTRL 17  &skq LSHFT  &mod_sl LALT 10          &lt 11 SPACE  &lt 9 ENTER  &lt 15 LG(LS(S))      &mt LGUI LG(L)          &mt LGUI ESCAPE  &lt 17 SPACE                &mod_sl RALT 10  &skq RSHFT  &mod_sl RCTRL 17  &ru_default  &lt 16 N8
             >;
         };
 
@@ -752,11 +752,11 @@
 
         layer_number_pad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans        &trans  &kp PERCENT   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9          &kp COMMA              &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &none  &none      &none  &kp MINUS  &trans        &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6          &kp DOT                &trans
-&trans  &trans  &trans  &trans  &trans  &trans                 &none      &none                           &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp SLASH              &trans
-&trans  &trans  &trans  &trans  &trans          &none   &none  &none      &none  &kp PLUS   &kp NUMBER_0          &trans        &trans        &trans                &trans                 &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &trans                                      &trans        &trans  &kp PERCENT   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans   &kp N3  &kp N4  &kp N8  &trans  &trans                                      &trans        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9          &kp COMMA              &trans
+&trans  &kp DOT  &kp N0  &kp N1  &kp N2  &kp N9  &trans  &none  &none      &none  &kp MINUS  &trans        &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6          &kp DOT                &trans
+&trans  &trans   &kp N7  &kp N6  &kp N5  &trans                 &none      &none                           &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp SLASH              &trans
+&trans  &trans   &trans  &trans  &trans          &none   &none  &none      &none  &kp PLUS   &kp NUMBER_0          &trans        &trans        &trans                &trans                 &trans
             >;
         };
 
