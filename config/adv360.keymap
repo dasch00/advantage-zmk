@@ -602,11 +602,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE      &kp N9          &kp N3            &kp N1      &kp N5           &kp N7  &kp F12                                                                                   &mo 16        &kp NUMBER_6  &kp NUMBER_4     &kp N0            &kp NUMBER_2      &kp N8       &kp RIGHT_BRACKET
-&kp BACKSLASH  &kp Q           &kp W             &kp E       &kp R            &kp T   &to 0                                                                                     &to 2         &kp Y         &kp U            &kp I             &kp O             &kp P        &kp LEFT_BRACKET
-&kp ESCAPE     &kp A           &kp S             &kp D       &kp F            &kp G   &mo 16        &kp LC(TAB)  &lt 15 LA(TAB)        &mt LGUI LC(BACKSPACE)  &macro_win_tab   &mo 16        &kp H         &kp J            &kp K             &kp L             &kp SEMI     &ru_default
-&kp LG(D)      &kp Z           &kp X             &kp C       &kp V            &kp B                              &sl 13                &kp TAB                                                &kp N         &kp M            &kp COMMA         &kp DOT           &kp FSLH     &to 5
-&lt 16 N9      &kp LA(LS(N9))  &mod_sl LCTRL 17  &skq LSHFT  &mod_sl LALT 10          &lt 11 SPACE  &lt 9 ENTER  &lt 15 LG(LS(S))      &mt LGUI LG(L)          &mt LGUI ESCAPE  &lt 15 SPACE                &mod_sl RALT 10  &mod_sl RSHFT 18  &mod_sl RCTRL 17  &ru_default  &lt 16 N8
+&kp GRAVE      &kp ASTERISK    &kp SINGLE_QUOTE  &kp DOLLAR  &kp LEFT_BRACKET  &kp PIPE  &kp F12                                                                                   &kp N0        &kp MINUS  &kp LEFT_PARENTHESIS  &kp TAB           &kp EQUAL         &kp AMPERSAND  &kp PLUS
+&kp BACKSLASH  &kp Q           &kp W             &kp E       &kp R             &kp T     &to 0                                                                                     &to 2         &kp Y      &kp U                 &kp I             &kp O             &kp P          &kp LEFT_BRACE
+&kp ESCAPE     &kp A           &kp S             &kp D       &kp F             &kp G     &mo 16        &kp LC(TAB)  &lt 15 LA(TAB)        &mt LGUI LC(BACKSPACE)  &macro_win_tab   &mo 16        &kp H      &kp J                 &kp K             &kp L             &kp SEMI       &ru_default
+&kp LG(D)      &kp Z           &kp X             &kp C       &kp V             &kp B                                &sl 13                &kp TAB                                                &kp N      &kp M                 &kp COMMA         &kp DOT           &kp FSLH       &to 5
+&lt 16 N9      &kp LA(LS(N9))  &mod_sl LCTRL 17  &skq LSHFT  &mod_sl LALT 10             &lt 11 SPACE  &lt 9 ENTER  &lt 15 LG(LS(S))      &mt LGUI LG(L)          &mt LGUI ESCAPE  &lt 15 SPACE             &mod_sl RALT 10       &mod_sl RSHFT 18  &mod_sl RCTRL 17  &ru_default    &lt 16 N8
             >;
         };
 
@@ -782,11 +782,11 @@
 
         layer_shift {
             bindings = <
-&kp LS(GRAVE)      &kp LS(N1)  &kp LS(N2)  &kp LS(N3)        &kp LS(N4)        &kp LS(N5)  &tog 2                                                             &mo 7          &kp LS(N6)  &kp LS(N7)        &kp LS(N8)     &kp LS(N9)        &kp LS(NUMBER_0)  &kp LS(MINUS)
-&kp LS(MINUS)      &kp LS(Q)   &kp LS(W)   &kp LS(E)         &kp LS(R)         &kp LS(T)   &none                                                              &none          &kp LS(Y)   &kp LS(U)         &kp LS(I)      &kp LS(O)         &kp LS(P)         &kp LS(LEFT_BRACKET)
-&kp LS(BACKSLASH)  &kp LS(A)   &kp LS(S)   &kp LS(D)         &kp LS(F)         &kp LS(G)   &none      &kp LCTRL      &kp LALT      &kp LGUI   &kp RCTRL       &none          &kp LS(H)   &kp LS(J)         &kp LS(K)      &kp LS(L)         &kp LS(SEMI)      &kp LS(SINGLE_QUOTE)
-&kp LSHFT          &kp LS(Z)   &kp LS(X)   &kp LS(C)         &kp LS(V)         &kp LS(B)                             &kp HOME      &kp PG_UP                                 &kp LS(N)   &kp LS(M)         &kp LS(COMMA)  &kp LS(DOT)       &kp LS(SLASH)     &kp RSHFT
-&kp LS(N7)         &kp LS(N9)  &kp LS(N5)  &kp LS(NUMBER_1)  &kp LS(NUMBER_3)              &kp ENTER  &kp LS(ENTER)  &sk LALT      &sk LALT   &kp LS(ESCAPE)  &kp LA(ENTER)              &kp LS(NUMBER_2)  &kp LS(N0)     &kp LS(NUMBER_4)  &kp LS(N8)        &kp LS(NUMBER_6)
+&kp LS(GRAVE)      &kp PERCENT  &kp DOUBLE_QUOTES  &macro_fat_arrow  &kp RIGHT_BRACKET  &macro_or  &tog 2                                                             &mo 7          &kp LS(MINUS)  &kp RIGHT_PARENTHESIS  &kp LS(LC(ENTER))  &macro_arrow      &macro_double_amprsand  &kp AT_SIGN
+&kp LS(MINUS)      &kp LS(Q)    &kp LS(W)          &kp LS(E)         &kp LS(R)          &kp LS(T)  &none                                                              &none          &kp LS(Y)      &kp LS(U)              &kp LS(I)          &kp LS(O)         &kp LS(P)               &kp RIGHT_BRACE
+&kp LS(BACKSLASH)  &kp LS(A)    &kp LS(S)          &kp LS(D)         &kp LS(F)          &kp LS(G)  &none      &kp LCTRL      &kp LALT      &kp LGUI   &kp RCTRL       &none          &kp LS(H)      &kp LS(J)              &kp LS(K)          &kp LS(L)         &kp LS(SEMI)            &kp LS(SINGLE_QUOTE)
+&kp LSHFT          &kp LS(Z)    &kp LS(X)          &kp LS(C)         &kp LS(V)          &kp LS(B)                            &kp HOME      &kp PG_UP                                 &kp LS(N)      &kp LS(M)              &kp LS(COMMA)      &kp LS(DOT)       &kp LS(SLASH)           &kp RSHFT
+&kp LS(N7)         &kp LS(N9)   &kp LS(N5)         &kp LS(NUMBER_1)  &kp LS(NUMBER_3)              &kp ENTER  &kp LS(ENTER)  &sk LALT      &sk LALT   &kp LS(ESCAPE)  &kp LA(ENTER)                 &kp LS(NUMBER_2)       &kp LS(N0)         &kp LS(NUMBER_4)  &kp LS(N8)              &kp LS(NUMBER_6)
             >;
         };
 
