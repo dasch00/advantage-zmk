@@ -712,11 +712,11 @@
 
         layer_motions {
             bindings = <
-&trans  &trans       &trans       &trans        &trans        &trans  &trans                                              &trans      &kp LC(LA(N7))  &kp LC(TAB)     &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans        &trans
-&trans  &trans       &trans       &trans        &trans        &trans  &trans                                              &trans      &kp LC(V)       &kp LC(Z)       &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)  &trans
-&trans  &trans       &trans       &trans        &trans        &trans  &trans  &trans  &trans      &trans  &kp LC(ESCAPE)  &trans      &kp LC(C)       &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END       &trans
-&trans  &trans       &kp LC(X)    &kp LC(C)     &kp LC(V)     &trans                  &trans      &trans                              &kp LC(X)       &kp LC(LEFT)    &kp LC(RIGHT)      &kp DELETE         &kp HOME      &trans
-&kp F9  &mt LGUI F7  &mt LALT F5  &mt LSHFT F1  &mt LCTRL F3          &trans  &trans  &trans      &trans  &kp ESCAPE      &kp LSHIFT                  &mt RCTRL F2    &mt RSHFT F10      &mt RALT F4        &mt RGUI F6   &kp F8
+&trans  &trans        &trans        &trans        &trans       &trans  &trans                                              &trans      &kp LC(LA(N7))  &kp LC(TAB)     &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans        &trans
+&trans  &trans        &kp N3        &kp N4        &kp N8       &trans  &trans                                              &trans      &kp LC(V)       &kp LC(Z)       &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)  &trans
+&trans  &hm LGUI DOT  &hm LCTRL N0  &hm LSHFT N1  &hm LALT N2  &kp N9  &trans  &trans  &trans      &trans  &kp LC(ESCAPE)  &trans      &kp LC(C)       &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END       &trans
+&trans  &trans        &kp N7        &kp N6        &kp N5       &trans                  &trans      &trans                              &kp LC(X)       &kp LC(LEFT)    &kp LC(RIGHT)      &kp DELETE         &kp HOME      &trans
+&trans  &trans        &trans        &trans        &trans               &trans  &trans  &trans      &trans  &kp ESCAPE      &kp LSHIFT                  &trans          &trans             &trans             &trans        &trans
             >;
         };
 
