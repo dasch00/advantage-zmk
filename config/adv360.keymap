@@ -551,6 +551,83 @@
             bindings = <&kp LC(LS(NUMBER_1)) &kp SINGLE_QUOTE &kp LC(LS(NUMBER_2))>;
             label = "SINGLE_QUOTE_FROM_RU";
         };
+
+        Dollar: Dollar {
+            compatible = "zmk,behavior-macro";
+            label = "DOLLAR";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp DOLLAR>;
+        };
+
+        BracketLeft: BracketLeft {
+            compatible = "zmk,behavior-macro";
+            label = "BRACKETLEFT";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp LEFT_BRACKET>;
+        };
+
+        Quote: Quote {
+            compatible = "zmk,behavior-macro";
+            label = "QUOTE";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp SINGLE_QUOTE>;
+        };
+
+        Asterisk: Asterisk {
+            compatible = "zmk,behavior-macro";
+            label = "ASTERISK";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp DOLLAR>;
+        };
+
+        Pipe: Pipe {
+            compatible = "zmk,behavior-macro";
+            label = "PIPE";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp PIPE>;
+        };
+
+        Minus: Minus {
+            compatible = "zmk,behavior-macro";
+            label = "MINUS";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp MINUS>;
+        };
+
+        ParenthesisLeft: ParenthesisLeft {
+            compatible = "zmk,behavior-macro";
+            label = "PARENTHESISLEFT";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp LEFT_PARENTHESIS>;
+        };
+
+        Equal: Equal {
+            compatible = "zmk,behavior-macro";
+            label = "EQUAL";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp EQUAL>;
+        };
+
+        Ampersand: Ampersand {
+            compatible = "zmk,behavior-macro";
+            label = "AMPERSAND";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp AMPERSAND>;
+        };
+
+        Apostrophe: Apostrophe {
+            compatible = "zmk,behavior-macro";
+            label = "APOSTROPHE";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp APOSTROPHE>;
+        };
+
+        Plus: Plus {
+            compatible = "zmk,behavior-macro";
+            label = "PLUS";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp PLUS>;
+        };
     };
 
     combos {
@@ -662,11 +739,11 @@
 
         layer_nav {
             bindings = <
-&kp LC(TILDE)        &en_editor     &macro_shift_to_1  &macro_to_0_to_1  &trans          &trans                  &kp LC(LA(N7))                                                     &kp LS(LC(P))    &trans         &trans        &macro_to_0_to_1  &macro_shift_to_1  &ru_editor    &trans
-&macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)          &kp LC(SLASH)     &kp LA(ENTER)   &kp LC(D)               &trans                                                             &trans           &kp LC(V)      &kp LC(F)     &kp UP            &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
-&kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)        &lt 7 LC(B)       &kp LS(ENTER)   &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans   &trans           &kp HOME       &kp LC(LEFT)  &kp DOWN          &kp LC(RIGHT)      &kp END       &trans
-&trans               &kp LS(F10)    &kp LS(DELETE)     &kp LC(INSERT)    &kp LS(INSERT)  &kp LC(LS(U))                                                 &trans      &trans                            &kp LS(LC(Z))  &kp LC(Z)     &key_repeat       &kp LC(DELETE)     &kp LC(END)   &trans
-&trans               &trans         &trans             &trans            &trans                                  &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &kp ESC  &mo_toedit 15 0                 &trans        &trans            &trans             &trans        &trans
+&kp LC(TILDE)        &Asterisk      &Quote          &Dollar         &BracketLeft    &Pipe                   &kp LC(LA(N7))                                                     &kp LS(LC(P))    &Minus         &ParenthesisLeft  &trans       &Equal             &Ampersand    &trans
+&macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)       &kp LC(SLASH)   &kp LA(ENTER)   &kp LC(D)               &trans                                                             &trans           &kp LC(V)      &kp LC(F)         &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
+&kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)     &lt 7 LC(B)     &kp LS(ENTER)   &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans   &trans           &kp HOME       &kp LC(LEFT)      &kp DOWN     &kp LC(RIGHT)      &kp END       &ru_editor
+&trans               &kp LS(F10)    &kp LS(DELETE)  &kp LC(INSERT)  &kp LS(INSERT)  &kp LC(LS(U))                                                 &trans      &trans                            &kp LS(LC(Z))  &kp LC(Z)         &key_repeat  &kp LC(DELETE)     &kp LC(END)   &trans
+&trans               &trans         &trans          &trans          &trans                                  &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &kp ESC  &mo_toedit 15 0                 &trans            &trans       &trans             &trans        &trans
             >;
         };
 
