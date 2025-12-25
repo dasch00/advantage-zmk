@@ -127,6 +127,16 @@
             continue-list = <N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>;
             mods = <(MOD_LCTL|MOD_LSFT|MOD_LALT|MOD_LGUI|MOD_RCTL|MOD_RSFT|MOD_RALT|MOD_RGUI)>;
         };
+
+        mod_tog: mod_tog {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOD_TOG";
+            bindings = <&kp>, <&tog>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     macros {
