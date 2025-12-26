@@ -797,11 +797,11 @@
 
         layer_apps {
             bindings = <
-&kp LA(GRAVE)  &trans      &kp LS(ESCAPE)  &kp LA(ENTER)  &kp K_APP  &trans      &trans                                                     &trans  &kp LC(LA(N7))  &kp LC(TAB)  &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans        &trans
-&macro_p13     &kp LC(T)   &macro_p8       &macro_p9      &macro_p7  &macro_p12  &trans                                                     &trans  &kp LC(S)       &kp HOME     &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)  &trans
-&macro_p10     &kp N7      &kp N5          &kp N3         &kp N1     &kp N9      &trans  &trans         &trans      &trans  &kp LC(ESCAPE)  &trans  &kp N8          &kp N0       &kp N2             &kp N4             &kp NUMBER_6  &trans
-&trans         &macro_p11  &macro_p4       &macro_p5      &macro_p6  &macro_p0                          &trans      &trans                          &none           &macro_p1    &macro_p2          &macro_p3          &kp LC(END)   &trans
-&trans         &trans      &trans          &trans         &kp LALT               &sl 15  &kp LA(ENTER)  &trans      &trans  &kp LA(ESCAPE)  &sl 15                  &kp RALT     &trans             &trans             &trans        &trans
+&kp LA(GRAVE)  &trans      &kp LS(ESCAPE)  &kp_tog LA(ESCAPE) 9  &kp K_APP  &trans      &trans                                                     &trans  &kp LC(LA(N7))  &kp LC(TAB)  &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans        &trans
+&macro_p13     &kp LC(T)   &macro_p8       &macro_p9             &macro_p7  &macro_p12  &trans                                                     &trans  &kp LC(S)       &kp HOME     &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)  &trans
+&macro_p10     &kp N7      &kp N5          &kp N3                &kp N1     &kp N9      &trans  &trans         &trans      &trans  &kp LC(ESCAPE)  &trans  &kp N8          &kp N0       &kp N2             &kp N4             &kp NUMBER_6  &trans
+&trans         &macro_p11  &macro_p4       &macro_p5             &macro_p6  &macro_p0                          &trans      &trans                          &none           &macro_p1    &macro_p2          &macro_p3          &kp LC(END)   &trans
+&trans         &trans      &trans          &trans                &kp LALT               &sl 15  &kp LA(ENTER)  &trans      &trans  &kp LA(ESCAPE)  &sl 15                  &kp RALT     &trans             &trans             &trans        &trans
             >;
         };
 
