@@ -646,6 +646,16 @@
             #binding-cells = <0>;
             bindings = <&to 2 &kp LC(LA(NUMBER_1)) &kp PLUS>;
         };
+
+        kp_tog: kp_tog {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
+            bindings =
+                <&macro_tap>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &tog MACRO_PLACEHOLDER>;
+
+            label = "KP_TOG";
+        };
     };
 
     combos {
