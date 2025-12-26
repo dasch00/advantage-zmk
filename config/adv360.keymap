@@ -666,6 +666,16 @@
 
             label = "KP_TOG9";
         };
+
+        kp_to2: kp_to2 {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings =
+                <&macro_tap>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER &to 2>;
+
+            label = "KP_TO2";
+        };
     };
 
     combos {
@@ -777,11 +787,11 @@
 
         layer_nav {
             bindings = <
-&kp LC(TILDE)        &Asterisk      &Quote          &Dollar         &BracketLeft    &Pipe                   &kp LC(LA(N7))                                                     &kp LS(LC(P))    &Minus         &ParenthesisLeft  &trans       &Equal             &Ampersand    &trans
-&macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)       &kp LC(SLASH)   &kp LA(ENTER)   &kp LC(D)               &trans                                                             &trans           &kp LC(V)      &kp LC(F)         &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
-&kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)     &lt 7 LC(B)     &kp LS(ENTER)   &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans   &trans           &kp HOME       &kp LC(LEFT)      &kp DOWN     &kp LC(RIGHT)      &kp END       &ru_editor
-&trans               &kp LS(F10)    &kp LS(DELETE)  &kp LC(INSERT)  &kp LS(INSERT)  &kp LC(LS(U))                                                 &trans      &trans                            &kp LS(LC(Z))  &kp LC(Z)         &key_repeat  &kp LC(DELETE)     &kp LC(END)   &trans
-&trans               &trans         &trans          &trans          &trans                                  &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &kp ESC  &mo_toedit 13 0                 &trans            &trans       &trans             &trans        &trans
+&kp LC(TILDE)        &Asterisk      &kp_to2 SINGLE_QUOTE  &Dollar         &BracketLeft    &Pipe                   &kp LC(LA(N7))                                                     &kp LS(LC(P))    &Minus         &ParenthesisLeft  &trans       &Equal             &Ampersand    &trans
+&macro_jump_to_char  &kp LC(LA(L))  &kp LC(W)             &kp LC(SLASH)   &kp LA(ENTER)   &kp LC(D)               &trans                                                             &trans           &kp LC(V)      &kp LC(F)         &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)  &trans
+&kp LC(LS(F))        &kp LA(N7)     &kp LC(TAB)           &lt 7 LC(B)     &kp LS(ENTER)   &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans   &trans           &kp HOME       &kp LC(LEFT)      &kp DOWN     &kp LC(RIGHT)      &kp END       &ru_editor
+&trans               &kp LS(F10)    &kp LS(DELETE)        &kp LC(INSERT)  &kp LS(INSERT)  &kp LC(LS(U))                                                 &trans      &trans                            &kp LS(LC(Z))  &kp LC(Z)         &key_repeat  &kp LC(DELETE)     &kp LC(END)   &trans
+&trans               &trans         &trans                &trans          &trans                                  &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &kp ESC  &mo_toedit 13 0                 &trans            &trans       &trans             &trans        &trans
             >;
         };
 
