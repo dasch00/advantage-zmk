@@ -533,42 +533,42 @@
         ru_default: ru_to_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(N8)) &to 1>;
+            bindings = <&kp LS(LA(N8)) &to 1>;
             label = "RU_TO_1";
         };
 
         ru_editor: ru_to_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(N8)) &to 3 &kp LC(LA(NUMBER_1))>;
+            bindings = <&kp LS(LA(N8)) &to 3 &kp LC(LA(NUMBER_1))>;
             label = "RU_TO_4";
         };
 
         en_default: en_to_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(N9)) &to 0>;
+            bindings = <&kp LS(LA(N9)) &to 0>;
             label = "EN_TO_0";
         };
 
         en_editor: en_to_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(N9)) &to 2 &kp LC(LA(NUMBER_1))>;
+            bindings = <&kp LS(LA(N9)) &to 2 &kp LC(LA(NUMBER_1))>;
             label = "EN_TO_2";
         };
 
         ru_dialog: ru_dialog {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(N8)) &to 5>;
+            bindings = <&kp LS(LA(N8)) &to 5>;
             label = "RU_DIALOG";
         };
 
         en_dialog: en_dialog {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(N9)) &to 4>;
+            bindings = <&kp LS(LA(N9)) &to 4>;
             label = "EN_DIALOG";
         };
 
