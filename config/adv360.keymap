@@ -688,18 +688,13 @@
         };
 
         Ctrl_V {
-            bindings = <&kp V>;
+            bindings = <&kp LC(V)>;
             key-positions = <50 49>;
         };
 
         CV {
             bindings = <&kp LC(C)>;
             key-positions = <48 49>;
-        };
-
-        kinesis {
-            bindings = <&macro_kinesis>;
-            key-positions = <0 6>;
         };
     };
 
@@ -811,7 +806,7 @@
 &trans  &trans       &trans        &trans              &trans       &trans  &trans                                              &trans      &kp LC(LA(N7))  &kp LC(TAB)     &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans        &trans
 &trans  &trans       &kp DOT       &kp ASTERISK        &trans       &trans  &trans                                              &trans      &kp LC(V)       &kp LC(Z)       &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)  &trans
 &trans  &hm LGUI N7  &hm LCTRL N5  &hm LSHFT NUMBER_3  &hm LALT N1  &kp N9  &trans  &trans  &trans      &trans  &kp LC(ESCAPE)  &trans      &kp LC(C)       &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END       &trans
-&trans  &kp N6       &kp NUMBER_4  &kp NUMBER_2        &kp N0       &kp N8                  &trans      &trans                              &kp LC(X)       &kp LC(LEFT)    &kp LC(RIGHT)      &kp DELETE         &kp HOME      &trans
+&trans  &kp N6       &kp NUMBER_4  &kp NUMBER_2        &kp N0       &kp N8                  &trans      &trans                              &kp LC(LS(Z))   &kp LC(Z)       &kp LC(RIGHT)      &kp DELETE         &kp HOME      &trans
 &trans  &trans       &trans        &trans              &trans               &trans  &trans  &trans      &trans  &kp ESCAPE      &kp LSHIFT                  &trans          &trans             &trans             &trans        &trans
             >;
         };
