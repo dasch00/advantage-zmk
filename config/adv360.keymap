@@ -394,7 +394,7 @@
             compatible = "zmk,behavior-macro";
             label = "macro_p8";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(LA(W))) &to 6 &kp LA(LC(N0)) &kp LC(LS(NUMBER_1))>;
+            bindings = <&kp LC(LS(LA(W))) &to 6 &cursor_block &en_lang>;
         };
 
         macro_p7: macro_p7 {
@@ -523,17 +523,10 @@
             bindings = <&kp LBKT &kp RBKT &kp LEFT>;
         };
 
-        macro_kinesis: macro_kinesis {
-            compatible = "zmk,behavior-macro";
-            label = "macro_kinesis";
-            #binding-cells = <0>;
-            bindings = <&kp LS(D) &kp S &kp N0 &kp N7>;
-        };
-
         ru_default: ru_to_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(N8)) &to 1>;
+            bindings = <&ru_lang &to 1>;
             label = "RU_TO_1";
         };
 
@@ -661,11 +654,18 @@
             label = "EN_LANG";
         };
 
-        app: app {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+        app_block: app {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
+            bindings = <&sk LCTRL &sk LSHFT &sk LALT &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER &en_lang &cursor_block>;
             label = "APP";
+        };
+
+        app_line: app_line {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
+            bindings = <&sk LCTRL &sk LSHFT &sk LALT &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER &cursor_line>;
+            label = "APP_LINE";
         };
     };
 
@@ -703,7 +703,7 @@
 
         default_layer {
             bindings = <
-&kp GRAVE      &kp ASTERISK    &kp SINGLE_QUOTE  &kp DOLLAR  &kp LEFT_BRACKET  &kp PIPE  &kp F12                                                                                     &kp N0        &kp MINUS  &kp LEFT_PARENTHESIS  &kp TAB           &kp EQUAL         &kp AMPERSAND  &kp PLUS
+&kp GRAVE      &kp ASTERISK    &kp SINGLE_QUOTE  &kp DOLLAR  &kp LEFT_BRACKET  &kp PIPE  &kp F12                                                                                     &kp N0        &kp MINUS  &kp LEFT_PARENTHESIS  &kp TAB           &kp EQUAL         &kp AMPERSAND  &kp KP_PLUS
 &kp BACKSLASH  &kp Q           &kp W             &kp E       &kp R             &kp T     &to 0                                                                                       &to 2         &kp Y      &kp U                 &kp I             &kp O             &kp P          &kp LEFT_BRACE
 &kp ESCAPE     &kp A           &kp S             &kp D       &kp F             &kp G     &mo 11        &kp LC(TAB)  &lt 0 LA(TAB)           &mt LGUI LC(BACKSPACE)  &macro_win_tab   &mo 11        &kp H      &kp J                 &kp K             &kp L             &kp SEMI       &ru_default
 &kp LG(D)      &kp Z           &kp X             &kp C       &kp V             &kp B                                &to 0                   &to 2                                                  &kp N      &kp M                 &kp COMMA         &kp DOT           &kp FSLH       &to 4
@@ -793,11 +793,11 @@
 
         layer_apps {
             bindings = <
-&kp LA(GRAVE)  &trans      &kp_tog9 LC(TAB)  &kp_tog9 LA(TAB)  &kp K_APP   &trans      &trans                                                            &trans       &kp LC(LA(N7))  &kp LC(TAB)  &kp_tog9 LG(TAB)  &kp_tog9 DELETE  &trans        &trans
-&macro_p13     &kp LC(T)   &macro_p8         &macro_p9         &macro_p7   &macro_p12  &trans                                                            &trans       &kp LC(S)       &kp HOME     &kp UP_ARROW      &kp BACKSPACE    &kp LC(HOME)  &trans
-&macro_p10     &kp N7      &kp N5            &kp N3            &kp N1      &kp N9      &trans       &trans          &trans      &trans  &kp LC(ESCAPE)   &trans       &kp N8          &kp N0       &kp N2            &kp N4           &kp NUMBER_6  &trans
-&trans         &macro_p11  &macro_p4         &macro_p5         &macro_p6   &macro_p0                                &trans      &trans                                &none           &macro_p1    &macro_p2         &macro_p3        &kp LC(END)   &trans
-&trans         &trans      &sk LCTRL         &sk LSHFT         &tog9_sl 9              &tog9_sl 14  &kp_tog9 ENTER  &trans      &trans  &mod_tog LGUI 9  &tog9_sl 14                  &tog9_sl 9   &sk LSHIFT        &sk LCTRL        &trans        &trans
+&kp LA(GRAVE)  &trans      &kp_tog9 LC(TAB)  &kp_tog9 LA(TAB)  &kp K_APP   &trans         &trans                                                            &trans       &kp LC(LA(N7))  &kp LC(TAB)  &kp_tog9 LG(TAB)  &kp_tog9 DELETE  &trans        &trans
+&macro_p13     &kp LC(T)   &app_block W 6    &macro_p9         &macro_p7   &app_line E 0  &trans                                                            &trans       &kp LC(S)       &kp HOME     &kp UP_ARROW      &kp BACKSPACE    &kp LC(HOME)  &trans
+&macro_p10     &kp N7      &kp N5            &kp N3            &kp N1      &kp N9         &trans       &trans          &trans      &trans  &kp LC(ESCAPE)   &trans       &kp N8          &kp N0       &kp N2            &kp N4           &kp NUMBER_6  &trans
+&trans         &macro_p11  &macro_p4         &macro_p5         &macro_p6   &macro_p0                                   &trans      &trans                                &none           &macro_p1    &macro_p2         &macro_p3        &kp LC(END)   &trans
+&trans         &trans      &sk LCTRL         &sk LSHFT         &tog9_sl 9                 &tog9_sl 14  &kp_tog9 ENTER  &trans      &trans  &mod_tog LGUI 9  &tog9_sl 14                  &tog9_sl 9   &sk LSHIFT        &sk LCTRL        &trans        &trans
             >;
         };
 
