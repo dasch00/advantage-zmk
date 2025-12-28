@@ -657,14 +657,14 @@
         app_block: app {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
-            bindings = <&sk LCTRL &sk LSHFT &sk LALT &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER &en_lang &cursor_block>;
+            bindings = <&sk LS(LA(LCTRL)) &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER &en_lang &cursor_block>;
             label = "APP";
         };
 
         app_line: app_line {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
-            bindings = <&sk LCTRL &sk LSHFT &sk LALT &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER &cursor_line>;
+            bindings = <&sk LS(LA(LCTRL)) &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER &cursor_line>;
             label = "APP_LINE";
         };
     };
