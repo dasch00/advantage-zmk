@@ -803,11 +803,11 @@
 
         layer_motions {
             bindings = <
-&trans  &trans       &trans        &trans              &trans       &trans  &trans                                              &trans      &kp LC(LA(N7))  &kp LC(TAB)     &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans        &trans
-&trans  &trans       &kp DOT       &kp ASTERISK        &trans       &trans  &trans                                              &trans      &kp LC(V)       &kp LC(Z)       &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)  &trans
-&trans  &hm LGUI N7  &hm LCTRL N5  &hm LSHFT NUMBER_3  &hm LALT N1  &kp N9  &trans  &trans  &trans      &trans  &kp LC(ESCAPE)  &trans      &kp LC(C)       &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END       &trans
-&trans  &kp N6       &kp NUMBER_4  &kp NUMBER_2        &kp N0       &kp N8                  &trans      &trans                              &kp LC(LS(Z))   &kp LC(Z)       &kp LC(RIGHT)      &kp DELETE         &kp HOME      &trans
-&trans  &trans       &trans        &trans              &trans               &trans  &trans  &trans      &trans  &kp ESCAPE      &kp LSHIFT                  &trans          &trans             &trans             &trans        &trans
+&trans  &trans       &trans        &trans              &trans       &trans  &trans                                               &trans      &kp LC(LA(N7))  &kp LC(TAB)     &kp LS(LC(ENTER))  &kp LC(LS(LA(T)))  &trans        &trans
+&trans  &trans       &kp DOT       &kp ASTERISK        &trans       &trans  &trans                                               &trans      &kp LC(V)       &kp LC(Z)       &kp UP_ARROW       &kp BACKSPACE      &kp LC(HOME)  &trans
+&trans  &hm LGUI N7  &hm LCTRL N5  &hm LSHFT NUMBER_3  &hm LALT N1  &kp N9  &trans  &trans  &trans      &trans  &kp LC(ESCAPE)   &trans      &kp LC(C)       &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp END       &trans
+&trans  &kp N6       &kp NUMBER_4  &kp NUMBER_2        &kp N0       &kp N8                  &trans      &trans                               &kp LC(LS(Z))   &kp LC(Z)       &kp LC(RIGHT)      &kp DELETE         &kp HOME      &trans
+&trans  &trans       &trans        &trans              &trans               &trans  &trans  &trans      &trans  &mt LGUI ESCAPE  &kp LSHIFT                  &trans          &trans             &trans             &trans        &trans
             >;
         };
 
