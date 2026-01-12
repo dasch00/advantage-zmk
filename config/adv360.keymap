@@ -243,14 +243,14 @@
             compatible = "zmk,behavior-macro";
             label = "macro_p11";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LS(Z))) &to 6 &kp LA(LC(N0)) &kp LC(LS(NUMBER_1))>;
+            bindings = <&kp LA(LC(LS(Z))) &to 6 &kp LA(LC(N0)) &en_lang>;
         };
 
         macro_p10: macro_p10 {
             compatible = "zmk,behavior-macro";
             label = "macro_p10";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(LA(A))) &to 6 &kp LA(LC(N0)) &kp LC(LS(NUMBER_1))>;
+            bindings = <&kp LC(LS(LA(A))) &to 6 &kp LA(LC(N0)) &en_lang>;
         };
 
         macro_enter_to_0: macro_enter_to_0 {
@@ -348,14 +348,14 @@
             compatible = "zmk,behavior-macro";
             label = "macro_dialog_escape";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE &to 6 &kp LC(LA(N0)) &kp LC(LS(NUMBER_1))>;
+            bindings = <&kp ESCAPE &to 6 &kp LC(LA(N0)) &en_lang>;
         };
 
         macro_dialog_enter: macro_dialog_enter {
             compatible = "zmk,behavior-macro";
             label = "macro_dialog_enter";
             #binding-cells = <0>;
-            bindings = <&kp ENTER &to 6 &kp LC(LA(N0)) &kp LC(LS(NUMBER_1))>;
+            bindings = <&kp ENTER &to 6 &kp LC(LA(N0)) &en_lang>;
         };
 
         macro_esc_nav: macro_esc_nav {
@@ -383,7 +383,7 @@
             compatible = "zmk,behavior-macro";
             label = "macro_p0";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(LS(B))) &to 6 &kp LC(LA(N0)) &kp LC(LS(NUMBER_1))>;
+            bindings = <&kp LA(LC(LS(B))) &to 6 &kp LC(LA(N0)) &en_lang>;
         };
 
         macro_p9: macro_p9 {
@@ -418,14 +418,14 @@
             compatible = "zmk,behavior-macro";
             label = "macro_p5";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(LA(D))) &to 6 &kp LC(LA(N0)) &kp LC(LS(NUMBER_1))>;
+            bindings = <&kp LC(LS(LA(D))) &to 6 &kp LC(LA(N0)) &en_lang>;
         };
 
         macro_p4: macro_p4 {
             compatible = "zmk,behavior-macro";
             label = "macro_p4";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(LA(S))) &to 6 &kp LA(LC(N0)) &kp LC(LS(NUMBER_1))>;
+            bindings = <&kp LC(LS(LA(S))) &to 6 &kp LA(LC(N0)) &en_lang>;
         };
 
         macro_p3: macro_p3 {
