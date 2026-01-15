@@ -736,11 +736,11 @@
 
         editor_ru {
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&en_editor  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&en_editor  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans     &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &kp COMMA  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans     &trans  &trans  &trans
             >;
         };
 
