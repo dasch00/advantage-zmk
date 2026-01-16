@@ -676,7 +676,7 @@
         compatible = "zmk,combos";
 
         io_combo {
-            bindings = <&kp TAB>;
+            bindings = <&sk LGUI>;
             key-positions = <24 25>;
         };
 
@@ -685,19 +685,24 @@
             key-positions = <4 9>;
         };
 
-        Ctrl_C {
-            bindings = <&kp TAB>;
+        we_combo {
+            bindings = <&sk LGUI>;
             key-positions = <16 17>;
         };
 
-        Ctrl_V {
-            bindings = <&kp LC(V)>;
+        cv_combo {
+            bindings = <&kp LC(C)>;
             key-positions = <50 49>;
         };
 
-        CV {
-            bindings = <&kp LC(C)>;
+        xc_combo {
+            bindings = <&sk LALT>;
             key-positions = <48 49>;
+        };
+
+        dotComma_combo {
+            bindings = <&sk LALT>;
+            key-positions = <56 57>;
         };
     };
 
