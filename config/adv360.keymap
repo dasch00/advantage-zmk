@@ -149,6 +149,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        alt_fn_num: alt_fn_num {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ALT_FN_NUM";
+            #binding-cells = <0>;
+            bindings = <&sk LALT>, <&sk_sl LALT 14>, <&sk_sl LALT 9>;
+        };
     };
 
     macros {
@@ -696,12 +703,12 @@
         };
 
         xc_combo {
-            bindings = <&sk LALT>;
+            bindings = <&alt_fn_num>;
             key-positions = <48 49>;
         };
 
         dotComma_combo {
-            bindings = <&sk LALT>;
+            bindings = <&alt_fn_num>;
             key-positions = <56 57>;
         };
     };
