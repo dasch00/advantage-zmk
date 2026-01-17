@@ -698,7 +698,7 @@
         };
 
         xc_combo {
-            bindings = <&sk LGUI>;
+            bindings = <&sk LALT>;
             key-positions = <48 49>;
         };
 
@@ -714,7 +714,7 @@
         default_layer {
             bindings = <
 &kp GRAVE   &kp ASTERISK  &kp SINGLE_QUOTE  &kp TAB           &kp MINUS        &kp PIPE  &kp F12                                                                                     &kp N0        &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp EQUAL         &kp COMMA         &kp LS(SEMICOLON)  &kp KP_PLUS
-&sk LALT    &kp Q         &kp W             &kp E             &kp R            &kp T     &to 0                                                                                       &to 2         &kp Y             &kp U                 &kp I             &kp O             &kp P              &kp LEFT_BRACKET
+&sk LGUI    &kp Q         &kp W             &kp E             &kp R            &kp T     &to 0                                                                                       &to 2         &kp Y             &kp U                 &kp I             &kp O             &kp P              &kp LEFT_BRACKET
 &kp ESCAPE  &kp A         &kp S             &kp D             &kp F            &kp G     &mo 11        &kp LC(TAB)  &lt 0 LA(TAB)           &mt LGUI LC(BACKSPACE)  &macro_win_tab   &mo 11        &kp H             &kp J                 &kp K             &kp L             &kp SEMI           &ru_default
 &kp LG(D)   &kp Z         &kp X             &kp C             &kp V            &kp B                                &to 0                   &to 2                                                  &kp N             &kp M                 &kp DOLLAR        &kp DOT           &kp FSLH           &to 4
 &lt 11 N9   &to 0         &mod_sl LCTRL 12  &mod_sl LSHFT 13  &mod_tog LALT 9            &lt 10 SPACE  &lt 8 ENTER  &mt LGUI LG(LS(S))      &mt LGUI LG(L)          &mt LGUI ESCAPE  &lt 15 SPACE                    &mod_tog RALT 9       &mod_sl RSHFT 13  &mod_sl RCTRL 12  &to 6              &lt 11 N8
