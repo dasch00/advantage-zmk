@@ -716,7 +716,7 @@
 &kp GRAVE   &kp ASTERISK  &kp SINGLE_QUOTE  &kp TAB           &kp MINUS  &kp PIPE  &kp F12                                                                      &kp N0        &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp EQUAL         &kp COMMA         &kp LS(SEMICOLON)  &kp KP_PLUS
 &win_fn     &kp Q         &kp W             &kp E             &kp R      &kp T     &to 0                                                                        &to 6         &kp Y             &kp U                 &kp I             &kp O             &kp P              &kp LEFT_BRACKET
 &kp ESCAPE  &kp A         &kp S             &kp D             &kp F      &kp G     &mo 11        &trans       &trans             &trans        &trans           &mo 11        &kp H             &kp J                 &kp K             &kp L             &kp SEMI           &ru_default
-&trans      &kp Z         &kp X             &kp C             &kp V      &kp B                                &trans             &trans                                       &kp N             &kp M                 &kp DOLLAR        &kp DOT           &kp FSLH           &trans
+&mo 11      &kp Z         &kp X             &kp C             &kp V      &kp B                                &trans             &trans                                       &kp N             &kp M                 &kp DOLLAR        &kp DOT           &kp FSLH           &mo 11
 &mo 11      &trans        &mod_sl LCTRL 12  &mod_sl LSHFT 13  &tog 9               &lt 10 SPACE  &lt 8 ENTER  &kp LS(LG(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 15 SPACE                    &tog 9                &mod_sl RSHFT 13  &mod_sl RCTRL 12  &trans             &mo 11
             >;
         };
@@ -823,11 +823,11 @@
 
         layer_mod {
             bindings = <
-&bl BL_CYCLE    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                       &trans                  &none  &trans      &trans           &none       &bl BL_TOG    &bt BT_CLR
-&none           &none         &none         &none         &none         &none         &bootloader                                                 &bootloader             &none  &none       &none            &none       &none         &none
-&studio_unlock  &none         &none         &none         &none         &none         &rgb_ug RGB_MEFS_CMD 5  &trans  &trans      &trans  &trans  &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none            &none       &none         &none
-&bootloader     &bootloader   &none         &none         &none         &bt BT_CLR                                    &trans      &trans                                  &none  &bl BL_TOG  &rgb_ug RGB_TOG  &bl BL_INC  &bt BT_SEL 1  &rgb_ug RGB_MEFS_CMD 5
-&none           &none         &none         &bt BT_PRV    &bt BT_NXT                  &trans                  &trans  &trans      &trans  &trans  &trans                         &bl BL_DEC  &bl BL_INC       &none       &none         &none
+&bl BL_CYCLE    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &none                                                               &trans                  &none  &trans      &trans           &none       &bl BL_TOG    &bt BT_CLR
+&none           &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &bootloader                                                         &bootloader             &none  &none       &none            &none       &none         &none
+&studio_unlock  &none          &none          &none          &none          &none          &rgb_ug RGB_MEFS_CMD 5  &trans  &bt BT_CLR_ALL      &trans  &trans  &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none            &none       &none         &none
+&bootloader     &bootloader    &none          &none          &none          &bt BT_CLR                                     &trans              &trans                                  &none  &bl BL_TOG  &rgb_ug RGB_TOG  &bl BL_INC  &bt BT_SEL 1  &rgb_ug RGB_MEFS_CMD 5
+&none           &none          &none          &bt BT_PRV     &bt BT_NXT                    &trans                  &trans  &trans              &trans  &trans  &trans                         &bl BL_DEC  &bl BL_INC       &none       &none         &none
             >;
         };
 
