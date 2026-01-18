@@ -838,7 +838,7 @@
 
         layer_control {
             bindings = <
-&kp GRAVE      &kp EXCLAMATION  &kp K_APP        &trans         &kp LC(LA(LS(T)))  &macro_fat_arrow  &tog 2                                                                              &mo 6            &kp DOUBLE_QUOTES  &kp LC(LA(N7))  &macro_triple_equal  &trans           &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)
+&kp GRAVE      &kp EXCLAMATION  &kp K_APP        &kp LC(TAB)    &kp LC(LA(LS(T)))  &macro_fat_arrow  &tog 2                                                                              &mo 6            &kp DOUBLE_QUOTES  &kp LC(LA(N7))  &macro_triple_equal  &trans           &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)
 &kp LC(MINUS)  &kp LC(Q)        &kp LC(F4)       &kp LC(LS(E))  &kp LC(R)          &kp LC(T)         &none                                                                               &none            &kp LC(Y)          &kp LC(U)       &kp LC(I)            &kp LC(O)        &kp LC(P)             &kp LC(BACKSLASH)
 &kp LSHFT      &kp LC(A)        &kp LC(S)        &kp LC(D)      &macro_ctrl_f      &kp LC(G)         &none            &kp LS(LC(ESCAPE))  &kp LC(LA(LS(T)))      &trans  &trans          &none            &kp LC(H)          &kp LC(J)       &macro_ctrl_k        &kp LC(L)        &kp LC(SEMICOLON)     &mt LSHFT SINGLE_QUOTE
 &kp LSHFT      &kp LC(Z)        &kp LC(X)        &kp LC(C)      &kp LC(V)          &kp LC(B)                                              &trans                 &trans                                   &kp LC(N)          &kp LC(M)       &kp LC(COMMA)        &kp LC(DOT)      &kp LC(SLASH)         &kp RSHFT
