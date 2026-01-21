@@ -703,7 +703,7 @@
         };
 
         dotComma_combo {
-            bindings = <&sk LGUI>;
+            bindings = <&sk LALT>;
             key-positions = <56 57>;
         };
 
@@ -718,11 +718,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE   &kp ASTERISK  &kp SINGLE_QUOTE  &kp TAB           &kp MINUS  &kp PIPE  &kp F12                                                                      &kp N0        &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp EQUAL         &kp COMMA         &kp LS(SEMICOLON)  &kp KP_PLUS
-&win_fn     &kp Q         &kp W             &kp E             &kp R      &kp T     &to 0                                                                        &to 6         &kp Y             &kp U                 &kp I             &kp O             &kp P              &kp LEFT_BRACKET
-&kp ESCAPE  &kp A         &kp S             &kp D             &kp F      &kp G     &mo 11        &trans       &trans             &trans        &trans           &mo 11        &kp H             &kp J                 &kp K             &kp L             &kp SEMI           &ru_default
-&mo 11      &kp Z         &kp X             &kp C             &kp V      &kp B                                &trans             &trans                                       &kp N             &kp M                 &kp DOLLAR        &kp DOT           &kp FSLH           &mo 11
-&mo 11      &trans        &mod_sl LCTRL 12  &mod_sl LSHFT 13  &tog 9               &lt 10 SPACE  &lt 8 ENTER  &kp LS(LG(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 15 SPACE                    &tog 9                &mod_sl RSHFT 13  &mod_sl RCTRL 12  &trans             &mo 11
+&kp GRAVE    &kp ASTERISK  &kp SINGLE_QUOTE  &kp TAB           &kp MINUS  &kp PIPE  &kp F12                                                                      &kp N0        &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp EQUAL         &kp COMMA         &kp LS(SEMICOLON)  &kp KP_PLUS
+&kp LC(TAB)  &kp Q         &kp W             &kp E             &kp R      &kp T     &to 0                                                                        &to 6         &kp Y             &kp U                 &kp I             &kp O             &kp P              &kp LEFT_BRACKET
+&win_fn      &kp A         &kp S             &kp D             &kp F      &kp G     &mo 11        &trans       &trans             &trans        &trans           &mo 11        &kp H             &kp J                 &kp K             &kp L             &kp SEMI           &ru_default
+&mo 11       &kp Z         &kp X             &kp C             &kp V      &kp B                                &trans             &trans                                       &kp N             &kp M                 &kp DOLLAR        &kp DOT           &kp FSLH           &mo 11
+&trans       &trans        &mod_sl LCTRL 12  &mod_sl LSHFT 13  &tog 9               &lt 10 SPACE  &lt 8 ENTER  &kp LS(LG(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 15 SPACE                    &tog 9                &mod_sl RSHFT 13  &mod_sl RCTRL 12  &trans             &trans
             >;
         };
 
@@ -859,7 +859,7 @@
         layer_fn {
             bindings = <
 &trans  &trans  &trans     &trans     &trans    &trans  &trans                                                     &trans  &trans  &trans        &trans        &trans        &trans       &trans
-&trans  &trans  &kp F1     &kp F12    &kp F8    &trans  &trans                                                     &trans  &trans  &trans        &trans        &trans        &trans       &trans
+&trans  &trans  &kp F1     &kp F12    &kp F8    &trans  &trans                                                     &trans  &trans  &trans        &kp F12       &trans        &trans       &trans
 &trans  &kp F7  &kp F5     &kp F3     &kp F11   &kp F9  &trans  &none           &none      &none  &kp MINUS        &trans  &kp F8  &hm LALT F10  &hm LSHFT F2  &hm LCTRL F4  &hm LGUI F6  &trans
 &trans  &kp F6  &kp F4     &kp F2     &kp F10   &kp F8                          &none      &none                           &trans  &trans        &trans        &trans        &trans       &trans
 &trans  &trans  &sk LCTRL  &sk LSHFT  &sk LALT          &trans  &mt LGUI ENTER  &none      &none  &mt LGUI ESCAPE  &trans          &sk LALT      &sk LSHFT     &sk LCTRL     &trans       &trans
