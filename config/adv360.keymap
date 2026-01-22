@@ -633,7 +633,7 @@
             compatible = "zmk,behavior-macro-one-param";
             label = "TO2_SL";
             #binding-cells = <1>;
-            bindings = <&to 2 &cursor_line &macro_param_1to1 &sl MACRO_PLACEHOLDER>;
+            bindings = <&cursor_line &to 2 &macro_param_1to1 &sl MACRO_PLACEHOLDER>;
         };
 
         cursor_block: cursor_block {
@@ -667,14 +667,14 @@
         app_block: app {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
-            bindings = <&sk LS(LA(LCTRL)) &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER &en_lang &cursor_block>;
+            bindings = <&skq LS(LA(LCTRL)) &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER &en_lang &cursor_block>;
             label = "APP";
         };
 
         app_line: app_line {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
-            bindings = <&sk LS(LA(LCTRL)) &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER>;
+            bindings = <&skq LS(LA(LCTRL)) &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER>;
             label = "APP_LINE";
         };
 
