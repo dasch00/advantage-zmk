@@ -677,6 +677,13 @@
             bindings = <&sk LS(LA(LCTRL)) &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER>;
             label = "APP_LINE";
         };
+
+        to2_sk: to2_sk {
+            compatible = "zmk,behavior-macro-one-param";
+            label = "TO2_SK";
+            #binding-cells = <1>;
+            bindings = <&to 2 &cursor_line &macro_param_1to1 &sk MACRO_PLACEHOLDER>;
+        };
     };
 
     combos {
@@ -796,7 +803,7 @@
 &kp LC(LS(F))  &kp LC(LA(L))     &kp LC(W)             &kp LC(SLASH)   &kp LA(ENTER)    &kp LC(D)               &macro_jump_to_char                                                            &trans           &kp LC(V)      &kp LC(F)                 &kp UP          &kp LC(BACKSPACE)  &kp LC(HOME)           &trans
 &trans         &kp LA(N7)        &kp LC(TAB)           &lt 7 LC(B)     &kp LS(ENTER)    &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans           &kp HOME       &kp LC(LEFT)              &kp DOWN        &kp LC(RIGHT)      &kp END                &ru_editor
 &trans         &kp LS(F10)       &kp LS(DELETE)        &kp LC(INSERT)  &kp LS(INSERT)   &kp LC(LS(U))                                                 &trans      &trans                                        &kp LS(LC(Z))  &kp LC(Z)                 &kp_to2 DOLLAR  &kp LC(DELETE)     &kp LC(END)            &trans
-&trans         &trans            &sl 11                &to2_sl 12      &lm0_tog LALT 9                          &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 15 0                 &lm0_tog LALT 9           &to2_sl 12      &sl 11             &trans                 &trans
+&trans         &trans            &sl 11                &to2_sk LSHFT   &lm0_tog LALT 9                          &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 15 0                 &lm0_tog LALT 9           &to2_sk LSHFT   &sl 11             &trans                 &trans
             >;
         };
 
