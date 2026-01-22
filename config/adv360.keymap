@@ -653,14 +653,14 @@
         ru_lang: ru_lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LS(N8)) &to 1>;
+            bindings = <&kp LA(LS(N8))>;
             label = "RU_LANG";
         };
 
         en_lang: en_lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LS(N9)) &to 0>;
+            bindings = <&kp LA(LS(N9))>;
             label = "EN_LANG";
         };
 
@@ -676,6 +676,20 @@
             #binding-cells = <2>;
             bindings = <&sk LS(LA(LCTRL)) &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER>;
             label = "APP_LINE";
+        };
+
+        en_default: en_default {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LS(N8)) &to 1>;
+            label = "EN_DEFAULT";
+        };
+
+        ru_default: ru_default {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LS(N8)) &to 1>;
+            label = "RU_DEFAULT";
         };
     };
 
@@ -693,7 +707,7 @@
         };
 
         cv_combo {
-            bindings = <&en_lang>;
+            bindings = <&en_default>;
             key-positions = <50 49>;
             layers = <0 1>;
         };
@@ -709,7 +723,7 @@
         };
 
         m_comma {
-            bindings = <&ru_lang>;
+            bindings = <&ru_default>;
             key-positions = <55 56>;
             layers = <0 1>;
         };
