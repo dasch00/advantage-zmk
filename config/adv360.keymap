@@ -682,7 +682,7 @@
             compatible = "zmk,behavior-macro-one-param";
             label = "TO2_SK";
             #binding-cells = <1>;
-            bindings = <&to 2 &cursor_line &macro_param_1to1 &sk MACRO_PLACEHOLDER>;
+            bindings = <&cursor_line &to 2 &macro_param_1to1 &sk MACRO_PLACEHOLDER>;
         };
     };
 
