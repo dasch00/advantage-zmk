@@ -812,11 +812,11 @@
 
         layer_selection {
             bindings = <
-&kp LA(GRAVE)  &trans        &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                &trans        &trans              &kp LS(TAB)       &trans             &kp LA(LC(LS(J)))  &trans           &trans
-&trans         &kp LC(T)     &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                &trans        &kp LC(C)           &kp LC(LS(Z))     &kp LS(UP)         &kp LS(LA(LC(O)))  &kp BACKSPACE    &kp LC(LA(COMMA))
-&trans         &kp LS(HOME)  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans  &trans        &kp LS(HOME)        &kp LS(LEFT)      &kp LS(DOWN)       &kp LS(RIGHT)      &kp LS(END)      &trans
-&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                        &kp LA(LS(INSERT))  &kp LS(LC(LEFT))  &kp LC(LS(RIGHT))  &kp LA(J)          &kp LS(LC(END))  &trans
-&trans         &trans        &trans          &trans         &trans                        &kp LCTRL  &kp LC(ENTER)  &trans      &trans  &trans  &kp LS(HOME)                      &trans            &trans             &trans             &trans           &trans
+&kp LA(GRAVE)  &trans        &kp LS(ESCAPE)  &kp LA(ENTER)  &kp LA(ENTER)  &kp LC(LS(F))  &trans                                                        &trans        &trans              &kp LS(TAB)       &trans             &kp LA(LC(LS(J)))  &trans           &trans
+&trans         &kp LC(T)     &macro_p8       &macro_p12     &macro_p7      &macro_p9      &trans                                                        &trans        &kp LC(C)           &kp LC(LS(Z))     &kp LS(UP)         &kp LS(LA(LC(O)))  &kp BACKSPACE    &kp LC(LA(COMMA))
+&trans         &kp LS(HOME)  &macro_p4       &macro_p5      &macro_p6      &macro_p13     &trans     &trans         &trans      &trans  &trans          &trans        &kp LS(HOME)        &kp LS(LEFT)      &kp LS(DOWN)       &kp LS(RIGHT)      &kp LS(END)      &trans
+&trans         &macro_p11    &kp LC(X)       &kp LC(C)      &kp LC(V)      &macro_p0                                &trans      &trans                                &kp LA(LS(INSERT))  &kp LS(LC(LEFT))  &kp LC(LS(RIGHT))  &kp LA(J)          &kp LS(LC(END))  &trans
+&trans         &trans        &trans          &trans         &trans                        &kp LCTRL  &kp LC(ENTER)  &trans      &trans  &kp LS(ESCAPE)  &kp LS(HOME)                      &trans            &trans             &trans             &trans           &trans
             >;
         };
 
