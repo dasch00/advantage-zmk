@@ -625,7 +625,10 @@
         sk_sl: sk_sl {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
-            bindings = <&macro_param_1to1 &sk MACRO_PLACEHOLDER &macro_param_2to1 &sl MACRO_PLACEHOLDER>;
+            bindings =
+                <&macro_tap>,
+                <&macro_param_1to1 &sk MACRO_PLACEHOLDER &macro_param_2to1 &sl MACRO_PLACEHOLDER>;
+
             label = "SK_SL";
         };
 
