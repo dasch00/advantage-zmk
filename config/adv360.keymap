@@ -690,12 +690,12 @@
         compatible = "zmk,combos";
 
         io_combo {
-            bindings = <&sl 9>;
+            bindings = <&macro_win_tab>;
             key-positions = <24 25>;
         };
 
         we_combo {
-            bindings = <&sl 9>;
+            bindings = <&kp LC(TAB)>;
             key-positions = <16 17>;
         };
 
@@ -706,7 +706,7 @@
         };
 
         xc_combo {
-            bindings = <&sk LALT>;
+            bindings = <&sl 9>;
             key-positions = <48 49>;
         };
 
