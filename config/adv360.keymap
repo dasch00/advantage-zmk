@@ -632,6 +632,7 @@
                 <&macro_param_1to1 &sl MACRO_PLACEHOLDER>,
                 <&macro_release>,
                 <&macro_param_1to1 &sl MACRO_PLACEHOLDER>,
+                <&macro_wait_time 50>,
                 <&macro_press>,
                 <&macro_param_2to1 &sk MACRO_PLACEHOLDER>,
                 <&macro_release>,
