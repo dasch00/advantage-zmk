@@ -893,11 +893,11 @@
 
         layer_fn {
             bindings = <
-&trans  &trans        &trans        &trans         &trans         &trans        &trans                                               &trans  &trans        &trans         &trans         &trans        &trans        &trans
-&trans  &trans        &kp_togFN F1  &kp_togFN F12  &kp F8         &trans        &trans                                               &trans  &trans        &trans         &kp_togFN F12  &trans        &trans        &trans
-&trans  &kp_togFN F7  &kp_togFN F5  &kp_togFN F3   &kp_togFN F11  &kp_togFN F9  &trans  &none           &none      &none  &kp MINUS  &trans  &kp_togFN F8  &kp_togFN F10  &kp_togFN F2   &kp_togFN F4  &kp_togFN F6  &trans
-&trans  &kp F6        &kp F4        &kp F2         &kp F10        &kp F8                                &none      &none                     &trans        &trans         &trans         &trans        &trans        &trans
-&trans  &trans        &sk LCTRL     &sk LSHFT      &sk LALT                     &trans  &mt LGUI ENTER  &none      &none  &tog 13    &trans                &sk LALT       &sk LSHFT      &sk LCTRL     &trans        &trans
+&trans  &trans        &trans        &trans         &trans         &trans        &trans                                        &trans  &trans        &trans         &trans         &trans        &trans        &trans
+&trans  &trans        &kp_togFN F1  &kp_togFN F12  &kp F8         &trans        &trans                                        &trans  &trans        &trans         &kp_togFN F12  &trans        &trans        &trans
+&trans  &kp_togFN F7  &kp_togFN F5  &kp_togFN F3   &kp_togFN F11  &kp_togFN F9  &trans  &none    &none      &none  &kp MINUS  &trans  &kp_togFN F8  &kp_togFN F10  &kp_togFN F2   &kp_togFN F4  &kp_togFN F6  &trans
+&trans  &togFN_sk F6  &kp_togFN F4  &kp_togFN F2   &kp_togFN F10  &kp_togFN F8                   &none      &none                     &trans        &trans         &trans         &trans        &trans        &trans
+&trans  &trans        &sk LCTRL     &sk LSHFT      &sk LALT                     &trans  &tog 13  &none      &none  &tog 13    &trans                &sk LALT       &sk LSHFT      &sk LCTRL     &trans        &trans
             >;
         };
 
