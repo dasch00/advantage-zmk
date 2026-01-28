@@ -708,6 +708,13 @@
             #binding-cells = <1>;
             bindings = <&tog 13 &macro_param_1to1 &sk MACRO_PLACEHOLDER>;
         };
+
+        togAPP_tog: tog9_tog {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&tog 9 &macro_param_1to1 &tog MACRO_PLACEHOLDER>;
+            label = "TOG9_TOG";
+        };
     };
 
     combos {
@@ -857,7 +864,7 @@
 &trans         &kp_tog9 LC(T)  &app_block W 6       &app_line E 0     &app_line R 0         &app_line T 0  &trans                                                               &trans          &app_line S 0        &app_block U 6  &app_line I 0        &app_block O 6    &app_line P 0      &trans
 &trans         &kp N7          &kp N5               &kp N3            &kp N1                &kp N9         &trans          &trans          &trans      &trans  &trans           &trans          &kp N8               &kp N0          &kp N2               &kp N4            &kp NUMBER_6       &trans
 &trans         &app_block Z 6  &app_block X 6       &app_block C 6    &app_line V 0         &app_line B 0                                  &trans      &trans                                   &app_line N 0        &app_line M 6   &app_block DOLLAR 6  &app_block DOT 6  &app_line SLASH 0  &trans
-&trans         &trans          &sk LCTRL            &sk LSHFT         &tog9_sl 13                          &kp_tog9 SPACE  &kp_tog9 ENTER  &trans      &trans  &kp_tog9 ESCAPE  &kp_tog9 SPACE                       &tog9_sl 13     &sk LSHIFT           &sk LCTRL         &trans             &trans
+&trans         &trans          &sk LCTRL            &sk LSHFT         &togAPP_tog 13                       &kp_tog9 SPACE  &kp_tog9 ENTER  &trans      &trans  &kp_tog9 ESCAPE  &kp_tog9 SPACE                       &togAPP_tog 13  &sk LSHIFT           &sk LCTRL         &trans             &trans
             >;
         };
 
