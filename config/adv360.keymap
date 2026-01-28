@@ -156,7 +156,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "WIN_FN";
             #binding-cells = <0>;
-            bindings = <&sk LGUI>, <&sk_sl LGUI 13>;
+            bindings = <&sk LGUI>, <&togFN_sk LGUI>;
         };
     };
 
