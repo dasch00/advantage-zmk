@@ -158,6 +158,16 @@
             #binding-cells = <0>;
             bindings = <&sk LGUI>, <&togFN_sk LGUI>;
         };
+
+        mo_kp_tog9: mo_kp_tog9 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MO_KP_TOG9";
+            bindings = <&mo>, <&kp_tog9>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     macros {
@@ -860,11 +870,11 @@
 
         layer_apps {
             bindings = <
-&kp LA(GRAVE)  &trans          &kp_tog9 LEFT_BRACE  &kp_tog9 LA(TAB)  &kp_tog9 RIGHT_BRACE  &kp K_APP      &trans                                                               &trans          &kp_tog9 LC(LA(N7))  &trans          &macro_win_tab       &kp_tog9 LA(TAB)  &trans             &trans
-&trans         &kp_tog9 LC(T)  &app_block W 6       &app_line E 0     &app_line R 0         &app_line T 0  &trans                                                               &trans          &app_line S 0        &app_block U 6  &app_line I 0        &app_block O 6    &app_line P 0      &trans
-&trans         &kp N7          &kp N5               &kp N3            &kp N1                &kp N9         &trans          &trans          &trans      &trans  &trans           &trans          &kp N8               &kp N0          &kp N2               &kp N4            &kp NUMBER_6       &trans
-&trans         &app_block Z 6  &app_block X 6       &app_block C 6    &app_line V 0         &app_line B 0                                  &trans      &trans                                   &app_line N 0        &app_line M 6   &app_block DOLLAR 6  &app_block DOT 6  &app_line SLASH 0  &trans
-&trans         &trans          &sk LSHFT            &sk LCTRL         &togAPP_tog 13                       &kp_tog9 SPACE  &kp_tog9 ENTER  &trans      &trans  &kp_tog9 ESCAPE  &kp_tog9 SPACE                       &togAPP_tog 13  &sk LCTRL            &sk RSHFT         &trans             &trans
+&kp LA(GRAVE)  &trans          &kp_tog9 LEFT_BRACE  &kp_tog9 LA(TAB)  &kp_tog9 RIGHT_BRACE  &kp K_APP      &trans                                                                     &trans          &kp_tog9 LC(LA(N7))  &trans          &macro_win_tab       &kp_tog9 LA(TAB)  &trans             &trans
+&trans         &kp_tog9 LC(T)  &app_block W 6       &app_line E 0     &app_line R 0         &app_line T 0  &trans                                                                     &trans          &app_line S 0        &app_block U 6  &app_line I 0        &app_line O 0     &app_line P 0      &trans
+&trans         &kp N7          &kp N5               &kp N3            &kp N1                &kp N9         &trans                &trans          &trans      &trans  &trans           &trans          &kp N8               &kp N0          &kp N2               &kp N4            &kp NUMBER_6       &trans
+&trans         &app_block Z 6  &app_block X 6       &app_block C 6    &app_line V 0         &app_line B 0                                        &trans      &trans                                   &app_line N 0        &app_line M 6   &app_block DOLLAR 6  &app_block DOT 6  &app_line SLASH 0  &trans
+&trans         &trans          &sk LSHFT            &sk LCTRL         &togAPP_tog 13                       &mo_kp_tog9 10 SPACE  &kp_tog9 ENTER  &trans      &trans  &kp_tog9 ESCAPE  &kp_tog9 SPACE                       &togAPP_tog 13  &sk LCTRL            &sk RSHFT         &trans             &trans
             >;
         };
 
