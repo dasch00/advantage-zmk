@@ -770,11 +770,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE  &kp ASTERISK  &kp SINGLE_QUOTE  &kp TAB           &kp MINUS  &kp PIPE  &kp F12                                                                      &kp N0        &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp EQUAL         &kp COMMA         &kp LS(SEMICOLON)  &kp KP_PLUS
+&kp GRAVE  &kp ASTERISK  &kp SINGLE_QUOTE  &kp TAB           &kp MINUS  &kp PIPE  &kp F12                                                                      &kp N0        &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp DOLLAR        &kp EQUAL         &kp LS(SEMICOLON)  &kp KP_PLUS
 &sk LALT   &kp Q         &kp W             &kp E             &kp R      &kp T     &to 0                                                                        &to 6         &kp Y             &kp U                 &kp I             &kp O             &kp P              &kp LEFT_BRACKET
 &win_fn    &kp A         &kp S             &kp D             &kp F      &kp G     &mo 14        &trans       &trans             &trans        &trans           &mo 14        &kp H             &kp J                 &kp K             &kp L             &kp SEMI           &ru_default
-&mo 14     &kp Z         &kp X             &kp C             &kp V      &kp B                                &trans             &trans                                       &kp N             &kp M                 &kp DOLLAR        &kp DOT           &kp FSLH           &mo 14
-&trans     &trans        &mod_sl LCTRL 11  &mod_sl LSHFT 12  &tog 9               &lt 10 SPACE  &lt 8 ENTER  &kp LS(LG(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 15 SPACE                    &tog 9                &mod_sl RSHFT 12  &mod_sl RCTRL 11  &trans             &trans
+&mo 14     &kp Z         &kp X             &kp C             &kp V      &kp B                                &trans             &trans                                       &kp N             &kp M                 &kp COMMA         &kp DOT           &kp FSLH           &mo 14
+&trans     &trans        &mod_sl LSHFT 12  &mod_sl LCTRL 11  &tog 9               &lt 10 SPACE  &lt 8 ENTER  &kp LS(LG(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 15 SPACE                    &tog 9                &mod_sl LCTRL 11  &mod_sl RSHFT 12  &trans             &trans
             >;
         };
 
@@ -880,11 +880,11 @@
 
         layer_control {
             bindings = <
-&kp GRAVE  &kp EXCLAMATION  &kp K_APP        &kp LC(TAB)    &kp LC(LA(LS(T)))  &macro_fat_arrow  &tog 2                                                                              &mo 6            &kp DOUBLE_QUOTES  &kp LC(LA(N7))  &macro_triple_equal  &trans           &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)
-&kp CARET  &kp LC(Q)        &kp LC(F4)       &kp LC(LS(E))  &kp LC(R)          &kp LC(T)         &none                                                                               &none            &kp LC(Y)          &kp LC(U)       &kp LC(I)            &kp LC(O)        &kp LC(P)             &kp LC(BACKSLASH)
-&trans     &kp LC(A)        &kp LC(S)        &kp LC(D)      &macro_ctrl_f      &kp LC(G)         &none            &kp LS(LC(ESCAPE))  &kp LC(LA(LS(T)))      &trans  &trans          &none            &kp LC(H)          &kp LC(J)       &macro_ctrl_k        &kp LC(L)        &kp LC(SEMICOLON)     &mt LSHFT SINGLE_QUOTE
-&trans     &kp LC(Z)        &kp LC(X)        &kp LC(C)      &kp LC(V)          &kp LC(B)                                              &trans                 &trans                                   &kp LC(N)          &kp LC(M)       &kp LC(COMMA)        &kp LC(DOT)      &kp LC(SLASH)         &kp RSHFT
-&trans     &trans           &togFN_sk LCTRL  &sk LSHIFT     &sk LALT                             &sk_sl LCTRL 13  &kp LC(ENTER)       &trans                 &trans  &kp LC(ESCAPE)  &sk_sl LCTRL 13                     &sk RALT        &sk RSHFT            &togFN_sk LCTRL  &trans                &trans
+&kp GRAVE  &kp EXCLAMATION  &kp K_APP   &kp LC(TAB)      &kp LC(LA(LS(T)))  &macro_fat_arrow  &tog 2                                                                              &mo 6            &kp DOUBLE_QUOTES  &kp LC(LA(N7))  &macro_triple_equal  &trans       &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)
+&kp CARET  &kp LC(Q)        &kp LC(F4)  &kp LC(LS(E))    &kp LC(R)          &kp LC(T)         &none                                                                               &none            &kp LC(Y)          &kp LC(U)       &kp LC(I)            &kp LC(O)    &kp LC(P)             &kp LC(BACKSLASH)
+&trans     &kp LC(A)        &kp LC(S)   &kp LC(D)        &macro_ctrl_f      &kp LC(G)         &none            &kp LS(LC(ESCAPE))  &kp LC(LA(LS(T)))      &trans  &trans          &none            &kp LC(H)          &kp LC(J)       &macro_ctrl_k        &kp LC(L)    &kp LC(SEMICOLON)     &mt LSHFT SINGLE_QUOTE
+&trans     &kp LC(Z)        &kp LC(X)   &kp LC(C)        &kp LC(V)          &kp LC(B)                                              &trans                 &trans                                   &kp LC(N)          &kp LC(M)       &kp LC(COMMA)        &kp LC(DOT)  &kp LC(SLASH)         &kp RSHFT
+&trans     &trans           &sk LSHFT   &togFN_sk LCTRL  &sk LALT                             &sk_sl LCTRL 13  &kp LC(ENTER)       &trans                 &trans  &kp LC(ESCAPE)  &sk_sl LCTRL 13                     &sk RALT        &togFN_sk LCTRL      &sk RSHIFT   &trans                &trans
             >;
         };
 
@@ -894,7 +894,7 @@
 &kp HASH       &kp LS(Q)    &kp LS(W)          &kp LS(E)          &kp LS(R)       &kp LS(T)  &trans                                                              &trans     &kp LS(Y)          &kp LS(U)              &kp LS(I)        &kp LS(O)         &kp LS(P)      &kp RIGHT_BRACE
 &trans         &kp LS(A)    &kp LS(S)          &kp LS(D)          &kp LS(F)       &kp LS(G)  &trans           &trans         &trans      &trans  &trans          &trans     &kp LS(H)          &kp LS(J)              &kp LS(K)        &kp LS(L)         &kp LS(SEMI)   &kp LS(SINGLE_QUOTE)
 &trans         &kp LS(Z)    &kp LS(X)          &kp LS(C)          &kp LS(V)       &kp LS(B)                                  &trans      &trans                             &kp LS(N)          &kp LS(M)              &kp LS(COMMA)    &kp LS(DOT)       &kp LS(SLASH)  &trans
-&trans         &trans       &kp LCTRL          &togFN_sk LSHFT    &kp LALT                   &sk_sl LSHFT 13  &kp LS(ENTER)  &trans      &trans  &kp LS(ESCAPE)  &kp SPACE                     &kp RALT               &togFN_sk LSHFT  &kp RCTRL         &trans         &trans
+&trans         &trans       &togFN_sk LSHFT    &sk LCTRL          &kp LALT                   &sk_sl LSHFT 13  &kp LS(ENTER)  &trans      &trans  &kp LS(ESCAPE)  &kp SPACE                     &kp RALT               &togFN_sk LCTRL  &sk LSHFT         &trans         &trans
             >;
         };
 
@@ -904,7 +904,7 @@
 &trans  &trans        &kp_togFN F1  &kp_togFN F12  &kp F8         &trans        &trans                                        &trans  &trans        &trans         &kp_togFN F12  &trans        &trans        &trans
 &trans  &kp_togFN F7  &kp_togFN F5  &kp_togFN F3   &kp_togFN F11  &kp_togFN F9  &trans  &none    &none      &none  &kp MINUS  &trans  &kp_togFN F8  &kp_togFN F10  &kp_togFN F2   &kp_togFN F4  &kp_togFN F6  &trans
 &trans  &togFN_sk F6  &kp_togFN F4  &kp_togFN F2   &kp_togFN F10  &kp_togFN F8                   &none      &none                     &trans        &trans         &trans         &trans        &trans        &trans
-&trans  &trans        &sk LCTRL     &sk LSHFT      &sk LALT                     &trans  &tog 13  &none      &none  &tog 13    &trans                &sk LALT       &sk LSHFT      &sk LCTRL     &trans        &trans
+&trans  &trans        &sk LSHFT     &sk LCTRL      &sk LALT                     &trans  &tog 13  &none      &none  &tog 13    &trans                &sk LALT       &sk LCTRL      &sk RSHFT     &trans        &trans
             >;
         };
 
