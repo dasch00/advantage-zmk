@@ -870,11 +870,11 @@
 
         layer_apps {
             bindings = <
-&kp LA(GRAVE)  &trans          &kp_tog9 LEFT_BRACE  &kp_tog9 LA(TAB)  &kp_tog9 RIGHT_BRACE  &kp K_APP      &trans                                                                     &trans          &kp_tog9 LC(LA(N7))  &trans          &macro_win_tab       &kp_tog9 LA(TAB)  &trans             &trans
-&trans         &kp_tog9 LC(T)  &app_block W 6       &app_line E 0     &app_line R 0         &app_line T 0  &trans                                                                     &trans          &app_line S 0        &app_block U 6  &app_line I 0        &app_line O 0     &app_line P 0      &trans
-&trans         &kp N7          &kp N5               &kp N3            &kp N1                &kp N9         &trans                &trans          &trans      &trans  &trans           &trans          &kp N8               &kp N0          &kp N2               &kp N4            &kp NUMBER_6       &trans
-&trans         &app_block Z 6  &app_block X 6       &app_block C 6    &app_line V 0         &app_line B 0                                        &trans      &trans                                   &app_line N 0        &app_line M 6   &app_block DOLLAR 6  &app_block DOT 6  &app_line SLASH 0  &trans
-&trans         &trans          &sk LSHFT            &sk LCTRL         &togAPP_tog 13                       &mo_kp_tog9 10 SPACE  &kp_tog9 ENTER  &trans      &trans  &kp_tog9 ESCAPE  &kp_tog9 SPACE                       &togAPP_tog 13  &sk LCTRL            &sk RSHFT         &trans             &trans
+&kp LA(GRAVE)  &trans          &kp_tog9 LEFT_BRACE  &kp_tog9 LC(LS(ENTER))  &kp_tog9 RIGHT_BRACE  &kp K_APP      &trans                                                                     &trans          &kp_tog9 LC(LA(N7))  &trans          &kp_tog9 LC(LS(ENTER))  &kp_tog9 LA(TAB)  &trans             &trans
+&trans         &kp_tog9 LC(T)  &app_block W 6       &app_line E 0           &app_line R 0         &app_line T 0  &trans                                                                     &trans          &app_line S 0        &app_block U 6  &app_line I 0           &app_line O 0     &app_line P 0      &trans
+&trans         &kp N7          &kp N5               &kp N3                  &kp N1                &kp N9         &trans                &trans          &trans      &trans  &trans           &trans          &kp N8               &kp N0          &kp N2                  &kp N4            &kp NUMBER_6       &trans
+&trans         &app_block Z 6  &app_block X 6       &app_block C 6          &app_line V 0         &app_line B 0                                        &trans      &trans                                   &app_line N 0        &app_line M 6   &app_block DOLLAR 6     &app_block DOT 6  &app_line SLASH 0  &trans
+&trans         &trans          &sk LSHFT            &sk LCTRL               &togAPP_tog 13                       &mo_kp_tog9 10 SPACE  &kp_tog9 ENTER  &trans      &trans  &kp_tog9 ESCAPE  &kp_tog9 SPACE                       &togAPP_tog 13  &sk LCTRL               &sk RSHFT         &trans             &trans
             >;
         };
 
@@ -890,8 +890,8 @@
 
         layer_control {
             bindings = <
-&kp GRAVE  &kp PERCENT  &macro_triple_equal  &kp LC(TAB)      &kp DOUBLE_QUOTES  &kp BACKSLASH  &kp LS(LA(LC(T)))                                                                     &kp LC(LA(N7))  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &macro_arrow     &kp UNDERSCORE  &macro_2colon      &kp LC(RIGHT_BRACKET)
-&kp CARET  &kp LC(Q)    &kp LC(F4)           &kp LC(LS(E))    &kp LC(R)          &kp LC(T)      &none                                                                                 &none           &kp LC(Y)          &kp LC(U)              &kp LC(I)        &kp LC(O)       &kp LC(P)          &kp LC(BACKSLASH)
+&kp GRAVE  &kp PERCENT  &macro_triple_equal  &kp LC(TAB)      &kp DOUBLE_QUOTES  &kp BACKSLASH  &kp LS(LA(LC(T)))                                                                     &kp LC(LA(N7))  &macro_array_open  &kp RIGHT_PARENTHESIS  &macro_arrow     &kp UNDERSCORE  &macro_2colon      &kp LC(RIGHT_BRACKET)
+&kp CARET  &kp LC(Q)    &kp LC(F4)           &kp LC(LS(E))    &kp LC(R)          &kp LC(T)      &none                                                                                 &none           &kp LC(Y)          &kp LC(U)              &kp LC(I)        &kp LC(O)       &kp LC(P)          &kp LC(LEFT_BRACKET)
 &trans     &kp LC(A)    &kp LC(S)            &kp LC(D)        &macro_ctrl_f      &kp LC(G)      &none              &kp LS(LC(ESCAPE))  &kp LC(LA(LS(T)))      &trans  &trans          &none           &kp LC(H)          &kp LC(J)              &macro_ctrl_k    &kp LC(L)       &kp LC(SEMICOLON)  &mt LSHFT SINGLE_QUOTE
 &trans     &kp LC(Z)    &kp LC(X)            &kp LC(C)        &kp LC(V)          &kp LC(B)                                             &trans                 &trans                                  &kp LC(N)          &kp LC(M)              &kp LC(COMMA)    &kp LC(DOT)     &kp LC(SLASH)      &kp RSHFT
 &trans     &trans       &sk LSHFT            &togFN_sk LCTRL  &sk LALT                          &kp LC(SPACE)      &kp LC(ENTER)       &trans                 &trans  &kp LC(ESCAPE)  &kp LC(SPACE)                      &sk RALT               &togFN_sk LCTRL  &sk RSHIFT      &trans             &trans
