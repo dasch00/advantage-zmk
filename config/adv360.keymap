@@ -874,7 +874,7 @@
 &trans         &kp_tog9 LC(T)  &app_block W 6       &kp N9                  &app_line R 0         &app_line T 0  &trans                                                                     &trans          &app_line S 0        &app_block U 6  &kp N8                  &app_line O 0     &app_line P 0      &trans
 &trans         &kp N7          &kp N5               &kp N3                  &kp N1                &app_line G 0  &trans                &trans          &trans      &trans  &trans           &trans          &app_line H 0        &kp N0          &kp N2                  &kp N4            &kp NUMBER_6       &trans
 &trans         &app_block Z 6  &app_block X 6       &app_block C 6          &app_line V 0         &app_line B 0                                        &trans      &trans                                   &app_line N 0        &app_line M 6   &app_block DOLLAR 6     &app_block DOT 6  &app_line SLASH 0  &trans
-&trans         &trans          &sk LSHFT            &sk LCTRL               &togAPP_tog 13                       &mo_kp_tog9 10 SPACE  &kp_tog9 ENTER  &trans      &trans  &kp_tog9 ESCAPE  &kp_tog9 SPACE                       &togAPP_tog 13  &sk LCTRL               &sk RSHFT         &trans             &trans
+&trans         &trans          &sk LSHFT            &togAPP_tog 13          &sk LCTRL                            &mo_kp_tog9 10 SPACE  &kp_tog9 ENTER  &trans      &trans  &kp_tog9 ESCAPE  &kp_tog9 SPACE                       &sk RCTRL       &togAPP_tog 13          &sk RSHFT         &trans             &trans
             >;
         };
 
@@ -914,7 +914,7 @@
 &trans  &trans        &kp_togFN F1  &kp_togFN F12  &kp F8         &trans        &trans                                        &trans  &trans        &trans         &kp_togFN F12  &trans        &trans        &trans
 &trans  &kp_togFN F7  &kp_togFN F5  &kp_togFN F3   &kp_togFN F11  &kp_togFN F9  &trans  &none    &none      &none  &kp MINUS  &trans  &kp_togFN F8  &kp_togFN F10  &kp_togFN F2   &kp_togFN F4  &kp_togFN F6  &trans
 &trans  &togFN_sk F6  &kp_togFN F4  &kp_togFN F2   &kp_togFN F10  &kp_togFN F8                   &none      &none                     &trans        &trans         &trans         &trans        &trans        &trans
-&trans  &trans        &sk LSHFT     &sk LCTRL      &sk LALT                     &trans  &tog 13  &none      &none  &tog 13    &trans                &sk LALT       &sk LCTRL      &sk RSHFT     &trans        &trans
+&trans  &trans        &sk LALT      &sk LSHFT      &sk LCTRL                    &trans  &tog 13  &none      &none  &tog 13    &trans                &sk LCTRL      &sk RSHFT      &sk LALT      &trans        &trans
             >;
         };
 
