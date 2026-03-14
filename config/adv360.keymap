@@ -790,11 +790,11 @@
 
         default_ru {
             bindings = <
-&trans       &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans  &kp LS(N6)  &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans  &trans      &trans
-&en_default  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans      &kp SINGLE_QUOTE
-&trans       &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &kp COMMA  &trans  &trans      &trans
-&trans       &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &trans  &trans      &trans
+&trans       &kp LS(N1)  &trans  &trans  &kp LS(N7)  &kp LS(PERIOD)  &trans                                      &trans  &trans  &trans  &trans  &trans  &kp LS(N6)  &trans
+&trans       &trans      &trans  &trans  &trans      &trans          &trans                                      &trans  &trans  &trans  &trans  &trans  &trans      &trans
+&en_default  &trans      &trans  &trans  &trans      &trans          &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &kp SINGLE_QUOTE
+&trans       &trans      &trans  &trans  &trans      &trans                          &trans      &trans                  &trans  &trans  &trans  &trans  &trans      &trans
+&trans       &trans      &trans  &trans  &trans                      &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans      &trans
             >;
         };
 
