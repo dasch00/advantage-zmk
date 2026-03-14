@@ -886,11 +886,11 @@
 
         layer_shift {
             bindings = <
-&kp LS(GRAVE)  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &macro_fat_arrow  &macro_triple_equal  &kp PERCENT  &trans                                                            &trans         &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &macro_arrow   &kp LC(LS(ENTER))  &kp QUESTION   &kp AT_SIGN
-&kp BACKSLASH  &kp LS(Q)        &kp LS(W)          &kp LS(E)         &kp LS(R)            &kp LS(T)    &trans                                                            &trans         &kp LS(Y)       &kp LS(U)              &kp LS(I)      &kp LS(O)          &kp LS(P)      &kp RIGHT_BRACE
-&trans         &kp LS(A)        &kp LS(S)          &kp LS(D)         &kp LS(F)            &kp LS(G)    &trans         &trans         &trans      &trans  &trans          &trans         &kp LS(H)       &kp LS(J)              &kp LS(K)      &kp LS(L)          &kp LS(SEMI)   &kp LS(SINGLE_QUOTE)
-&trans         &kp LS(Z)        &kp LS(X)          &kp LS(C)         &kp LS(V)            &kp LS(B)                                  &trans      &trans                                 &kp LS(N)       &kp LS(M)              &kp LS(COMMA)  &kp LS(DOT)        &kp LS(SLASH)  &trans
-&trans         &trans           &sk LALT           &sk LCTRL         &togFN_sk LSHFT                   &kp LS(SPACE)  &kp LS(ENTER)  &trans      &trans  &kp LS(ESCAPE)  &kp LS(SPACE)                  &togFN_sk RSHFT        &sk RCTRL      &sk LALT           &trans         &trans
+&kp LS(GRAVE)  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &macro_fat_arrow  &macro_triple_equal  &kp PERCENT  &trans                                                            &trans         &kp UNDERSCORE  &kp AMPERSAND    &macro_arrow   &kp LC(LS(ENTER))  &kp QUESTION   &kp AT_SIGN
+&kp BACKSLASH  &kp LS(Q)        &kp LS(W)          &kp LS(E)         &kp LS(R)            &kp LS(T)    &trans                                                            &trans         &kp LS(Y)       &kp LS(U)        &kp LS(I)      &kp LS(O)          &kp LS(P)      &kp RIGHT_BRACE
+&trans         &kp LS(A)        &kp LS(S)          &kp LS(D)         &kp LS(F)            &kp LS(G)    &trans         &trans         &trans      &trans  &trans          &trans         &kp LS(H)       &kp LS(J)        &kp LS(K)      &kp LS(L)          &kp LS(SEMI)   &kp LS(SINGLE_QUOTE)
+&trans         &kp LS(Z)        &kp LS(X)          &kp LS(C)         &kp LS(V)            &kp LS(B)                                  &trans      &trans                                 &kp LS(N)       &kp LS(M)        &kp LS(COMMA)  &kp LS(DOT)        &kp LS(SLASH)  &trans
+&trans         &trans           &sk LALT           &sk LCTRL         &togFN_sk LSHFT                   &kp LS(SPACE)  &kp LS(ENTER)  &trans      &trans  &kp LS(ESCAPE)  &kp LS(SPACE)                  &togFN_sk RSHFT  &sk RCTRL      &sk LALT           &trans         &trans
             >;
         };
 
