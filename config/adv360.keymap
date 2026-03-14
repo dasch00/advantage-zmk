@@ -767,8 +767,8 @@
         default_layer {
             bindings = <
 &kp GRAVE    &kp PIPE  &kp SINGLE_QUOTE  &mod_sl LSHIFT 12  &kp EQUAL        &kp ASTERISK  &kp F12                                                                      &kp N0       &kp MINUS  &kp LEFT_PARENTHESIS  &mod_sl RSHFT 12  &kp TAB   &kp RIGHT_PARENTHESIS  &kp KP_PLUS
-&win_fn      &kp Q     &kp W             &kp E              &kp R            &kp T         &to 0                                                                        &to 6        &kp Y      &kp U                 &kp I             &kp O     &kp P                  &kp LEFT_BRACKET
-&en_default  &kp A     &kp S             &kp D              &kp F            &kp G         &mo 14        &trans       &trans             &trans        &trans           &mo 14       &kp H      &kp J                 &kp K             &kp L     &kp SEMI               &ru_default
+&ru_default  &kp Q     &kp W             &kp E              &kp R            &kp T         &to 0                                                                        &to 6        &kp Y      &kp U                 &kp I             &kp O     &kp P                  &kp LEFT_BRACKET
+&en_default  &kp A     &kp S             &kp D              &kp F            &kp G         &mo 14        &trans       &trans             &trans        &trans           &mo 14       &kp H      &kp J                 &kp K             &kp L     &kp SEMI               &kp SINGLE_QUOTE
 &mo 14       &kp Z     &kp X             &kp C              &kp V            &kp B                                    &trans             &trans                                      &kp N      &kp M                 &kp COMMA         &kp DOT   &kp FSLH               &mo 14
 &trans       &trans    &sk LALT          &mod_sl LCTRL 11   &mod_sl LSHFT 9                &lt 10 SPACE  &lt 8 ENTER  &kp LS(LG(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 9 SPACE             &mod_tog RSHFT 9      &mod_sl RCTRL 11  &sk LALT  &trans                 &trans
             >;
@@ -776,59 +776,59 @@
 
         default_ru {
             bindings = <
-&trans       &kp LS(N1)  &trans  &trans  &kp LS(N7)  &kp LS(PERIOD)  &trans                                      &trans  &trans  &trans  &trans  &trans  &kp LS(N6)  &trans
-&trans       &trans      &trans  &trans  &trans      &trans          &trans                                      &trans  &trans  &trans  &trans  &trans  &trans      &trans
-&en_default  &trans      &trans  &trans  &trans      &trans          &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &kp SINGLE_QUOTE
-&trans       &trans      &trans  &trans  &trans      &trans                          &trans      &trans                  &trans  &trans  &trans  &trans  &trans      &trans
-&trans       &trans      &trans  &trans  &trans                      &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans      &trans
+&trans  &kp LS(N1)  &trans  &trans  &kp LS(N7)  &kp LS(PERIOD)  &trans                                      &trans  &trans  &trans  &trans  &trans  &kp LS(N6)  &trans
+&trans  &trans      &trans  &trans  &trans      &trans          &trans                                      &trans  &trans  &trans  &trans  &trans  &trans      &trans
+&trans  &trans      &trans  &trans  &trans      &trans          &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &kp SINGLE_QUOTE
+&trans  &trans      &trans  &trans  &trans      &trans                          &trans      &trans                  &trans  &trans  &trans  &trans  &trans      &trans
+&trans  &trans      &trans  &trans  &trans                      &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans      &trans
             >;
         };
 
         editor {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &ru_editor
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&ru_editor  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&en_editor  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         editor_ru {
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&en_editor  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans     &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &kp COMMA  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         dialog {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans               &trans      &trans  &trans                &trans  &trans  &trans  &trans  &trans  &trans  &ru_dialog
-&trans  &trans  &trans  &trans  &trans  &trans                               &trans      &trans                                &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &macro_dialog_enter  &trans      &trans  &macro_dialog_escape  &trans          &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&ru_dialog  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&en_dialog  &trans  &trans  &trans  &trans  &trans  &trans  &trans               &trans      &trans  &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans                               &trans      &trans                                &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans          &trans  &macro_dialog_enter  &trans      &trans  &macro_dialog_escape  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         dialog_ru {
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&en_dialog  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_nav {
             bindings = <
 &kp LC(TILDE)  &kp_to2 ASTERISK  &kp_to2 EQUAL   &to2_sl 12      &kp_to2 SINGLE_QUOTE  &kp_to2 PIPE            &kp LC(LA(N7))                                                                 &kp LS(LC(P))   &kp_to2 LEFT_BRACKET  &kp_to2 LEFT_PARENTHESIS  &to2_sl 12   &kp_to2 MINUS      &kp_to2 LS(SEMICOLON)  &trans
-&kp LC(LS(F))  &kp LC(LA(L))     &kp LC(W)       &kp LC(SLASH)   &kp LA(ENTER)         &kp LC(D)               &macro_jump_to_char                                                            &trans          &kp LC(V)             &kp LC(F)                 &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)           &trans
-&trans         &kp LA(N7)        &kp LC(TAB)     &lt 7 LC(B)     &kp LS(ENTER)         &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans          &kp HOME              &kp LC(LEFT)              &kp DOWN     &kp LC(RIGHT)      &kp END                &ru_editor
+&ru_editor     &kp LC(LA(L))     &kp LC(W)       &kp LC(SLASH)   &kp LA(ENTER)         &kp LC(D)               &macro_jump_to_char                                                            &trans          &kp LC(V)             &kp LC(F)                 &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)           &trans
+&en_editor     &kp LA(N7)        &kp LC(TAB)     &lt 7 LC(B)     &kp LS(ENTER)         &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans          &kp HOME              &kp LC(LEFT)              &kp DOWN     &kp LC(RIGHT)      &kp END                &trans
 &trans         &kp LS(F10)       &kp LS(DELETE)  &kp LC(INSERT)  &kp LS(INSERT)        &kp LC(LS(U))                                                 &trans      &trans                                       &kp LS(LC(Z))         &kp LC(Z)                 &key_repeat  &kp LC(DELETE)     &kp LC(END)            &trans
 &trans         &trans            &to2_sk LALT    &sl 11          &lm0_sl LALT 9                                &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 9 0                        &lm0_tog LALT 9           &sl 11       &to2_sk LALT       &trans                 &trans
             >;
