@@ -876,7 +876,7 @@
 
         layer_control {
             bindings = <
-&kp GRAVE  &kp PERCENT  &kp DOUBLE_QUOTES  &kp LC(TAB)      &macro_not_equal  &kp BACKSLASH  &kp LS(LA(LC(T)))                                                                     &kp LC(LA(N7))   &macro_array_open  &kp RIGHT_PARENTHESIS  &macro_arrow     &kp UNDERSCORE  &macro_2colon      &kp LC(RIGHT_BRACKET)
+&kp GRAVE  &kp PERCENT  &kp DOUBLE_QUOTES  &kp LC(TAB)      &macro_not_equal  &kp BACKSLASH  &kp LS(LA(LC(T)))                                                                     &kp LC(LA(N7))   &macro_array_open  &kp RIGHT_PARENTHESIS  &macro_arrow     &kp UNDERSCORE  &kp AT_SIGN        &kp LC(RIGHT_BRACKET)
 &kp CARET  &kp LC(Q)    &kp LC(F4)         &kp LC(LS(E))    &kp LC(R)         &kp LC(T)      &none                                                                                 &none            &kp LC(Y)          &kp LC(U)              &kp LC(I)        &kp LC(O)       &kp LC(P)          &kp LC(LEFT_BRACKET)
 &trans     &kp LC(A)    &kp LC(S)          &kp LC(D)        &macro_ctrl_f     &kp LC(G)      &none              &kp LS(LC(ESCAPE))  &kp LC(LA(LS(T)))      &trans  &trans          &none            &kp LC(H)          &kp LC(J)              &macro_ctrl_k    &kp LC(L)       &kp LC(SEMICOLON)  &mt LSHFT SINGLE_QUOTE
 &trans     &kp LC(Z)    &kp LC(X)          &kp LC(C)        &kp LC(V)         &kp LC(B)                                             &trans                 &trans                                   &kp LC(N)          &kp LC(M)              &kp LC(COMMA)    &kp LC(DOT)     &kp LC(SLASH)      &kp RSHFT
@@ -886,8 +886,8 @@
 
         layer_shift {
             bindings = <
-&kp LS(GRAVE)  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &macro_fat_arrow  &macro_triple_equal  &kp QUESTION  &trans                                                              &trans           &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &macro_arrow   &kp LC(LS(ENTER))  &kp PERCENT    &kp AT_SIGN
-&trans         &kp LS(Q)        &kp LS(W)          &kp LS(E)         &kp LS(R)            &kp LS(T)     &trans                                                              &trans           &kp LS(Y)       &kp LS(U)              &kp LS(I)      &kp LS(O)          &kp LS(P)      &kp RIGHT_BRACE
+&kp LS(GRAVE)  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &macro_fat_arrow  &macro_triple_equal  &kp QUESTION  &trans                                                              &trans           &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &macro_arrow   &kp LC(LS(ENTER))  &kp PERCENT    &kp RIGHT_BRACE
+&trans         &kp LS(Q)        &kp LS(W)          &kp LS(E)         &kp LS(R)            &kp LS(T)     &trans                                                              &trans           &kp LS(Y)       &kp LS(U)              &kp LS(I)      &kp LS(O)          &kp LS(P)      &kp LEFT_BRACE
 &trans         &kp LS(A)        &kp LS(S)          &kp LS(D)         &kp LS(F)            &kp LS(G)     &trans           &trans         &trans      &trans  &trans          &trans           &kp LS(H)       &kp LS(J)              &kp LS(K)      &kp LS(L)          &kp LS(SEMI)   &kp LS(SINGLE_QUOTE)
 &trans         &kp LS(Z)        &kp LS(X)          &kp LS(C)         &kp LS(V)            &kp LS(B)                                     &trans      &trans                                   &kp LS(N)       &kp LS(M)              &kp LS(COMMA)  &kp LS(DOT)        &kp LS(SLASH)  &trans
 &trans         &trans           &sk LALT           &sk LCTRL         &togFN_sk LSHFT                    &togFN_sk LSHFT  &kp LS(ENTER)  &trans      &trans  &kp LS(ESCAPE)  &togFN_sk RSHFT                  &togFN_sk RSHFT        &sk RCTRL      &sk LALT           &trans         &trans
