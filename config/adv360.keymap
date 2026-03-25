@@ -806,11 +806,11 @@
 
         editor_ru {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &kp LS(SLASH)  &trans  &trans  &trans  &kp LS(N7)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans         &trans  &trans  &trans  &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans  &trans         &trans  &trans  &trans  &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &trans         &trans  &trans  &trans  &trans      &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &macro_tonav  &trans                 &trans  &trans  &trans  &trans      &trans
             >;
         };
 
@@ -906,11 +906,11 @@
 
         NUM {
             bindings = <
-&kp LA(GRAVE)  &macro_or       &macro_array_open  &kp_tog13 LC(LS(ENTER))  &macro_not_equal  &kp_tog13 K_APP  &trans                                                                       &trans           &kp_tog13 LC(LA(N7))  &trans          &kp_tog13 LC(LS(ENTER))  &kp_tog13 LA(TAB)  &kp_tog13 BACKSLASH  &trans
-&trans         &app_line E 0   &app_block W 6     &kp N9                   &app_line R 0     &app_line T 0    &trans                                                                       &trans           &app_line S 0         &app_block U 6  &kp N8                   &app_line O 0      &app_line P 0        &trans
-&trans         &kp N7          &kp N5             &kp N3                   &kp N1            &app_line G 0    &trans                &trans           &trans      &trans  &trans            &trans           &app_line H 0         &kp N0          &kp N2                   &kp N4             &kp NUMBER_6         &trans
-&trans         &app_block Z 6  &app_block X 6     &app_block C 6           &app_line V 0     &app_line B 0                                           &trans      &trans                                     &app_line N 0         &app_line M 6   &trans                   &trans             &app_line SLASH 0    &trans
-&trans         &trans          &sk LALT           &sk LCTRL                &tog_sl 13 13                      &mo_kp_tog9 10 SPACE  &kp_tog13 ENTER  &trans      &trans  &kp_tog13 ESCAPE  &kp_tog13 SPACE                        &tog_sl 13 14   &sk RCTRL                &sk LALT           &trans               &trans
+&kp LA(GRAVE)  &macro_or       &macro_array_open  &kp_tog13 LA(TAB)  &macro_not_equal  &kp_tog13 K_APP  &trans                                                                       &trans           &kp_tog13 LC(LA(N7))  &trans          &kp_tog13 LC(LS(ENTER))  &kp_tog13 LA(TAB)  &kp_tog13 BACKSLASH  &trans
+&trans         &app_line E 0   &app_block W 6     &kp N9             &app_line R 0     &app_line T 0    &trans                                                                       &trans           &app_line S 0         &app_block U 6  &kp N8                   &app_line O 0      &app_line P 0        &trans
+&trans         &kp N7          &kp N5             &kp N3             &kp N1            &app_line G 0    &trans                &trans           &trans      &trans  &trans            &trans           &app_line H 0         &kp N0          &kp N2                   &kp N4             &kp NUMBER_6         &trans
+&trans         &app_block Z 6  &app_block X 6     &app_block C 6     &app_line V 0     &app_line B 0                                           &trans      &trans                                     &app_line N 0         &app_line M 6   &trans                   &trans             &app_line SLASH 0    &trans
+&trans         &trans          &sk LALT           &sk LCTRL          &tog_sl 13 13                      &mo_kp_tog9 10 SPACE  &kp_tog13 ENTER  &trans      &trans  &kp_tog13 ESCAPE  &kp_tog13 SPACE                        &tog_sl 13 14   &sk RCTRL                &sk LALT           &trans               &trans
             >;
         };
 
