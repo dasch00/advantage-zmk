@@ -609,7 +609,7 @@
             #binding-cells = <1>;
             bindings =
                 <&macro_tap>,
-                <&macro_param_1to1 &kp MACRO_PLACEHOLDER &tog 14>;
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER &tog 15>;
 
             label = "KP_TOG9";
         };
@@ -780,7 +780,7 @@
 &ru_default  &kp Q         &kp W             &kp E              &kp R              &kp T       &to 0                                                                           &to 6         &kp Y      &kp U            &kp I             &kp O                 &kp P          &kp LEFT_BRACKET
 &en_default  &kp A         &kp S             &kp D              &kp F              &kp G       &mo 17        &trans       &trans                &trans        &trans           &mo 17        &kp H      &kp J            &kp K             &kp L                 &kp SEMI       &kp SINGLE_QUOTE
 &mo 17       &kp Z         &kp X             &kp C              &kp V              &kp B                                  &trans                &trans                                       &kp N      &kp M            &kp COMMA         &kp DOT               &kp FSLH       &mo 17
-&trans       &trans        &sk LALT          &mod_sl LCTRL 11   &mod_tog LSHFT 14              &lt 10 SPACE  &lt 8 ENTER  &lt 14 LG(LS(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 14 SPACE             &mod_sl RSHFT 9  &mod_sl RCTRL 11  &sk LALT              &trans         &trans
+&trans       &trans        &sk LALT          &mod_sl LCTRL 11   &mod_tog LSHFT 15              &lt 10 SPACE  &lt 8 ENTER  &lt 15 LG(LS(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 15 SPACE             &mod_sl RSHFT 9  &mod_sl RCTRL 11  &sk LALT              &trans         &trans
             >;
         };
 
@@ -840,7 +840,7 @@
 &ru_editor     &kp LC(LA(L))     &kp LC(W)             &kp LC(SLASH)   &kp LA(ENTER)     &kp LC(D)               &macro_jump_to_char                                                            &trans           &kp LC(V)       &kp LC(F)       &kp UP       &kp LC(BACKSPACE)         &kp LC(HOME)       &trans
 &en_editor     &kp LA(N7)        &kp LC(TAB)           &lt 7 LC(B)     &kp LS(ENTER)     &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans           &kp HOME        &kp LC(LEFT)    &kp DOWN     &kp LC(RIGHT)             &kp END            &trans
 &trans         &kp LS(F10)       &kp LS(DELETE)        &kp LC(INSERT)  &kp LS(INSERT)    &kp LC(LS(U))                                                 &trans      &trans                                        &kp LS(LC(Z))   &kp LC(Z)       &key_repeat  &kp LC(DELETE)            &kp LC(END)        &trans
-&trans         &trans            &to2_sk LALT          &sl 11          &lm0_tog LALT 14                          &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 14 0                  &lm0_sl LALT 9  &sl 11       &to2_sk LALT              &trans             &trans
+&trans         &trans            &to2_sk LALT          &sl 11          &lm0_tog LALT 15                          &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 15 0                  &lm0_sl LALT 9  &sl 11       &to2_sk LALT              &trans             &trans
             >;
         };
 
@@ -914,13 +914,23 @@
             >;
         };
 
+        layer_18 {
+            bindings = <
+&kp GRAVE  &kp PERCENT  &kp DOUBLE_QUOTES  &kp LC(TAB)      &macro_not_equal  &kp BACKSLASH  &kp LS(LA(LC(T)))                                                                     &kp LC(LA(N7))   &macro_array_open  &kp RIGHT_PARENTHESIS  &macro_arrow     &kp UNDERSCORE  &kp AT_SIGN        &kp LC(RIGHT_BRACKET)
+&kp CARET  &kp LC(Q)    &kp LC(F4)         &kp LC(LS(E))    &kp LC(R)         &kp LC(T)      &none                                                                                 &none            &kp LC(Y)          &kp LC(U)              &kp LC(I)        &kp LC(O)       &kp LC(P)          &kp LC(LEFT_BRACKET)
+&trans     &kp LC(A)    &kp LC(S)          &kp LC(D)        &macro_ctrl_f     &kp LC(G)      &none              &kp LS(LC(ESCAPE))  &kp LC(LA(LS(T)))      &trans  &trans          &none            &kp LC(H)          &kp LC(J)              &macro_ctrl_k    &kp LC(L)       &kp LC(SEMICOLON)  &mt LSHFT SINGLE_QUOTE
+&trans     &kp LC(Z)    &kp LC(X)          &kp LC(C)        &kp LC(V)         &kp LC(B)                                             &trans                 &trans                                   &kp LC(N)          &kp LC(M)              &kp LC(COMMA)    &kp LC(DOT)     &kp LC(SLASH)      &kp RSHFT
+&trans     &trans       &sk LALT           &togFN_sk LCTRL  &sk LSHFT                        &togFN_sk LCTRL    &kp LC(ENTER)       &trans                 &trans  &kp LC(ESCAPE)  &togFN_sk RCTRL                     &sk RSHFT              &togFN_sk RCTRL  &sk RALT        &trans             &trans
+            >;
+        };
+
         NUM {
             bindings = <
 &kp LA(GRAVE)  &macro_or  &macro_array_open  &kp_tog13 LA(TAB)  &macro_not_equal  &kp_tog13 K_APP  &trans                                                                       &trans           &kp_tog13 LC(LA(N7))  &trans          &kp_tog13 LC(LS(ENTER))  &kp_tog13 LA(TAB)  &kp_tog13 BACKSLASH  &trans
 &trans         &none      &none              &kp N9             &none             &none            &trans                                                                       &trans           &app_line S 0         &app_block U 6  &kp N8                   &kp BACKSPACE      &app_line P 0        &trans
 &trans         &kp N7     &kp N5             &kp N3             &kp N1            &none            &trans                &trans           &trans      &trans  &trans            &trans           &app_line H 0         &kp N0          &kp N2                   &kp N4             &kp NUMBER_6         &trans
 &trans         &none      &none              &none              &none             &none                                                   &trans      &trans                                     &app_line N 0         &app_line M 6   &trans                   &trans             &trans               &trans
-&trans         &trans     &sk LALT           &sk LCTRL          &tog_sl 14 14                      &mo_kp_tog9 10 SPACE  &kp_tog13 ENTER  &trans      &trans  &kp_tog13 ESCAPE  &kp_tog13 SPACE                        &tog_sl 14 17   &sk RCTRL                &sk LALT           &trans               &trans
+&trans         &trans     &sk LALT           &sk LCTRL          &tog_sl 15 15                      &mo_kp_tog9 10 SPACE  &kp_tog13 ENTER  &trans      &trans  &kp_tog13 ESCAPE  &kp_tog13 SPACE                        &tog_sl 15 17   &sk RCTRL                &sk LALT           &trans               &trans
             >;
         };
 
@@ -931,16 +941,6 @@
 &trans  &kp_togFN F7  &kp_togFN F5  &kp_togFN F3   &kp_togFN F11  &kp_togFN F9  &trans  &none    &none      &none  &kp MINUS  &trans  &kp_togFN F8  &kp_togFN F10  &kp_togFN F2   &kp_togFN F4  &kp_togFN F6  &trans
 &trans  &togFN_sk F6  &kp_togFN F4  &kp_togFN F2   &kp_togFN F10  &kp_togFN F8                   &none      &none                     &trans        &trans         &trans         &trans        &trans        &trans
 &trans  &trans        &sk LALT      &sk LSHFT      &sk LCTRL                    &trans  &tog 17  &none      &none  &tog 17    &trans                &sk LCTRL      &sk RSHFT      &sk LALT      &trans        &trans
-            >;
-        };
-
-        layer_18 {
-            bindings = <
-&kp GRAVE  &kp PERCENT  &kp DOUBLE_QUOTES  &kp LC(TAB)      &macro_not_equal  &kp BACKSLASH  &kp LS(LA(LC(T)))                                                                     &kp LC(LA(N7))   &macro_array_open  &kp RIGHT_PARENTHESIS  &macro_arrow     &kp UNDERSCORE  &kp AT_SIGN        &kp LC(RIGHT_BRACKET)
-&kp CARET  &kp LC(Q)    &kp LC(F4)         &kp LC(LS(E))    &kp LC(R)         &kp LC(T)      &none                                                                                 &none            &kp LC(Y)          &kp LC(U)              &kp LC(I)        &kp LC(O)       &kp LC(P)          &kp LC(LEFT_BRACKET)
-&trans     &kp LC(A)    &kp LC(S)          &kp LC(D)        &macro_ctrl_f     &kp LC(G)      &none              &kp LS(LC(ESCAPE))  &kp LC(LA(LS(T)))      &trans  &trans          &none            &kp LC(H)          &kp LC(J)              &macro_ctrl_k    &kp LC(L)       &kp LC(SEMICOLON)  &mt LSHFT SINGLE_QUOTE
-&trans     &kp LC(Z)    &kp LC(X)          &kp LC(C)        &kp LC(V)         &kp LC(B)                                             &trans                 &trans                                   &kp LC(N)          &kp LC(M)              &kp LC(COMMA)    &kp LC(DOT)     &kp LC(SLASH)      &kp RSHFT
-&trans     &trans       &sk LALT           &togFN_sk LCTRL  &sk LSHFT                        &togFN_sk LCTRL    &kp LC(ENTER)       &trans                 &trans  &kp LC(ESCAPE)  &togFN_sk RCTRL                     &sk RSHFT              &togFN_sk RCTRL  &sk RALT        &trans             &trans
             >;
         };
 
