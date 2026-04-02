@@ -927,7 +927,7 @@
         alt_left {
             bindings = <
 &kp GRAVE    &kp ASTERISK  &kp SINGLE_QUOTE  &mod_sl LSHIFT 13  &kp TAB            &kp DOLLAR  &kp F12                                                                         &kp N0        &kp MINUS  &kp EQUAL        &mod_sl RSHFT 13  &kp LEFT_PARENTHESIS  &kp LS(SLASH)  &kp RIGHT_BRACKET
-&ru_default  &kp Q         &kp W             &kp E              &kp R              &kp T       &to 0                                                                           &to 6         &kp Y      &kp U            &kp I             &kp O                 &kp P          &kp LEFT_BRACKET
+&ru_default  &kp LA(Q)     &kp W             &kp E              &kp R              &kp T       &to 0                                                                           &to 6         &kp Y      &kp U            &kp I             &kp O                 &kp P          &kp LEFT_BRACKET
 &en_default  &kp A         &kp S             &kp D              &kp F              &kp G       &mo 18        &trans       &trans                &trans        &trans           &mo 18        &kp H      &kp J            &kp K             &kp L                 &kp SEMI       &kp SINGLE_QUOTE
 &mo 18       &kp Z         &kp X             &kp C              &kp V              &kp B                                  &trans                &trans                                       &kp N      &kp M            &kp COMMA         &kp DOT               &kp FSLH       &mo 18
 &trans       &trans        &sk LALT          &mod_sl LCTRL 11   &mod_tog LSHFT 16              &lt 10 SPACE  &lt 8 ENTER  &lt 16 LG(LS(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 16 SPACE             &mod_sl RSHFT 9  &mod_sl RCTRL 11  &sk LALT              &trans         &trans
