@@ -742,6 +742,16 @@
             #binding-cells = <1>;
             bindings = <&tog 17 &macro_param_1to1 &sk MACRO_PLACEHOLDER>;
         };
+
+        tog_sk_sl: tog_sk_sl {
+            compatible = "zmk,behavior-macro-two-param";
+            #binding-cells = <2>;
+            bindings =
+                <&macro_tap>,
+                <&macro_param_1to1 &tog MACRO_PLACEHOLDER &macro_param_2to1 &sk MACRO_PLACEHOLDER &macro_param_1to1 &sl MACRO_PLACEHOLDER>;
+
+            label = "TOG_SK_SL";
+        };
     };
 
     combos {
