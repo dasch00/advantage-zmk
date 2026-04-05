@@ -977,7 +977,7 @@
 &trans         &none      &none              &kp N9             &none             &none            &trans                                                                    &trans           &none                 &none                &kp N8                   &kp BACKSPACE      &none                &trans
 &trans         &kp N7     &kp N5             &kp N3             &kp N1            &none            &trans            &trans            &trans      &trans  &trans            &trans           &none                 &kp N0               &kp N2                   &kp N4             &kp NUMBER_6         &trans
 &trans         &none      &none              &none              &none             &none                                                &trans      &trans                                     &none                 &none                &trans                   &trans             &trans               &trans
-&trans         &trans     &sk_sl LALT 17     &sk_sl LCTRL 17    &tog_sl 17 17                      &kp_tog SPACE 17  &kp_tog ENTER 17  &trans      &trans  &kp_tog13 ESCAPE  &kp_tog13 SPACE                        &tog_sk_sl 17 RSHFT  &tog_sk_sl 17 RGUI       &sk_sl RALT 17     &trans               &trans
+&trans         &trans     &sk_sl RALT 17     &sk_sl LGUI 17     &tog_sl 17 17                      &kp_tog SPACE 17  &kp_tog ENTER 17  &trans      &trans  &kp_tog13 ESCAPE  &kp_tog13 SPACE                        &tog_sk_sl 17 RSHFT  &tog_sk_sl 17 RCTRL      &sk_sl RALT 17     &trans               &trans
             >;
         };
 
