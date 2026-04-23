@@ -813,11 +813,11 @@
 
         default_ru {
             bindings = <
-&trans  &kp LS(N1)  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LS(SLASH)  &trans  &trans  &trans  &kp LS(N7)  &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans                                      &trans  &trans         &trans  &trans  &trans  &trans      &trans
-&trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans      &trans
-&trans  &trans      &trans  &trans  &trans  &trans                  &trans      &trans                  &trans         &trans  &trans  &trans  &trans      &trans
-&trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                 &trans  &trans  &trans  &trans      &trans
+&trans  &kp LS(N1)  &trans  &trans  &trans  &kp LS(NUMBER_6)  &trans                                      &trans  &kp LS(SLASH)  &trans  &trans  &trans  &kp LS(N7)  &trans
+&trans  &trans      &trans  &trans  &trans  &trans            &trans                                      &trans  &trans         &trans  &trans  &trans  &trans      &trans
+&trans  &trans      &trans  &trans  &trans  &trans            &trans  &trans  &trans      &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans      &trans
+&trans  &trans      &trans  &trans  &trans  &trans                            &trans      &trans                  &trans         &trans  &trans  &trans  &trans      &trans
+&trans  &trans      &trans  &trans  &trans                    &trans  &trans  &trans      &trans  &trans  &trans                 &trans  &trans  &trans  &trans      &trans
             >;
         };
 
