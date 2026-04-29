@@ -793,7 +793,7 @@
         };
 
         mComma {
-            bindings = <&sk LC(ENTER)>;
+            bindings = <&sk LS(TAB)>;
             key-positions = <56 55>;
         };
     };
