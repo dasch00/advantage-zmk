@@ -957,7 +957,7 @@
 &ru_default  &kp LA(Q)     &kp LA(W)         &kp LA(E)          &kp LA(R)  &kp LA(T)   &to 0                                                                             &to 6            &kp LA(Y)  &kp LA(U)  &kp LA(I)         &kp LA(O)             &kp LA(P)      &kp LA(LEFT_BRACKET)
 &en_default  &kp LA(A)     &kp LA(S)         &kp LA(D)          &kp LA(F)  &kp LA(G)   &mo 21         &trans         &trans                &trans        &trans          &mo 21           &kp LA(H)  &kp LA(J)  &kp LA(K)         &kp LA(L)             &kp LA(SEMI)   &kp LA(SINGLE_QUOTE)
 &mo 21       &kp LA(Z)     &kp LA(X)         &kp LA(C)          &kp LA(V)  &kp LA(B)                                 &trans                &trans                                         &kp LA(N)  &kp LA(M)  &kp LA(COMMA)     &kp LA(DOT)           &kp LA(FSLH)   &mo 21
-&trans       &trans        &none             &none              &none                  &kp LA(SPACE)  &kp LA(ENTER)  &lt 19 LG(LS(S))      &macro_win_l  &togFN_sk LALT  &togNUM_sk LALT             &sk RSHFT  &sk RCTRL         &sk LGUI              &trans         &trans
+&trans       &trans        &none             &none              &none                  &kp LA(SPACE)  &kp LA(ENTER)  &lt 19 LG(LS(S))      &macro_win_l  &togFN_sk LALT  &togNUM_sk LALT             &sk RSHFT  &sk RCTRL         &sk LALT              &trans         &trans
             >;
         };
 
@@ -967,7 +967,7 @@
 &ru_default  &kp LA(Q)     &kp LA(W)         &kp LA(E)          &kp LA(R)  &kp LA(T)   &to 0                                                                                &to 6          &kp LA(Y)  &kp LA(U)  &kp LA(I)         &kp LA(O)             &kp LA(P)      &kp LA(LEFT_BRACKET)
 &en_default  &kp LA(A)     &kp LA(S)         &kp LA(D)          &kp LA(F)  &kp LA(G)   &mo 21           &trans          &trans                &trans        &trans          &mo 21         &kp LA(H)  &kp LA(J)  &kp LA(K)         &kp LA(L)             &kp LA(SEMI)   &kp LA(SINGLE_QUOTE)
 &mo 21       &kp LA(Z)     &kp LA(X)         &kp LA(C)          &kp LA(V)  &kp LA(B)                                    &trans                &trans                                       &kp LA(N)  &kp LA(M)  &kp LA(COMMA)     &kp LA(DOT)           &kp LA(FSLH)   &mo 21
-&trans       &trans        &sk LGUI          &sk LCTRL          &sk LSHFT              &togNUM_sk LALT  &togFN_sk LALT  &lt 19 LG(LS(S))      &macro_win_l  &kp LA(ESCAPE)  &kp LA(SPACE)             &sk RSHFT  &sk RGUI          &sk RALT              &trans         &trans
+&trans       &trans        &sk LALT          &sk LCTRL          &sk LSHFT              &togNUM_sk LALT  &togFN_sk LALT  &lt 19 LG(LS(S))      &macro_win_l  &kp LA(ESCAPE)  &kp LA(SPACE)             &sk RSHFT  &sk RGUI          &sk RALT              &trans         &trans
             >;
         };
 
@@ -987,7 +987,7 @@
 &trans         &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)  &trans                                                                 &trans         &kp LG(Y)       &kp LG(U)      &kp LG(I)          &kp LG(O)     &kp LG(P)        &kp LEFT_BRACE
 &trans         &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &trans            &trans           &trans      &trans  &trans          &trans         &kp LG(H)       &kp LG(J)      &kp LG(K)          &kp LG(L)     &kp LG(SEMI)     &kp LG(SINGLE_QUOTE)
 &trans         &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                                     &trans      &trans                                 &kp LG(N)       &kp LG(M)      &kp LG(COMMA)      &kp LG(DOT)   &kp LG(SLASH)    &trans
-&trans         &trans     &sk LALT   &sk LCTRL  &sk LGUI              &togNUM_sk LSHFT  &togFN_sk LSHFT  &trans      &trans  &kp LG(ESCAPE)  &kp LG(SPACE)                  &none          &none              &none         &trans           &trans
+&trans         &trans     &sk LALT   &sk LCTRL  &sk LSHFT             &togNUM_sk LSHFT  &togFN_sk LSHFT  &trans      &trans  &kp LG(ESCAPE)  &kp LG(SPACE)                  &none          &none              &none         &trans           &trans
             >;
         };
 
