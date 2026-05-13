@@ -863,11 +863,11 @@
 
         layer_nav {
             bindings = <
-&kp LC(TILDE)  &kp_to2 ASTERISK  &kp_to2 LEFT_PARENTHESIS  &to2_sl 14      &kp SINGLE_QUOTE   &kp_to2 DOLLAR          &kp LC(LA(N7))                                                                 &kp LS(LC(P))    &kp_to2 MINUS  &kp TAB           &to2_sl 13   &kp_to2 EQUAL      &kp_to2 LS(SLASH)  &trans
-&ru_editor     &kp LC(LA(L))     &kp LC(W)                 &kp LC(SLASH)   &kp LA(ENTER)      &kp LC(D)               &macro_jump_to_char                                                            &trans           &kp LC(V)      &kp LC(F)         &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)       &trans
-&en_editor     &kp LA(N7)        &kp LC(TAB)               &lt 7 LC(B)     &kp LS(ENTER)      &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans           &kp HOME       &kp LC(LEFT)      &kp DOWN     &kp LC(RIGHT)      &kp END            &trans
-&trans         &kp LS(F10)       &kp LS(DELETE)            &kp LC(INSERT)  &kp LS(INSERT)     &kp LC(LS(U))                                                 &trans      &trans                                        &kp LS(LC(Z))  &kp LC(Z)         &key_repeat  &kp LC(DELETE)     &kp LC(END)        &trans
-&trans         &sl 18            &sl 16                    &sl 12          &lm0_tog LSHFT 19                          &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 19 0                 &lm0_sl LSHIFT 9  &sl 11       &sl 15             &sl 17             &trans
+&kp LC(TILDE)  &kp_to2 ASTERISK  &kp_to2 LEFT_PARENTHESIS  &to2_sl 14      &kp SINGLE_QUOTE   &kp_to2 MINUS           &kp LC(LA(N7))                                                                 &kp LS(LC(P))    &kp_to2 DOLLAR  &kp TAB           &to2_sl 13   &kp_to2 EQUAL      &kp_to2 LS(SLASH)  &trans
+&ru_editor     &kp LC(LA(L))     &kp LC(W)                 &kp LC(SLASH)   &kp LA(ENTER)      &kp LC(D)               &macro_jump_to_char                                                            &trans           &kp LC(V)       &kp LC(F)         &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)       &trans
+&en_editor     &kp LA(N7)        &kp LC(TAB)               &lt 7 LC(B)     &kp LS(ENTER)      &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans           &kp HOME        &kp LC(LEFT)      &kp DOWN     &kp LC(RIGHT)      &kp END            &trans
+&trans         &kp LS(F10)       &kp LS(DELETE)            &kp LC(INSERT)  &kp LS(INSERT)     &kp LC(LS(U))                                                 &trans      &trans                                        &kp LS(LC(Z))   &kp LC(Z)         &key_repeat  &kp LC(DELETE)     &kp LC(END)        &trans
+&trans         &sl 18            &sl 16                    &sl 12          &lm0_tog LSHFT 19                          &mo_ctrl_e 10 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 19 0                  &lm0_sl LSHIFT 9  &sl 11       &sl 15             &sl 17             &trans
             >;
         };
 
