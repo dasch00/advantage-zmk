@@ -993,11 +993,11 @@
 
         NUM {
             bindings = <
-&kp LA(GRAVE)  &none   &none           &none           &none           &none  &trans                                                                     &trans            &kp_togNum LC(LA(N7))  &none                &kp_togNum LC(LS(ENTER))  &kp_togNum LA(TAB)  &kp_togNum BACKSLASH  &trans
-&trans         &none   &none           &kp N9          &none           &none  &trans                                                                     &trans            &none                  &none                &kp N8                    &kp BACKSPACE       &none                 &trans
-&trans         &kp N7  &kp N5          &kp N3          &kp N1          &none  &trans            &trans            &trans      &trans  &trans             &trans            &none                  &kp N0               &kp N2                    &kp N4              &kp NUMBER_6          &trans
-&trans         &none   &none           &none           &kp_togNum F11  &none                                      &trans      &trans                                       &none                  &none                &trans                    &trans              &trans                &trans
-&trans         &trans  &sk_sl RALT 19  &sk_sl LGUI 19  &tog_sl 19 19          &kp_tog SPACE 19  &kp_tog ENTER 19  &trans      &trans  &kp_togNum ESCAPE  &kp_togNum SPACE                         &tog_sk_sl 19 RSHFT  &tog_sk_sl 19 RCTRL       &sk_sl RALT 19      &trans                &trans
+&kp LA(GRAVE)  &none   &none           &none           &none          &none  &trans                                                                        &trans            &kp_togNum LC(LA(N7))  &none                &kp_togNum LC(LS(ENTER))  &kp_togNum LA(TAB)  &kp_togNum BACKSLASH  &trans
+&trans         &none   &none           &kp N9          &none          &none  &trans                                                                        &trans            &none                  &none                &kp N8                    &kp BACKSPACE       &none                 &trans
+&trans         &kp N7  &kp N5          &kp N3          &kp N1         &none  &trans               &trans            &trans      &trans  &trans             &trans            &none                  &kp N0               &kp N2                    &kp N4              &kp NUMBER_6          &trans
+&trans         &none   &none           &none           &none          &none                                         &trans      &trans                                       &none                  &none                &trans                    &trans              &trans                &trans
+&trans         &trans  &sk_sl RALT 19  &sk_sl LGUI 19  &tog_sl 19 19         &mod_layer 10 SPACE  &kp_tog ENTER 19  &trans      &trans  &kp_togNum ESCAPE  &kp_togNum SPACE                         &tog_sk_sl 19 RSHFT  &tog_sk_sl 19 RCTRL       &sk_sl RALT 19      &trans                &trans
             >;
         };
 
