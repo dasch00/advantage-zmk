@@ -609,7 +609,7 @@
             #binding-cells = <1>;
             bindings =
                 <&macro_tap>,
-                <&macro_param_1to1 &kp MACRO_PLACEHOLDER &tog 21>;
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER &tog 18>;
 
             label = "KP_TOG9";
         };
@@ -740,7 +740,7 @@
             compatible = "zmk,behavior-macro-one-param";
             label = "TOGNUM_SK";
             #binding-cells = <1>;
-            bindings = <&tog 21 &macro_param_1to1 &sk MACRO_PLACEHOLDER>;
+            bindings = <&tog 18 &macro_param_1to1 &sk MACRO_PLACEHOLDER>;
         };
 
         tog_sk_sl: tog_sk_sl {
