@@ -863,11 +863,11 @@
 
         layer_nav {
             bindings = <
-&kp LC(TILDE)  &kp_to2 ASTERISK  &kp_to2 LEFT_PARENTHESIS  &to2_sl 13      &kp SINGLE_QUOTE   &kp_to2 MINUS           &kp LC(LA(N7))                                                                 &kp LS(LC(P))    &kp_to2 DOLLAR  &kp TAB           &to2_sl 12   &kp_to2 EQUAL      &kp_to2 LS(SLASH)  &trans
-&ru_editor     &kp LC(LA(L))     &kp LC(W)                 &kp LC(SLASH)   &kp LA(ENTER)      &kp LC(D)               &macro_jump_to_char                                                            &trans           &kp LC(V)       &kp LC(F)         &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)       &trans
-&en_editor     &kp LA(N7)        &kp LC(TAB)               &lt 7 LC(B)     &kp LS(ENTER)      &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans           &kp HOME        &kp LC(LEFT)      &kp DOWN     &kp LC(RIGHT)      &kp END            &trans
-&trans         &kp LS(F10)       &kp LS(DELETE)            &kp LC(INSERT)  &kp LS(INSERT)     &kp LC(LS(U))                                                 &trans      &trans                                        &kp LS(LC(Z))   &kp LC(Z)         &key_repeat  &kp LC(DELETE)     &kp LC(END)        &trans
-&trans         &sl 17            &sl 15                    &sl 11          &lm0_tog LSHFT 21                          &mo_ctrl_e 19 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 22 0                  &lm0_sl LSHIFT 9  &sl 10       &sl 14             &sl 16             &trans
+&kp LC(TILDE)  &kp_to2 ASTERISK  &kp_to2 EQUAL   &to2_sl 13      &kp SINGLE_QUOTE   &kp_to2 MINUS           &kp LC(LA(N7))                                                                 &kp LS(LC(P))    &kp_to2 DOLLAR  &kp LEFT_PARENTHESIS  &to2_sl 12   &kp_to2 TAB        &kp_to2 LS(SLASH)  &trans
+&ru_editor     &kp LC(LA(L))     &kp LC(W)       &kp LC(SLASH)   &kp LA(ENTER)      &kp LC(D)               &macro_jump_to_char                                                            &trans           &kp LC(V)       &kp LC(F)             &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)       &trans
+&en_editor     &kp LA(N7)        &kp LC(TAB)     &lt 7 LC(B)     &kp LS(ENTER)      &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans           &kp HOME        &kp LC(LEFT)          &kp DOWN     &kp LC(RIGHT)      &kp END            &trans
+&trans         &kp LS(F10)       &kp LS(DELETE)  &kp LC(INSERT)  &kp LS(INSERT)     &kp LC(LS(U))                                                 &trans      &trans                                        &kp LS(LC(Z))   &kp LC(Z)             &key_repeat  &kp LC(DELETE)     &kp LC(END)        &trans
+&trans         &sl 17            &sl 15          &sl 11          &lm0_tog LSHFT 18                          &mo_ctrl_e 19 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 22 0                  &lm0_sl LSHIFT 9      &sl 10       &sl 14             &sl 16             &trans
             >;
         };
 
@@ -947,7 +947,7 @@
 &ru_default  &kp LA(Q)     &kp LA(W)         &kp LA(E)          &kp LA(R)  &kp LA(T)   &to 0                                                                             &to 6            &kp LA(Y)  &kp LA(U)  &kp LA(I)         &kp LA(O)             &kp LA(P)      &kp LA(LEFT_BRACKET)
 &en_default  &kp LA(A)     &kp LA(S)         &kp LA(D)          &kp LA(F)  &kp LA(G)   &mo 21         &trans         &trans                &trans        &trans          &mo 21           &kp LA(H)  &kp LA(J)  &kp LA(K)         &kp LA(L)             &kp LA(SEMI)   &kp LA(SINGLE_QUOTE)
 &mo 21       &kp LA(Z)     &kp LA(X)         &kp LA(C)          &kp LA(V)  &kp LA(B)                                 &trans                &trans                                         &kp LA(N)  &kp LA(M)  &kp LA(COMMA)     &kp LA(DOT)           &kp LA(FSLH)   &mo 21
-&trans       &trans        &none             &none              &none                  &kp LA(SPACE)  &kp LA(ENTER)  &lt 21 LG(LS(S))      &macro_win_l  &togFN_sk LALT  &togNUM_sk LALT             &sk RSHFT  &sk RCTRL         &sk LALT              &trans         &trans
+&trans       &trans        &none             &none              &none                  &kp LA(SPACE)  &kp LA(ENTER)  &lt 18 LG(LS(S))      &macro_win_l  &togFN_sk LALT  &togNUM_sk LALT             &sk RSHFT  &sk RCTRL         &sk LALT              &trans         &trans
             >;
         };
 
