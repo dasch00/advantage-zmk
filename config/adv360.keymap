@@ -1023,11 +1023,11 @@
 
         layer_num {
             bindings = <
-&trans  &trans   &trans        &trans  &trans  &trans       &trans                                      &trans        &trans   &trans       &trans        &trans        &trans       &trans
-&trans  &none    &kp N5        &kp N4  &kp N9  &none        &trans                                      &trans        &kp F8   &kp F10      &kp N8        &kp F4        &kp F6       &trans
-&trans  &kp N3   &kp NUMBER_2  &kp N1  &kp N0  &none        &trans  &none  &none      &none  &kp MINUS  &trans        &kp N8   &hm LALT N0  &hm LSHFT N2  &hm LCTRL N4  &hm LGUI N6  &trans
-&trans  &kp DOT  &kp N8        &kp N7  &kp N6  &kp KP_PLUS                 &none      &none                           &kp F18  &kp F1       &kp F12       &kp F14       &kp F16      &trans
-&trans  &trans   &trans        &trans  &trans               &kp N9  &none  &none      &none  &kp PLUS   &kp NUMBER_0           &trans       &trans        &trans        &trans       &trans
+&trans  &trans   &trans  &trans  &trans        &trans       &trans                                      &trans        &trans   &trans       &trans        &trans        &trans       &trans
+&trans  &none    &kp N5  &kp N4  &kp N9        &none        &trans                                      &trans        &kp F8   &kp F10      &kp N8        &kp F4        &kp F6       &trans
+&trans  &kp N3   &kp N0  &kp N1  &kp NUMBER_2  &none        &trans  &none  &none      &none  &kp MINUS  &trans        &kp N8   &hm LALT N0  &hm LSHFT N2  &hm LCTRL N4  &hm LGUI N6  &trans
+&trans  &kp DOT  &kp N8  &kp N7  &kp N6        &kp KP_PLUS                 &none      &none                           &kp F18  &kp F1       &kp F12       &kp F14       &kp F16      &trans
+&trans  &trans   &trans  &trans  &trans                     &kp N9  &none  &none      &none  &kp PLUS   &kp NUMBER_0           &trans       &trans        &trans        &trans       &trans
             >;
         };
     };
