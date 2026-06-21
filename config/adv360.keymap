@@ -1003,11 +1003,11 @@
 
         layer_fn {
             bindings = <
-&none  &none         &none          &none          &none          &none  &none                                               &none  &none         &none          &none          &none         &none         &none
-&none  &none         &kp_togFN F3   &kp_togFN F4   &kp_togFN F2   &none  &none                                               &none  &none         &none          &kp_togFN F12  &none         &none         &none
-&none  &kp_togFN F9  &kp_togFN F10  &kp_togFN F11  &kp_togFN F12  &none  &none         &none    &none      &none  &kp MINUS  &none  &kp_togFN F8  &kp_togFN F10  &kp_togFN F2   &kp_togFN F4  &kp_togFN F6  &none
-&none  &togFN_sk F1  &kp_togFN F8   &kp_togFN F7   &kp_togFN F6   &none                         &none      &none                    &none         &none          &none          &none         &none         &none
-&none  &none         &none          &none          &none                 &kp_togFN F5  &tog 20  &none      &none  &tog 20    &none                &sk LCTRL      &sk RSHFT      &sk LALT      &none         &none
+&none  &none         &none          &none          &none          &none  &none                                               &none  &none  &none      &none      &none     &none     &none
+&none  &none         &kp_togFN F3   &kp_togFN F4   &kp_togFN F2   &none  &none                                               &none  &none  &none      &none      &none     &none     &none
+&none  &kp_togFN F9  &kp_togFN F10  &kp_togFN F11  &kp_togFN F12  &none  &none         &none    &none      &none  &kp MINUS  &none  &none  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
+&none  &togFN_sk F1  &kp_togFN F8   &kp_togFN F7   &kp_togFN F6   &none                         &none      &none                    &none  &none      &none      &none     &none     &none
+&none  &none         &none          &none          &none                 &kp_togFN F5  &tog 20  &none      &none  &tog 20    &none         &none      &none      &none     &none     &none
             >;
         };
 
