@@ -897,7 +897,7 @@
 &trans         &kp LC(T)       &app_block W 6     &app_line E 0   &app_line R 0  &app_line T 0           &trans                                                    &trans  &app_line S 0  &app_block U 6  &kp N8     &app_line O 0  &app_line P 0      &trans
 &trans         &app_block A 6  &app_block S 6     &app_block D 6  &app_line F 0  &app_line G 0           &trans         &trans         &trans      &trans  &trans  &trans  &app_line H 0  &kp N0          &kp N2     &kp N4         &kp NUMBER_6       &trans
 &trans         &app_block Z 6  &app_block X 6     &app_block C 6  &app_line V 0  &app_line B 0                                         &trans      &trans                  &app_line N 0  &app_line M 6   &trans     &trans         &app_line SLASH 0  &trans
-&trans         &trans          &kp LC(N0)         &kp LC(F5)      &kp K_APP                              &kp LC(SPACE)  &kp LC(ENTER)  &trans      &trans  &sl 18  &sl 18                 &tog_sk 9 LGUI  &sk RCTRL  &sk LALT       &trans             &trans
+&trans         &trans          &kp LC(N0)         &kp LC(F5)      &kp K_APP                              &kp LC(SPACE)  &kp LC(ENTER)  &trans      &trans  &sl 20  &sl 18                 &tog_sk 9 LGUI  &sk RCTRL  &sk LALT       &trans             &trans
             >;
         };
 
