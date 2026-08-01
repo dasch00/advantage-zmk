@@ -943,11 +943,11 @@
 
         left_alt {
             bindings = <
-&kp GRAVE    &kp ASTERISK  &kp SINGLE_QUOTE  &mod_sl LSHIFT 12  &kp TAB    &kp DOLLAR  &kp F12                                                                           &kp N0           &kp MINUS  &kp EQUAL  &mod_sl RSHFT 12  &kp LEFT_PARENTHESIS  &kp LS(SLASH)  &kp LA(RIGHT_BRACKET)
-&ru_default  &kp LA(Q)     &kp LA(W)         &kp LA(E)          &kp LA(R)  &kp LA(T)   &to 0                                                                             &to 6            &kp LA(Y)  &kp LA(U)  &kp LA(I)         &kp LA(O)             &kp LA(P)      &kp LA(LEFT_BRACKET)
-&en_default  &kp LA(A)     &kp LA(S)         &kp LA(D)          &kp LA(F)  &kp LA(G)   &mo 21         &trans         &trans                &trans        &trans          &mo 21           &kp LA(H)  &kp LA(J)  &kp LA(K)         &kp LA(L)             &kp LA(SEMI)   &kp LA(SINGLE_QUOTE)
-&mo 21       &kp LA(Z)     &kp LA(X)         &kp LA(C)          &kp LA(V)  &kp LA(B)                                 &trans                &trans                                         &kp LA(N)  &kp LA(M)  &kp LA(COMMA)     &kp LA(DOT)           &kp LA(FSLH)   &mo 21
-&trans       &trans        &none             &none              &none                  &kp LA(SPACE)  &kp LA(ENTER)  &lt 18 LG(LS(S))      &macro_win_l  &togFN_sk LALT  &togNUM_sk LALT             &sk RSHFT  &sk RCTRL         &togFN_sk LALT        &trans         &trans
+&kp GRAVE    &kp EXCLAMATION  &kp SINGLE_QUOTE  &mod_sl LSHIFT 12  &kp TAB    &kp DOLLAR  &kp F12                                                                           &kp N0           &kp MINUS  &kp EQUAL  &mod_sl RSHFT 12  &kp LEFT_PARENTHESIS  &kp LS(SLASH)  &kp LA(RIGHT_BRACKET)
+&ru_default  &kp LA(Q)        &kp LA(W)         &kp LA(E)          &kp LA(R)  &kp LA(T)   &to 0                                                                             &to 6            &kp LA(Y)  &kp LA(U)  &kp LA(I)         &kp LA(O)             &kp LA(P)      &kp LA(LEFT_BRACKET)
+&en_default  &kp LA(A)        &kp LA(S)         &kp LA(D)          &kp LA(F)  &kp LA(G)   &mo 21         &trans         &trans                &trans        &trans          &mo 21           &kp LA(H)  &kp LA(J)  &kp LA(K)         &kp LA(L)             &kp LA(SEMI)   &kp LA(SINGLE_QUOTE)
+&mo 21       &kp LA(Z)        &kp LA(X)         &kp LA(C)          &kp LA(V)  &kp LA(B)                                 &trans                &trans                                         &kp LA(N)  &kp LA(M)  &kp LA(COMMA)     &kp LA(DOT)           &kp LA(FSLH)   &mo 21
+&trans       &trans           &none             &none              &none                  &kp LA(SPACE)  &kp LA(ENTER)  &lt 18 LG(LS(S))      &macro_win_l  &togFN_sk LALT  &togNUM_sk LALT             &sk RSHFT  &sk RCTRL         &togFN_sk LALT        &trans         &trans
             >;
         };
 
