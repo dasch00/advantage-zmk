@@ -1033,11 +1033,11 @@
 
         layer_num_oneshot {
             bindings = <
-&none  &kp KP_DIVIDE  &kp KP_EQUAL         &kp KP_PLUS   &kp KP_MINUS  &kp KP_MULTIPLY  &none                                      &none          &none    &none        &none         &none         &none        &none
-&none  &none          &kp_tog NUMBER_3 23  &kp NUMBER_4  &kp N9        &none            &none                                      &none          &kp F8   &kp F10      &kp N8        &kp F4        &kp F6       &none
-&none  &kp DOT        &kp NUMBER_1         &kp NUMBER_2  &kp NUMBER_0  &none            &none   &none   &none      &none  &none    &none          &kp N8   &hm LALT N0  &hm LSHFT N2  &hm LCTRL N4  &hm LGUI N6  &none
-&none  &kp DOT        &kp N8               &kp N7        &kp NUMBER_6  &kp BACKSPACE                    &none      &none                          &kp F18  &kp F1       &kp F12       &kp F14       &kp F16      &none
-&none  &none          &none                &none         &none                          &kp N5  &trans  &none      &none  &tog 22  &tog_sl 22 20           &none        &none         &none         &none        &none
+&none  &none    &kp_togNum KP_EQUAL  &kp_togNum N9        &none                &none  &none                                      &none          &none    &none        &none         &none         &none        &none
+&none  &none    &kp_togNum NUMBER_3  &kp_togNum NUMBER_4  &kp_togNum N9        &none  &none                                      &none          &kp F8   &kp F10      &kp N8        &kp F4        &kp F6       &none
+&none  &kp DOT  &kp_togNum NUMBER_1  &kp_togNum NUMBER_2  &kp_togNum NUMBER_0  &none  &none   &none   &none      &none  &none    &none          &kp N8   &hm LALT N0  &hm LSHFT N2  &hm LCTRL N4  &hm LGUI N6  &none
+&none  &kp DOT  &kp_togNum N8        &kp_togNum N7        &kp_togNum NUMBER_6  &none                  &none      &none                          &kp F18  &kp F1       &kp F12       &kp F14       &kp F16      &none
+&none  &none    &none                &none                &none                       &kp N5  &trans  &none      &none  &tog 22  &tog_sl 22 20           &none        &none         &none         &none        &none
             >;
         };
     };
