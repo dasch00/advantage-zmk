@@ -923,8 +923,8 @@
 
         left_shift {
             bindings = <
-&kp LS(GRAVE)     &kp EXCLAMATION  &kp PLUS   &macro_fat_arrow  &kp AMPERSAND  &kp PERCENT  &trans                                                    &trans             &none      &none             &sk_sl LSHFT 20  &kp HASH     &none          &kp RIGHT_BRACE
-&kp CARET         &kp LS(Q)        &kp LS(W)  &kp LS(E)         &kp LS(R)      &kp LS(T)    &trans                                                    &trans             &kp LS(Y)  &kp LS(U)         &kp LS(I)        &kp LS(O)    &kp LS(P)      &kp LEFT_BRACE
+&kp LS(GRAVE)     &kp EXCLAMATION  &kp PLUS   &macro_fat_arrow  &kp AMPERSAND  &kp PERCENT  &trans                                                    &trans             &none      &none             &sk_sl LSHFT 20  &kp LS(TAB)  &none          &kp RIGHT_BRACE
+&kp HASH          &kp LS(Q)        &kp LS(W)  &kp LS(E)         &kp LS(R)      &kp LS(T)    &trans                                                    &trans             &kp LS(Y)  &kp LS(U)         &kp LS(I)        &kp LS(O)    &kp LS(P)      &kp LEFT_BRACE
 &kp LS(NUMBER_6)  &kp LS(A)        &kp LS(S)  &kp LS(D)         &kp LS(F)      &kp LS(G)    &trans         &trans         &trans      &trans  &trans  &trans             &kp LS(H)  &kp LS(J)         &kp LS(K)        &kp LS(L)    &kp LS(SEMI)   &kp LS(SINGLE_QUOTE)
 &trans            &kp LS(Z)        &kp LS(X)  &kp LS(C)         &kp LS(V)      &kp LS(B)                                  &trans      &trans                             &kp LS(N)  &kp LS(M)         &kp LS(COMMA)    &kp LS(DOT)  &kp LS(SLASH)  &trans
 &trans            &trans           &none      &none             &none                       &kp LS(SPACE)  &kp LS(ENTER)  &trans      &trans  &trans  &togNUM_sk RSHIFT             &togFN_sk RSHIFT  &sk RCTRL        &sk LALT     &trans         &trans
