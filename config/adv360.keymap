@@ -1033,11 +1033,11 @@
 
         layer_num_oneshot {
             bindings = <
-&none  &none    &kp_togNum KP_EQUAL  &kp_togNum N9        &none                &none  &none                                      &none          &none    &none        &none         &none         &none        &none
-&none  &none    &kp_togNum NUMBER_3  &kp_togNum NUMBER_4  &kp_togNum N9        &none  &none                                      &none          &kp F8   &kp F10      &kp N8        &kp F4        &kp F6       &none
-&none  &kp DOT  &kp_togNum NUMBER_1  &kp_togNum NUMBER_2  &kp_togNum NUMBER_0  &none  &none   &none   &none      &none  &none    &none          &kp N8   &hm LALT N0  &hm LSHFT N2  &hm LCTRL N4  &hm LGUI N6  &none
-&none  &kp DOT  &kp_togNum N8        &kp_togNum N7        &kp_togNum NUMBER_6  &none                  &none      &none                          &kp F18  &kp F1       &kp F12       &kp F14       &kp F16      &none
-&none  &none    &none                &none                &none                       &kp N5  &trans  &none      &none  &tog 22  &tog_sl 23 20           &none        &none         &none         &none        &none
+&none  &none    &kp_togNum KP_EQUAL  &kp_togNum N9        &none                &none  &none                                      &none          &none  &none           &none           &none           &none           &none
+&none  &none    &kp_togNum NUMBER_3  &kp_togNum NUMBER_4  &kp_togNum N9        &none  &none                                      &none          &none  &kp_togNum F9   &kp_togNum F4   &kp_togNum F3   &none           &none
+&none  &kp DOT  &kp_togNum NUMBER_1  &kp_togNum NUMBER_2  &kp_togNum NUMBER_0  &none  &none   &none   &none      &none  &none    &none          &none  &kp_togNum F10  &kp_togNum F12  &kp_togNum F11  &kp_togNum F13  &none
+&none  &kp DOT  &kp_togNum N8        &kp_togNum N7        &kp_togNum NUMBER_6  &none                  &none      &none                          &none  &kp_togNum F6   &kp_togNum F7   &kp_togNum F8   &kp_togNum F14  &none
+&none  &none    &none                &none                &none                       &kp N5  &trans  &none      &none  &tog 23  &kp_togNum F5         &none           &kp_togNum F2   &kp_togNum F1   &none           &none
             >;
         };
     };
