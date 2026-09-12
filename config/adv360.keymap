@@ -973,11 +973,11 @@
 
         right_win {
             bindings = <
-&kp LS(GRAVE)  &none            &none      &none      &none      &none      &trans                                                       &trans         &kp UNDERSCORE  &kp BACKSLASH  &kp LS(LC(ENTER))  &macro_arrow  &kp EXCLAMATION  &kp RIGHT_BRACE
-&trans         &kp LG(Q)        &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)  &trans                                                       &trans         &kp LG(Y)       &kp LG(U)      &kp LG(I)          &kp LG(O)     &kp LG(P)        &kp LEFT_BRACE
-&trans         &kp LG(A)        &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &trans           &trans         &trans      &trans  &trans   &trans         &kp LG(H)       &kp LG(J)      &kp LG(K)          &kp LG(L)     &kp LG(SEMI)     &kp LG(SINGLE_QUOTE)
-&trans         &kp LG(Z)        &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                                  &trans      &trans                          &kp LG(N)       &kp LG(M)      &kp LG(COMMA)      &kp LG(DOT)   &kp LG(SLASH)    &trans
-&trans         &togNUM_sk LGUI  &sk LALT   &sk LCTRL  &sk LSHFT             &togNUM_sk LGUI  &kp LG(ENTER)  &trans      &trans  &tog 17  &kp LG(SPACE)                  &none          &none              &none         &trans           &trans
+&kp LS(GRAVE)  &none            &none      &none      &none      &none      &trans                                                              &trans         &kp UNDERSCORE  &kp BACKSLASH  &kp LS(LC(ENTER))  &macro_arrow  &kp EXCLAMATION  &kp RIGHT_BRACE
+&trans         &kp LG(Q)        &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)  &trans                                                              &trans         &kp LG(Y)       &kp LG(U)      &kp LG(I)          &kp LG(O)     &kp LG(P)        &kp LEFT_BRACE
+&trans         &kp LG(A)        &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &trans           &trans         &trans      &trans  &trans          &trans         &kp LG(H)       &kp LG(J)      &kp LG(K)          &kp LG(L)     &kp LG(SEMI)     &kp LG(SINGLE_QUOTE)
+&trans         &kp LG(Z)        &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                                  &trans      &trans                                 &kp LG(N)       &kp LG(M)      &kp LG(COMMA)      &kp LG(DOT)   &kp LG(SLASH)    &trans
+&trans         &togNUM_sk LGUI  &sk LALT   &sk LCTRL  &sk LSHFT             &togNUM_sk LGUI  &kp LG(ENTER)  &trans      &trans  &kp LG(ESCAPE)  &kp LG(SPACE)                  &none          &none              &none         &trans           &trans
             >;
         };
 
