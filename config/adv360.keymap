@@ -897,13 +897,13 @@
 &trans         &kp LC(T)       &app_block W 6     &app_line E 0   &app_line R 0  &app_line T 0           &trans                                                    &trans  &app_line S 0  &app_block U 6  &kp N8     &app_line O 0  &app_line P 0      &trans
 &trans         &app_block A 6  &app_block S 6     &app_block D 6  &app_line F 0  &app_line G 0           &trans         &trans         &trans      &trans  &trans  &trans  &app_line H 0  &kp N0          &kp N2     &kp N4         &kp NUMBER_6       &trans
 &trans         &app_block Z 6  &app_block X 6     &app_block C 6  &app_line V 0  &app_line B 0                                         &trans      &trans                  &app_line N 0  &app_line M 6   &trans     &trans         &app_line SLASH 0  &trans
-&trans         &trans          &kp LC(N0)         &kp LC(F5)      &sl 20                                 &kp LC(SPACE)  &kp LC(ENTER)  &trans      &trans  &sl 23  &sl 0                  &sl 23          &sk RCTRL  &sk LALT       &trans             &trans
+&trans         &trans          &kp LC(N0)         &kp LC(F5)      &sl 20                                 &kp LC(SPACE)  &kp LC(ENTER)  &trans      &trans  &sl 23  &sl 0                  &sl 20          &sk RCTRL  &sk LALT       &trans             &trans
             >;
         };
 
         left_shift {
             bindings = <
-&kp LS(GRAVE)     &kp EXCLAMATION  &kp PLUS   &macro_fat_arrow  &kp AMPERSAND  &kp PERCENT  &trans                                                            &trans             &none      &none              &sk_sl LSHFT 23  &kp LS(TAB)  &none          &kp RIGHT_BRACE
+&kp LS(GRAVE)     &kp EXCLAMATION  &kp PLUS   &macro_fat_arrow  &kp AMPERSAND  &kp PERCENT  &trans                                                            &trans             &none      &none              &sk_sl LSHFT 20  &kp LS(TAB)  &none          &kp RIGHT_BRACE
 &kp HASH          &kp LS(Q)        &kp LS(W)  &kp LS(E)         &kp LS(R)      &kp LS(T)    &trans                                                            &trans             &kp LS(Y)  &kp LS(U)          &kp LS(I)        &kp LS(O)    &kp LS(P)      &kp LEFT_BRACE
 &kp LS(NUMBER_6)  &kp LS(A)        &kp LS(S)  &kp LS(D)         &kp LS(F)      &kp LS(G)    &trans         &trans         &trans      &trans  &trans          &trans             &kp LS(H)  &kp LS(J)          &kp LS(K)        &kp LS(L)    &kp LS(SEMI)   &kp LS(SINGLE_QUOTE)
 &trans            &kp LS(Z)        &kp LS(X)  &kp LS(C)         &kp LS(V)      &kp LS(B)                                  &trans      &trans                                     &kp LS(N)  &kp LS(M)          &kp LS(COMMA)    &kp LS(DOT)  &kp LS(SLASH)  &trans
@@ -913,11 +913,11 @@
 
         right_shift {
             bindings = <
-&kp LS(GRAVE)  &none      &none      &togFN_sk LSHFT  &none             &none      &trans                                                               &trans         &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &macro_arrow   &kp LS(LC(ENTER))  &kp PIPE       &kp RIGHT_BRACE
-&trans         &kp LS(Q)  &kp LS(W)  &kp LS(E)        &kp LS(R)         &kp LS(T)  &trans                                                               &trans         &kp LS(Y)       &kp LS(U)              &kp LS(I)      &kp LS(O)          &kp LS(P)      &kp LEFT_BRACE
-&trans         &kp LS(A)  &kp LS(S)  &kp LS(D)        &kp LS(F)         &kp LS(G)  &trans            &trans         &trans      &trans  &trans          &trans         &kp LS(H)       &kp LS(J)              &kp LS(K)      &kp LS(L)          &kp LS(SEMI)   &kp LS(SINGLE_QUOTE)
-&trans         &kp LS(Z)  &kp LS(X)  &kp LS(C)        &kp LS(V)         &kp LS(B)                                   &trans      &trans                                 &kp LS(N)       &kp LS(M)              &kp LS(COMMA)  &kp LS(DOT)        &kp LS(SLASH)  &trans
-&trans         &trans     &sk LALT   &sk LCTRL        &togNUM_sk LSHFT             &togNUM_sk LSHFT  &kp LS(ENTER)  &trans      &trans  &kp LS(ESCAPE)  &kp LS(SPACE)                  &none                  &none          &none              &trans         &trans
+&kp LS(GRAVE)  &none      &none      &togNUM_sk LSHFT  &none             &none      &trans                                                               &trans         &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &macro_arrow   &kp LS(LC(ENTER))  &kp PIPE       &kp RIGHT_BRACE
+&trans         &kp LS(Q)  &kp LS(W)  &kp LS(E)         &kp LS(R)         &kp LS(T)  &trans                                                               &trans         &kp LS(Y)       &kp LS(U)              &kp LS(I)      &kp LS(O)          &kp LS(P)      &kp LEFT_BRACE
+&trans         &kp LS(A)  &kp LS(S)  &kp LS(D)         &kp LS(F)         &kp LS(G)  &trans            &trans         &trans      &trans  &trans          &trans         &kp LS(H)       &kp LS(J)              &kp LS(K)      &kp LS(L)          &kp LS(SEMI)   &kp LS(SINGLE_QUOTE)
+&trans         &kp LS(Z)  &kp LS(X)  &kp LS(C)         &kp LS(V)         &kp LS(B)                                   &trans      &trans                                 &kp LS(N)       &kp LS(M)              &kp LS(COMMA)  &kp LS(DOT)        &kp LS(SLASH)  &trans
+&trans         &trans     &sk LALT   &sk LCTRL         &togNUM_sk LSHFT             &togNUM_sk LSHFT  &kp LS(ENTER)  &trans      &trans  &kp LS(ESCAPE)  &kp LS(SPACE)                  &none                  &none          &none              &trans         &trans
             >;
         };
 
