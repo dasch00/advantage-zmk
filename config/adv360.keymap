@@ -997,7 +997,7 @@
 &none  &none          &kp NUMBER_3   &kp NUMBER_4  &none         &none            &none                                      &none  &kp F8   &kp F10      &kp N8        &kp F4        &kp F6       &none
 &none  &kp DOT        &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_0  &none            &none   &none   &none      &none  &none    &none  &kp N8   &hm LALT N0  &hm LSHFT N2  &hm LCTRL N4  &hm LGUI N6  &none
 &none  &kp DOT        &kp N8         &kp N7        &kp NUMBER_6  &kp BACKSPACE                    &none      &none                  &kp F18  &kp F1       &kp F12       &kp F14       &kp F16      &none
-&none  &none          &kp KP_DIVIDE  &kp KP_MINUS  &kp KP_MINUS                   &kp N5  &trans  &none      &none  &tog 19  &none           &none        &none         &none         &none        &none
+&none  &none          &kp KP_DIVIDE  &kp KP_MINUS  &kp KP_MINUS                   &kp N5  &trans  &none      &none  &tog 19  &none           &kp LSHFT    &kp LCTRL     &kp LALT      &kp LGUI     &none
             >;
         };
 
