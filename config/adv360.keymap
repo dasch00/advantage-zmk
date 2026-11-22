@@ -810,11 +810,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE    &kp BACKSLASH    &kp EQUAL        &mod_sl LSHIFT 11  &kp DOLLAR       &kp ASTERISK  &kp F12                                                                        &kp N0        &kp MINUS  &kp LEFT_PARENTHESIS  &mod_sl RSHFT 10  &kp TAB          &kp LS(SLASH)    &kp RIGHT_BRACKET
-&ru_default  &kp Q            &kp W            &kp E              &kp R            &kp T         &to 0                                                                          &to 6         &kp Y      &kp U                 &kp I             &kp O            &kp P            &kp LEFT_BRACKET
-&en_default  &kp A            &kp S            &kp D              &kp F            &kp G         &mo 21        &trans       &trans               &trans        &trans           &mo 21        &kp H      &kp J                 &kp K             &kp L            &kp SEMI         &kp SINGLE_QUOTE
-&mo 21       &kp Z            &kp X            &kp C              &kp V            &kp B                                    &trans               &trans                                       &kp N      &kp M                 &kp COMMA         &kp DOT          &kp FSLH         &mo 21
-&trans       &mod_sl LGUI 17  &mod_sl LALT 15  &mod_sl LCTRL 13   &mod_sl LSHFT 9                &lt 18 SPACE  &lt 8 ENTER  &lt 0 LG(LS(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 19 SPACE             &mod_sl RSHFT 9       &mod_sl RCTRL 12  &mod_sl LALT 14  &mod_sl RGUI 16  &trans
+&kp GRAVE    &kp BACKSLASH    &kp EQUAL        &mod_sl LSHIFT 11  &kp DOLLAR       &kp ASTERISK  &kp F12                                                                          &kp N0        &kp MINUS  &kp LEFT_PARENTHESIS  &mod_sl RSHFT 10  &kp TAB          &kp LS(SLASH)    &kp RIGHT_BRACKET
+&ru_default  &kp Q            &kp W            &kp E              &kp R            &kp T         &to 0                                                                            &to 6         &kp Y      &kp U                 &kp I             &kp O            &kp P            &kp LEFT_BRACKET
+&en_default  &kp A            &kp S            &kp D              &kp F            &kp G         &mo 21        &trans       &trans                 &trans        &trans           &mo 21        &kp H      &kp J                 &kp K             &kp L            &kp SEMI         &kp SINGLE_QUOTE
+&mo 21       &kp Z            &kp X            &kp C              &kp V            &kp B                                    &trans                 &trans                                       &kp N      &kp M                 &kp COMMA         &kp DOT          &kp FSLH         &mo 21
+&trans       &mod_sl LGUI 17  &mod_sl LALT 15  &mod_sl LCTRL 13   &mod_sl LSHFT 9                &lt 18 SPACE  &lt 8 ENTER  &lt (0) LG(LS(S))      &macro_win_l  &mt LGUI ESCAPE  &lt 19 SPACE             &mod_sl RSHFT 9       &mod_sl RCTRL 12  &mod_sl LALT 14  &mod_sl RGUI 16  &trans
             >;
         };
 
@@ -872,7 +872,7 @@
             bindings = <
 &kp LC(TILDE)  &kp_to2 BACKSLASH  &kp_to2 EQUAL   &to2_sl 11      &kp_to2 DOLLAR    &kp_to2 ASTERISK        &kp LC(LA(N7))                                                                 &none            &kp_to2 MINUS  &kp LEFT_PARENTHESIS  &to2_sl 10   &kp_to2 TAB        &kp_to2 LS(SLASH)  &trans
 &ru_editor     &kp LC(LA(L))      &kp LC(W)       &kp LC(SLASH)   &kp LA(ENTER)     &kp LC(D)               &macro_jump_to_char                                                            &trans           &kp LC(V)      &kp LC(LS(P))         &kp UP       &kp LC(BACKSPACE)  &kp LC(HOME)       &trans
-&en_editor     &kp HOME           &kp LC(TAB)     &lt 7 LC(B)     &kp LS(ENTER)     &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans           &kp LA(N7)     &kp LC(LEFT)          &kp DOWN     &kp LC(RIGHT)      &kp END            &trans
+&en_editor     &kp HOME           &kp LC(TAB)     &lt (7) LC(B)   &kp LS(ENTER)     &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans       &trans      &trans  &trans               &trans           &kp LA(N7)     &kp LC(LEFT)          &kp DOWN     &kp LC(RIGHT)      &kp END            &trans
 &trans         &kp LS(F10)        &kp LS(DELETE)  &kp LC(INSERT)  &kp LS(INSERT)    &kp LC(LS(U))                                                 &trans      &trans                                        &kp LS(LC(Z))  &kp LC(Z)             &key_repeat  &kp LC(DELETE)     &kp LC(END)        &trans
 &trans         &sl 17             &sl 15          &sl 13          &lm0_tog LSHFT 0                          &mo_ctrl_e 18 0          &lt 8 ENTER  &trans      &trans  &lm0mod LGUI ESCAPE  &mo_toedit 19 0                 &lm0_sl LSHIFT 9      &sl 12       &sl 14             &sl 16             &trans
             >;
@@ -950,21 +950,21 @@
 
         left_alt {
             bindings = <
-&kp LA(GRAVE)  &kp LA(BACKSLASH)  &kp LA(EQUAL)  &kp HASH   &kp SEMICOLON  &kp ASTERISK  &kp F12                                                                          &kp N0           &none      &none      &none          &none            &none         &kp LA(RIGHT_BRACKET)
-&ru_default    &kp LA(Q)          &kp LA(W)      &kp LA(E)  &kp LA(R)      &kp LA(T)     &to 0                                                                            &to 6            &kp LA(Y)  &kp LA(U)  &kp LA(I)      &kp LA(O)        &kp LA(P)     &kp LA(LEFT_BRACKET)
-&en_default    &kp LA(A)          &kp LA(S)      &kp LA(D)  &kp LA(F)      &kp LA(G)     &mo 21         &trans         &trans               &trans        &trans          &mo 21           &kp LA(H)  &kp LA(J)  &kp LA(K)      &kp LA(L)        &kp LA(SEMI)  &kp LA(SINGLE_QUOTE)
-&mo 21         &kp LA(Z)          &kp LA(X)      &kp LA(C)  &kp LA(V)      &kp LA(B)                                   &trans               &trans                                         &kp LA(N)  &kp LA(M)  &kp LA(COMMA)  &kp LA(DOT)      &kp LA(FSLH)  &mo 21
-&trans         &trans             &none          &none      &none                        &kp LA(SPACE)  &kp LA(ENTER)  &lt 0 LG(LS(S))      &macro_win_l  &kp LA(ESCAPE)  &togNUM_sk LALT             &sk RSHFT  &sk RCTRL      &togNUM_sk LALT  &trans        &trans
+&kp LA(GRAVE)  &kp LA(BACKSLASH)  &kp LA(EQUAL)  &kp HASH   &kp SEMICOLON  &kp ASTERISK  &kp F12                                                                            &kp N0           &none      &none      &none          &none            &none         &kp LA(RIGHT_BRACKET)
+&ru_default    &kp LA(Q)          &kp LA(W)      &kp LA(E)  &kp LA(R)      &kp LA(T)     &to 0                                                                              &to 6            &kp LA(Y)  &kp LA(U)  &kp LA(I)      &kp LA(O)        &kp LA(P)     &kp LA(LEFT_BRACKET)
+&en_default    &kp LA(A)          &kp LA(S)      &kp LA(D)  &kp LA(F)      &kp LA(G)     &mo 21         &trans         &trans                 &trans        &trans          &mo 21           &kp LA(H)  &kp LA(J)  &kp LA(K)      &kp LA(L)        &kp LA(SEMI)  &kp LA(SINGLE_QUOTE)
+&mo 21         &kp LA(Z)          &kp LA(X)      &kp LA(C)  &kp LA(V)      &kp LA(B)                                   &trans                 &trans                                         &kp LA(N)  &kp LA(M)  &kp LA(COMMA)  &kp LA(DOT)      &kp LA(FSLH)  &mo 21
+&trans         &trans             &none          &none      &none                        &kp LA(SPACE)  &kp LA(ENTER)  &lt (0) LG(LS(S))      &macro_win_l  &kp LA(ESCAPE)  &togNUM_sk LALT             &sk RSHFT  &sk RCTRL      &togNUM_sk LALT  &trans        &trans
             >;
         };
 
         right_alt {
             bindings = <
-&kp GRAVE    &none      &none            &none      &none      &none      &kp F12                                                                            &kp N0         &kp LA(MINUS)  &kp LA(LEFT_PARENTHESIS)  &macro_triple_equal  &kp LA(TAB)  &kp COLON     &kp LA(RIGHT_BRACKET)
-&ru_default  &kp LA(Q)  &kp LA(W)        &kp LA(E)  &kp LA(R)  &kp LA(T)  &to 0                                                                              &to 6          &kp LA(Y)      &kp LA(U)                 &kp LA(I)            &kp LA(O)    &kp LA(P)     &kp LA(LEFT_BRACKET)
-&en_default  &kp LA(A)  &kp LA(S)        &kp LA(D)  &kp LA(F)  &kp LA(G)  &mo 21           &trans         &trans               &trans        &trans          &mo 21         &kp LA(H)      &kp LA(J)                 &kp LA(K)            &kp LA(L)    &kp LA(SEMI)  &kp LA(SINGLE_QUOTE)
-&mo 21       &kp LA(Z)  &kp LA(X)        &kp LA(C)  &kp LA(V)  &kp LA(B)                                  &trans               &trans                                       &kp LA(N)      &kp LA(M)                 &kp LA(COMMA)        &kp LA(DOT)  &kp LA(FSLH)  &mo 21
-&trans       &trans     &togNUM_sk LALT  &sk LCTRL  &sk LSHFT             &togNUM_sk LALT  &kp LS(ENTER)  &lt 0 LG(LS(S))      &macro_win_l  &kp LA(ESCAPE)  &kp LA(SPACE)                 &sk RSHFT                 &sk RGUI             &sk RALT     &trans        &trans
+&kp GRAVE    &none      &none            &none      &none      &none      &kp F12                                                                              &kp N0         &kp LA(MINUS)  &kp LA(LEFT_PARENTHESIS)  &macro_triple_equal  &kp LA(TAB)  &kp COLON     &kp LA(RIGHT_BRACKET)
+&ru_default  &kp LA(Q)  &kp LA(W)        &kp LA(E)  &kp LA(R)  &kp LA(T)  &to 0                                                                                &to 6          &kp LA(Y)      &kp LA(U)                 &kp LA(I)            &kp LA(O)    &kp LA(P)     &kp LA(LEFT_BRACKET)
+&en_default  &kp LA(A)  &kp LA(S)        &kp LA(D)  &kp LA(F)  &kp LA(G)  &mo 21           &trans         &trans                 &trans        &trans          &mo 21         &kp LA(H)      &kp LA(J)                 &kp LA(K)            &kp LA(L)    &kp LA(SEMI)  &kp LA(SINGLE_QUOTE)
+&mo 21       &kp LA(Z)  &kp LA(X)        &kp LA(C)  &kp LA(V)  &kp LA(B)                                  &trans                 &trans                                       &kp LA(N)      &kp LA(M)                 &kp LA(COMMA)        &kp LA(DOT)  &kp LA(FSLH)  &mo 21
+&trans       &trans     &togNUM_sk LALT  &sk LCTRL  &sk LSHFT             &togNUM_sk LALT  &kp LS(ENTER)  &lt (0) LG(LS(S))      &macro_win_l  &kp LA(ESCAPE)  &kp LA(SPACE)                 &sk RSHFT                 &sk RGUI             &sk RALT     &trans        &trans
             >;
         };
 
@@ -1010,11 +1010,11 @@
 
         layer_num_oneshot {
             bindings = <
-&none  &none    &kp_togNum KP_EQUAL  &kp_togNum N9        &none                &none  &none                                      &none          &none  &none           &none           &none           &none           &none
-&none  &none    &kp_togNum NUMBER_3  &kp_togNum NUMBER_4  &kp_togNum N9        &none  &none                                      &none          &none  &kp_togNum F9   &kp_togNum F4   &kp_togNum F3   &none           &none
-&none  &kp DOT  &kp_togNum NUMBER_1  &kp_togNum NUMBER_2  &kp_togNum NUMBER_0  &none  &none   &none   &none      &none  &none    &none          &none  &kp_togNum F10  &kp_togNum F12  &kp_togNum F11  &kp_togNum F13  &none
-&none  &kp DOT  &kp_togNum N8        &kp_togNum N7        &kp_togNum NUMBER_6  &none                  &none      &none                          &none  &kp_togNum F6   &kp_togNum F7   &kp_togNum F8   &kp_togNum F14  &none
-&none  &none    &none                &none                &none                       &kp N5  &trans  &none      &none  &tog 20  &kp_togNum F5         &none           &kp_togNum F2   &kp_togNum F1   &none           &none
+&none  &none    &kp_togNum KP_EQUAL  &kp_togNum N9        &none                &none  &none                                      &none          &none           &none           &kp_togNum F9   &none           &none           &none
+&none  &none    &kp_togNum NUMBER_3  &kp_togNum NUMBER_4  &kp_togNum N9        &none  &none                                      &none          &kp_togNum F19  &kp_togNum F9   &kp_togNum F4   &kp_togNum F3   &none           &none
+&none  &kp DOT  &kp_togNum NUMBER_1  &kp_togNum NUMBER_2  &kp_togNum NUMBER_0  &none  &none   &none   &none      &none  &none    &none          &kp_togNum F18  &kp_togNum F10  &kp_togNum F12  &kp_togNum F11  &kp_togNum F13  &none
+&none  &kp DOT  &kp_togNum N8        &kp_togNum N7        &kp_togNum NUMBER_6  &none                  &none      &none                          &kp_togNum F17  &kp_togNum F6   &kp_togNum F7   &kp_togNum F8   &kp_togNum F14  &none
+&none  &none    &none                &none                &none                       &kp N5  &trans  &none      &none  &tog 20  &kp_togNum F5                  &none           &kp_togNum F2   &kp_togNum F1   &none           &none
             >;
         };
 
