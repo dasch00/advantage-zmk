@@ -16,7 +16,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
-&sl { ignore-modifiers; };
+&sl { ignore-modifiers; release-after-ms = <2000>; };
 
 / {
     behaviors {
@@ -656,14 +656,14 @@
         cursor_block: cursor_block {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F18>;
+            bindings = <&kp LC(LA(LS(F2)))>;
             label = "CURSOR_BLOCK";
         };
 
         cursor_line: cursor_line {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F17>;
+            bindings = <&kp LC(LA(LS(F1)))>;
             label = "CURSOR_LINE";
         };
 
